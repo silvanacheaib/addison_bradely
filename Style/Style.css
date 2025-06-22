@@ -18,3 +18,14 @@ a{
 .menu-item a:hover{
     color:var(--lightBlue);
 }
+.heroBanner{
+    height: calc(100vh - 8.162rem);
+    border-radius:1.5rem;
+    overflow:hidden;
+}
+@media(min-width:1200px){
+    header{
+        padding:1rem 5rem!important;
+    }
+    
+}
