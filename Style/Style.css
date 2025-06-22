@@ -1,3 +1,16 @@
+:root{
+    --lightBlue:#4B6F9F;
+    --darkBlue:#121e38;
+    --transition:all .3s ease-in-out;
+}
 .site-logo {
     width: 11rem;
+}
+.menu-item a{
+    font-size:1rem;
+    color:var(--darkBlue);
+    transition:var(--transition);
+}
+.menu-item a:hover{
+    color:var(--lightBlue);
 }
