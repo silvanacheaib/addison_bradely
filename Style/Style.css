@@ -3,6 +3,10 @@
     --darkBlue:#121e38;
     --transition:all .3s ease-in-out;
 }
+a{
+    text-decoration:none;
+    transition:var(--transition);
+}
 .site-logo {
     width: 11rem;
 }
