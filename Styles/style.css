@@ -305,7 +305,7 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
     top:50%;
     transform: translate(100% , -50%);
     left: 10%;
-    background-image:url("https://frontenduiux.github.io/AddisonBradely/Images/Line%209.svg");
+    background-image:url("https://silvanacheaib.github.io/addison_bradely/Images/Line%209.svg");
     background-size:contain;
     height: 6px;
     width: 100%;
@@ -363,12 +363,11 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column{
 	width: 50%!important;
 }
-		html .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
+		html[dir="ltr"] .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
 			padding-left:4rem!important;
 		}
 	html[dir="rtl"] .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
 			padding-right:4rem!important;
-		padding-left:0!important
 		}
     .servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
     /* padding: 0 6rem; */
