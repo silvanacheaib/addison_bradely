@@ -10,6 +10,13 @@ html, body{
     font-weight:500;
 	font-family:var(--helvetica)!important;
 }
+#main .fusion-row, 
+#slidingbar-area .fusion-row, 
+.fusion-footer-widget-area .fusion-row, .fusion-page-title-row, 
+.tfs-slider .slide-content-container .slide-content{
+	max-width: unset!important;
+	margin: 0!important;
+}
 html[dir="rtl"],html[dir="rtl"] body{
 	text-align:right!important;
 }
