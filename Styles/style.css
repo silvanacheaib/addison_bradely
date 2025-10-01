@@ -124,9 +124,9 @@ div#searchBoxContainer .fusion-builder-row .fusion-layout-column .fusion-search-
 	background-color:var(--dark-blue)!important;
 }
 .dark_background_color .fusion-title-heading,
-.dark_background_color p,
-.dark_background_color li{
-	color:white;
+.dark_background_color .text-editor-description p,
+.dark_background_color .text-editor-description li{
+	color: white!important;
 }
 html[lang="en-US"] .trp-language-switcher-container:first-child{
 	border-right:1px solid #2D4B79;
