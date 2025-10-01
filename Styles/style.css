@@ -113,6 +113,14 @@ div#searchBoxContainer .fusion-builder-row .fusion-layout-column .fusion-search-
 	padding: 0.8rem 0.5rem;
 	height:1rem;
 }
+.dark_background_color{
+	background-color:var(--dark-blue)!important;
+}
+.dark_background_color .fusion-title-heading,
+.dark_background_color p,
+.dark_background_color li{
+	color:white;
+}
 html[lang="en-US"] .trp-language-switcher-container:first-child{
 	border-right:1px solid #2D4B79;
 }
@@ -363,11 +371,12 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column{
 	width: 50%!important;
 }
-		html[dir="ltr"] .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
+		html .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
 			padding-left:4rem!important;
 		}
 	html[dir="rtl"] .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
 			padding-right:4rem!important;
+		padding-left:0!important
 		}
     .servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
     /* padding: 0 6rem; */
