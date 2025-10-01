@@ -368,6 +368,15 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	width:100%;
 	object-fit:cover;
 }
+.text-editor-title .fusion-title-heading {
+    font-size: 2rem!important;
+    color: var(--dark-blue)!important;
+}
+.text-editor-description p{
+    font-size:1rem;
+    color: var(--dark-blue) !important;
+    line-height: 2.2;
+} 
 @media(min-width:992px){
 	.ourValuesContainer .fusion-column-wrapper > .fusion-post-cards:first-child{
     width: 30%;
