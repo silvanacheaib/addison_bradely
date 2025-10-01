@@ -363,11 +363,12 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column{
 	width: 50%!important;
 }
-		html[dir="ltr"] .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
+		html .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
 			padding-left:4rem!important;
 		}
 	html[dir="rtl"] .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
 			padding-right:4rem!important;
+		padding-left:0!important
 		}
     .servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
     /* padding: 0 6rem; */
