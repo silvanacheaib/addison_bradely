@@ -869,6 +869,7 @@ html[dir="rtl"] .cv_description p{
 	border:3px solid #fff;
 	overflow:hidden;
 	height: 28rem;
+	width: 25.4rem!important;
 }
 .ourServicesContainer .swiper-wrapper .swiper-slide .fusion-imageframe img,
 .ourServicesContainer .swiper-wrapper .swiper-slide .fusion-imageframe,
