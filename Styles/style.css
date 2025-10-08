@@ -906,6 +906,9 @@ html body .contactSection .fusion-title.appTitle h1.fusion-title-heading{
 }
 .contactSection .subTitle .fusion-title-heading{
 	color:white!important;
+	width: 75%;
+	font-family: var(--helvetica)!important;
+	line-height: 1.3!important;
 }
 .contactTitle .fusion-title-heading{
 	font-size: 2rem!important;
@@ -1051,6 +1054,11 @@ html[dir="rtl"] .contactTile .fusion-grid fusion-grid-1 .fusion-layout-column {
 .contactTile .fusion-text{
     color:white;
 }
+.tileTitle p{
+	margin:0!important;
+	color:white!important;
+	font-family:var(--helvetica);
+}
 .contactTile .fusion-image-element {
 	width:2rem!important;
 }
@@ -1060,6 +1068,8 @@ html[dir="rtl"] .contactTile .fusion-grid fusion-grid-1 .fusion-layout-column {
 }
 .contactTile {
     width:100%!important;
+    margin-top: 3rem;
+    align-items: flex-start;
 }
 .contactTile .tileDescription{
 	color:white;
@@ -1092,10 +1102,15 @@ footer {
     padding-bottom: 8rem!important;
     background-color: var(--dark-blue);
 }
-.contactSection p{
-	color: white;
-	margin-bottom: 0;
-	font-size: .9rem;
+.contactSection  p{
+	color:rgb(255 255 255 / 70%);
+	font-family:var(--helvetica)!important;
+	width:64%;
+}
+.contactSection .tileDescription p{
+	color: #ffffffb5;
+	margin: 0!important;
+	font-size: .85rem;
 }
 .contactSection .fusion-button {
 	background-color: var(--light-blue)!important;
@@ -1323,8 +1338,8 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 	background-color:transparent!important
 }
 .tileIcon {
-    height: 4rem!important;
-    width: 4rem!important;
+    height: 3rem!important;
+    width: 3rem!important;
 }
 .tileIcon img{
     height:100%;
