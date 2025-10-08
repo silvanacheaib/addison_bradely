@@ -1042,11 +1042,6 @@ html[lang="en-US"] .testimonials .testimonialCard .fusion-text{
 	top:-2rem;
 	left:3rem;
 }
-.contactTile .fusion-image-element .tileIcon img{
-    height: 2rem;
-    width: 2rem;
-    object-fit:contain;
-}
 html[lang="en-US"] .contactTile .fusion-grid fusion-grid-1 .fusion-layout-column {
     margin-right:1rem!important;
 }
@@ -1055,6 +1050,13 @@ html[dir="rtl"] .contactTile .fusion-grid fusion-grid-1 .fusion-layout-column {
 }
 .contactTile .fusion-text{
     color:white;
+}
+.contactTile .fusion-image-element {
+	width:2rem!important;
+}
+ .tileTitle p{
+	font-family:var(--helvetica-bold)!important;
+	font-size: 1.2rem!important;
 }
 .contactTile {
     width:100%!important;
@@ -1092,6 +1094,8 @@ footer {
 }
 .contactSection p{
 	color: white;
+	margin-bottom: 0;
+	font-size: .9rem;
 }
 .contactSection .fusion-button {
 	background-color: var(--light-blue)!important;
@@ -1329,7 +1333,7 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 }
 
 .contactTile .contactTile .fusion-layout-column:first-child {
-    width: fit-content!important;
+    width: 0rem!important;
     height: auto!important;
     margin: 0!important;
 }
