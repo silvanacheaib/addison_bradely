@@ -1120,7 +1120,9 @@ footer {
 	border-radius: 2rem;
 	transition: var(--transition);
 	padding: 0.8rem 2.5rem;
-	
+	text-transform: uppercase;
+	letter-spacing: .15rem!important;
+	font-size: 1rem!important;
 }
 .contactSection .fusion-layout-column{
 	padding:0!important;
