@@ -738,7 +738,7 @@ button.header-search-wrapper span{
     line-height: 27px
 }
 .providersContainer .fusion-text-4{
-	font-family: "Poppins",Sans-serif;
+	font-family: var(--helvetica);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -972,6 +972,9 @@ html body .contactSection .fusion-title.appTitle h1.fusion-title-heading{
     color:var(--light-blue);
     font-size: 1.4rem;
 }
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox input:focus+label:before{
+	border:1px solid var(--light-blue)!important;
+}
 /* TESTIMONIALS */
 .testimonialsContainer .awb-swiper-button-prev, 
 .testimonialsContainer .awb-swiper-button-next {
@@ -1105,19 +1108,32 @@ footer {
 }
 .contactSection [for="contact_us_consent_field"]{
 	position:relative!important;
-	color: white!important;;
+	color: white!important;
+	padding: 0 2rem!important;
 }
-.contactSection [for="contact_us_consent_field"]::after{
+.consent{
+	position:relative;
+}
+.consent::after{
 	content:"*";
 	position:absolute;
 	top: -0.4rem;
 	left: 1.2rem;
 	font-size: 1.2rem;
 	color:red;
+	display: block!important;
 }
 .contactSection .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox label:before{
 	border-radius:0!important;
 	top: 0.5rem;
+}
+.contactSection .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox label::after{
+	content: "✔";
+	position:absolute;
+	color:white;
+	font-size:.7rem;
+	top: 8%;
+	left: 0.3%;
 }
 .copyrightContainer {
     font-size:.9rem;
