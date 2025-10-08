@@ -1112,6 +1112,9 @@ footer {
 	margin: 0!important;
 	font-size: .85rem;
 }
+.contactSection .appTitle{
+	margin-bottom:.2rem
+}
 .contactSection .fusion-button {
 	background-color: var(--light-blue)!important;
 	margin: auto;
