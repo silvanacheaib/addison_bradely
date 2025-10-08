@@ -1371,4 +1371,7 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 	padding-left: 6rem!important;
 	padding-right: 6rem!important;
 }
+	.servicesContainer .swiper-wrapper{
+		padding:0 6rem!important;
+	}
 }
