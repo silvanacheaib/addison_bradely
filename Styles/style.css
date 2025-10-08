@@ -910,6 +910,10 @@ html body .contactSection .fusion-title.appTitle h1.fusion-title-heading{
 	font-family: var(--helvetica)!important;
 	line-height: 1.3!important;
 }
+.contactSection input::placeholder{
+	font-size:.8rem;
+	vertical-align:top;
+}
 .contactTitle .fusion-title-heading{
 	font-size: 2rem!important;
 }
