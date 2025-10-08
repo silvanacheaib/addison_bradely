@@ -20,6 +20,10 @@ html, body{
 html[dir="rtl"],html[dir="rtl"] body{
 	text-align:right!important;
 }
+.providersIntro {
+    padding-left: 1rem;
+    margin-bottom:0;
+}
 @font-face {
 	font-family: "Helvetica";
 	src: url("../Fonts/Helvetica.ttf") format("truetype");
@@ -152,11 +156,12 @@ html[dir="rtl"] .trp-language-switcher-container:first-child{
 	text-transform:uppercase;
 	transition:var(--transition);
 	padding: 0.5rem 1rem;
+	margin-bottom: 1rem;
 }
 .hero-section-container .fusion-button span,
 html .aboutUsContainer .fusion-button span{
 	font-size:.85rem;
-	letter-spacing:.1rem;
+	letter-spacing: 0.23rem;
 }
 .hero-section-container .fusion-button .awb-button__icon,
 html .aboutUsContainer .fusion-button i{
@@ -193,7 +198,7 @@ html[dir="rtl"] .aboutUsContainer .fusion-button:hover i::before{
 	color:var(--dark-blue);
 }
 .fusion-post-cards.fusion-post-cards-8.awb-carousel.awb-swiper.awb-swiper-carousel.awb-swiper-dots-position-bottom.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-autoheight.swiper-backface-hidden {
-    padding: 0 6rem;
+    /* padding: 0 6rem; */
 }
 header{
 	/* padding:0!important; */
@@ -235,7 +240,7 @@ header nav.awb-menu{
     margin:0 1.4rem;
 }
 .providersContainer .awb-swiper{
-    margin-left:3rem!important;
+    margin-left: 0rem!important;
     border-left: 1px solid rgb(0 0 0 /52%);
 }
 .providersContainer .fusion-text{
@@ -245,8 +250,8 @@ header nav.awb-menu{
 /* Our Services Section */
 .servicesContainer{
 	background-color:var(--dark-blue);
-	padding-top:3rem;
-	padding-bottom:3rem;
+	padding-top: 1.4rem;
+	padding-bottom: 1.4rem;
 }
 html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-left.fusion-responsive-typography-calculated{
 	color:white!important;
@@ -288,9 +293,20 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	/* align-items:center; */
 	justify-content:space-between;
 	width: 100%;
+	margin: 0!important;
+}
+.ourValuesContainer .fusion-post-cards:nth-child(2) ul{
+	margin-left: 2rem!important;
+}
+.ourValuesContainer .fusion-post-cards:nth-child(2) ul li{
+	width: 18%;
+}
+.ourValuesContainer ul li{
+	padding:0!important;
 }
 .ourValuesContainer .fusion-text{
     color:#2D4B79!important;
+    font-family: var(--helvetica);
 }
 
 .ourValuesContainer  .fusion-grid{
@@ -333,8 +349,8 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 }
 /* OUR VALUES END */
 .aboutUsContainer{
-	padding-top: 4rem!important;
-	padding-bottom: 4rem!important;
+	padding-top: 2rem!important;
+	padding-bottom: 0rem!important;
 	background-color: #FAF8F8;
 }
 .aboutUsContainer .fusion-layout-column{
@@ -355,8 +371,8 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	align-items: flex-start;
 }
 .aboutUsContainer .fusion-column-wrapper .fusion-image-element  {
-	width: 100%!important;
-	height: 25rem;
+	width: 34rem;
+	height: 19rem;
 }
 .aboutUsContainer .fusion-imageframe {
 	max-width: 100%;
@@ -367,6 +383,7 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	height:100%;
 	width:100%;
 	object-fit:cover;
+	object-position: top;
 }
 .text-editor-title .fusion-title-heading {
     font-size: 2rem!important;
@@ -379,16 +396,16 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 } 
 @media(min-width:992px){
 	.ourValuesContainer .fusion-column-wrapper > .fusion-post-cards:first-child{
-    width: 30%;
+    width: 28%;
 }
 .ourValuesContainer .fusion-column-wrapper > .fusion-post-cards:nth-child(2){
-    width:70%!important;
+    width: 72%!important;
 }
 	.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column{
 	width: 50%!important;
 }
 		html .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
-			padding-left:4rem!important;
+			/* padding-left:4rem!important; */
 		}
 	html[dir="rtl"] .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
 			padding-right:4rem!important;
@@ -427,12 +444,16 @@ html body .fusion-title-heading.appTitle{
 html body .subTitle , html body .subTitle .fusion-title-heading{
 	font-size:1.5rem!important;
 	color:var(--medium-blue)!important;
+	text-transform: uppercase;
+	font-family: var(--helvetica-bold)!important;
 }
 html body .appTitle h1.fusion-title-heading{
 	text-align:left!important;
 	font-size:2rem!important;
 	text-transform: uppercase;
 	color:var(--dark-blue)!important;
+	width: 100%;
+	white-space: nowrap;
 }
 html[dir="rtl"] body .appTitle h1.fusion-title-heading,
 html[dir="rtl"] body .subTitle , 
@@ -539,8 +560,15 @@ a.getInTouchButton span{
 	font-size:15px;
 	font-family:helvetica;
 }
+.providersContainer .fusion-column-wrapper{
+	padding:0!important;
+	margin:0!important;
+}
 .heroImage img{
 	/* width:1200px!important; */
+}
+.providersIntro {
+    padding-left: 6rem;
 }
 button.header-search-wrapper {
     background-color: transparent;
@@ -616,6 +644,9 @@ button.header-search-wrapper span{
 }
 .ourServicesContainer .swiper-slide {
     height: 29rem;
+    display: blockimportant;
+    align-items: center;
+    justify-content: center;
 }
 .ourServicesContainer .fusion-image-wrapper.hover-type-none{
     height:100%;
@@ -686,7 +717,7 @@ button.header-search-wrapper span{
 	letter-spacing: .05rem;
 }
 .heroDescription p{
-	font-family: "Poppins", Sans-serif;
+	font-family: var(--helvetica);
 	font-size: 1rem;
 	font-weight: 500;
 	line-height: 1.5rem;
@@ -745,18 +776,21 @@ button.header-search-wrapper span{
 }
 .cvTitle  p{
 	color: #2D4B78!important;
-	font-family: "Helvetica", Sans-serif;
+	font-family: var(--helvetica-bold);
+	text-transform: uppercase;
 	font-size: 1.4rem!important;
 	font-weight: 400!important;
 	line-height: 2rem!important;
 	/* text-align: left!important; */
+	margin-bottom: 0.6rem;
 }
 .aboutUsContainer .subtitle p{
-	font-size: 1.3rem;
-	margin:0!important;
+	font-size: 1.9rem;
+	margin: 0 0 1.4rem!important;
 	text-transform:uppercase;
 	color: #121E38!important;
 	font-weight: 600;
+	font-family: var(--helvetica-bold);
 }
 html[dir="ltr"] .aboutUsContainer .subtitle p{
 	text-align:left!important;
@@ -797,7 +831,7 @@ html[dir="rtl"] .cvTitle h1{
 	text-align: left;
 	font-family: var(--helvetica);
 	font-weight: 400;
-	line-height: 1.5em;
+	line-height: 1.7em;
 }
 html[dir="rtl"] .cv_description p{
 	text-align:right;
@@ -947,6 +981,8 @@ html body .contactSection .fusion-title.appTitle h1.fusion-title-heading{
     opacity: 1 !important;
     top: 50%;
     width: 4rem;
+    position: absolute;
+    right: 0rem;
 }
 .testimonialsContainer .awb-swiper-button.awb-swiper-button-prev i{
     background-color: var(--light-blue) !important;
