@@ -239,6 +239,9 @@ header nav.awb-menu{
     width:auto!important;
     margin:0 1.4rem;
 }
+.providersImages .fusion-column-wrapper {
+	background-color:transparent;
+}
 .providersContainer .awb-swiper{
     margin-left: 0rem!important;
     border-left: 1px solid rgb(0 0 0 /52%);
