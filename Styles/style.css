@@ -240,7 +240,7 @@ header nav.awb-menu{
     margin:0 1.4rem;
 }
 .providersImages .fusion-column-wrapper {
-	background-color:transparent;
+	background-color: transparent!important;
 }
 .providersContainer .awb-swiper{
     margin-left: 0rem!important;
