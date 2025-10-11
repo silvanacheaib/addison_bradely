@@ -10,6 +10,21 @@ html, body{
     font-weight:500;
 	font-family:var(--helvetica)!important;
 }
+@font-face {
+	font-family: "Helvetica";
+	src: url("../Fonts/Helvetica.ttf") format("truetype");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Helvetica Bold";
+	src: url("../Fonts/Helvetica-Bold.ttf") format("truetype");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Ge Dinar";
+	src: url("../Fonts/gedinaronemedium.otf");
+	font-display: swap;
+}
 #main .fusion-row, 
 #slidingbar-area .fusion-row, 
 .fusion-footer-widget-area .fusion-row, .fusion-page-title-row, 
@@ -24,16 +39,7 @@ html[dir="rtl"],html[dir="rtl"] body{
     padding-left: 1rem;
     margin-bottom:0;
 }
-@font-face {
-	font-family: "Helvetica";
-	src: url("../Fonts/Helvetica.ttf") format("truetype");
-	font-display: swap;
-}
-@font-face {
-	font-family: "Helvetica Bold";
-	src: url("../Fonts/Helvetica-Bold.ttf") format("truetype");
-	font-display: swap;
-}
+
 .topBar .awb-menu__main-a{
 	text-decoration: none;
 	margin: 0 .5rem;
@@ -397,6 +403,9 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
     color: var(--dark-blue)!important;
     text-transform: uppercase;
     width: 86%;
+}
+html[dir="rtl"] .text-editor-title .fusion-title-heading{
+	text-align:right!important;
 }
 .text-editor-description p{
     font-size:1rem;
