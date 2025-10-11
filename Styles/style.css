@@ -4,11 +4,16 @@
 	--dark-blue:#121e38;
 	--helvetica:"Helvetica";
 	--helvetica-bold:"Helvetica Bold";
+	--gedinar:"Ge Dinar";
 	--transition:all .3s ease-in-out;
 }
 html, body{
     font-weight:500;
 	font-family:var(--helvetica)!important;
+}
+html[dir="rtl"],html[dir="rtl"] body{
+    font-weight:500;
+	font-family:var(--gedinar)!important;
 }
 @font-face {
 	font-family: "Helvetica";
@@ -407,11 +412,14 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 html[dir="rtl"] .text-editor-title .fusion-title-heading{
 	text-align:right!important;
 }
+html[dir="rtl"]  .text-editor-description p{
+	font-family:var(--gedinar)!important;
+}
 .text-editor-description p{
     font-size:1rem;
     color: var(--medium-blue)!important;
     line-height: 1.8;
-	font-family:car(--helvetica)!important;
+    font-family: var(--helvetica)!important;
 } 
 .grey_background_color {
     background-color: #f8f8f8;
@@ -494,6 +502,7 @@ html[dir="rtl"] body .appTitle h1.fusion-title-heading,
 html[dir="rtl"] body .subTitle , 
 html[dir="rtl"] body .subTitle .fusion-title-heading{
 	text-align:right!important;
+	font-family: var(--gedinar)!important;
 }
 
 .providersIntro .fusion-title.title{
@@ -819,6 +828,9 @@ button.header-search-wrapper span{
 	/* text-align: left!important; */
 	margin-bottom: 0.6rem;
 }
+html[dir="rtl"] .cvTitle  p{
+	font-family:var(--gedinar)!important;
+}
 .aboutUsContainer .subtitle p{
 	font-size: 1.9rem;
 	margin: 0 0 1.4rem!important;
@@ -870,6 +882,7 @@ html[dir="rtl"] .cvTitle h1{
 }
 html[dir="rtl"] .cv_description p{
 	text-align:right;
+	font-family: var(--gedinar);
 }
 .ourServicesContainer .awb-swiper-button-prev, 
 .ourServicesContainer .awb-swiper-button-next{
@@ -1145,6 +1158,9 @@ footer {
 	color:rgb(255 255 255 / 70%);
 	font-family:var(--helvetica)!important;
 	width:64%;
+}
+html[dir="rtl"] .contactSection  p{
+	font-family:var(--gedinar)!important;
 }
 .contactSection .tileDescription p{
 	color: #ffffffb5;
