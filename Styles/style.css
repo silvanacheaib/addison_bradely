@@ -1370,12 +1370,20 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 }
 .faqSection {
     background-color: #faf8f8;
+	padding-top:3rem;
+	padding-bottom:3rem;
 }
 .faqSection .faqContainer{
     background-color:white;
     border-radius:1rem;
     overflow:hidden;
-    width:60%;
+    max-width: 46rem!important;
+}
+.faqSection .fusion-column-wrapper{
+	justify-content:space-between;
+}
+.faqSection .faqContainer .fusion-panel{
+	border:none!important;
 }
 @media(min-width:1200px){
 	.providersContainer{
