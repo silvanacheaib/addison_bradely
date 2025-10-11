@@ -1402,6 +1402,37 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 .faqSection .faqContainer .fusion-panel{
 	border:none!important;
 }
+.stepContainer .stepTitle p{
+    color:var(--dark-blue)!important;
+    font-size:1.1rem!important;
+    font-family:var(--helvetica-bold);
+    margin-left: 1rem;
+    margin-bottom: 0.8rem;
+}
+.stepContainer .stepDescription p{
+    color:var(--medium-blue)!important;
+    font-size:1rem!important;
+    font-family:var(--helvetica);
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+.stepContainer .stepNumber .fusion-title-heading{
+    color:#235cb1!important;
+}
+.stepContainer .stepNumber{
+    padding: 1rem 3rem 1rem 0;
+    border-right:1px solid var(--dark-blue);
+    margin: 0;
+    height: 7rem;
+}
+.stepContainer{
+    width:33.33%!important;
+}
+.stepContainer .fusion-builder-row{
+    /* gap: 0 0rem; */
+    display: flex;
+    align-items: center;
+}
 @media(min-width:1200px){
 	.providersContainer{
 		padding-left:6rem;
