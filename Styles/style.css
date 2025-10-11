@@ -411,6 +411,7 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 }
 html[dir="rtl"] .text-editor-title .fusion-title-heading{
 	text-align:right!important;
+	font-family: var(--gedinar)!important;
 }
 html[dir="rtl"]  .text-editor-description p{
 	font-family:var(--gedinar)!important;
