@@ -1368,7 +1368,7 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
     height: auto!important;
     margin: 0!important;
 }
-.faqSection {
+.faqSection.container {
     background-color: #faf8f8;
 	padding-top:3rem;
 	padding-bottom:3rem;
