@@ -1430,9 +1430,34 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
     width:33.33%!important;
 }
 .stepContainer .fusion-builder-row{
-    /* gap: 0 0rem; */
     display: flex;
     align-items: center;
+}
+.textEditorButton {
+    transition: all .3s ease-in-out;
+    background-color: #235cb1!important;
+    border-radius: 2rem;
+    padding:.5rem 1.5rem!important;
+    text-transform:uppercase;
+    letter-spacing:0.07rem;
+    font-size:.9rem!important;
+}
+.textEditorButton i{
+    background-color:white;
+    border-radius:100%;
+    padding:.5rem;
+    height:2rem;
+    width:2rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.textEditorButton i::before{
+    color:#235cb1!important;
+    top:50%;
+    left:50%;
+    transform:translate(-50% -50%);
 }
 @media(min-width:1200px){
 	.providersContainer{
