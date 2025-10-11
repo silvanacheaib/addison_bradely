@@ -113,6 +113,7 @@ div#searchBoxContainer .fusion-builder-row .fusion-layout-column .fusion-search-
 }
 .container{
 	max-width:100%!important;
+	width: 100%!important;
 	margin:0;
 	padding-left: 1rem!important;
 	padding-right: 1rem!important;
@@ -1370,6 +1371,7 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 	}
 	.container{
 	max-width:100%!important;
+	width: 100%!important;
 	margin:0;
 	padding-left: 6rem!important;
 	padding-right: 6rem!important;
