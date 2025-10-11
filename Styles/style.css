@@ -393,14 +393,31 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	object-position: top;
 }
 .text-editor-title .fusion-title-heading {
-    font-size: 2rem!important;
+    font-size: 2.3rem!important;
     color: var(--dark-blue)!important;
+    text-transform: uppercase;
 }
 .text-editor-description p{
     font-size:1rem;
     color: var(--dark-blue) !important;
     line-height: 2.2;
 } 
+.grey_background_color {
+    background-color: #f8f8f8;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.grey_background_color .text-editor-subtitle p{
+    color:var(--medium-blue);
+    font-size:1.5rem;
+    width:39%;
+    font-family:var(--helvetica-bold)!important;
+}
+.grey_background_color .text-editor-description p{
+    color:var(--medium-blue)!important;
+    font-size:1rem!important;
+    font-family:var(--helvetica)!important;
+}
 @media(min-width:992px){
 	.ourValuesContainer .fusion-column-wrapper > .fusion-post-cards:first-child{
     width: 28%;
