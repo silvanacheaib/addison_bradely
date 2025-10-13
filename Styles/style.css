@@ -178,6 +178,10 @@ html .aboutUsContainer .fusion-button span{
 	font-size:.85rem;
 	letter-spacing: 0.23rem;
 }
+html[dir="rtl"] .hero-section-container .fusion-button span,
+html[dir="rtl"]  .aboutUsContainer .fusion-button span{
+	font-family:var(--gedinar);
+}
 .hero-section-container .fusion-button .awb-button__icon,
 html .aboutUsContainer .fusion-button i{
 	background-color:white;
@@ -326,7 +330,9 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
     color:#2D4B79!important;
     font-family: var(--helvetica);
 }
-
+html[dir="rtl"] .ourValuesContainer .fusion-text{
+	font-family:var(--gedinar);
+}
 .ourValuesContainer  .fusion-grid{
     display:flex;
     align-items:flex-start;
@@ -604,6 +610,10 @@ footer .fusion-column-wrapper nav .menu-text{
 	text-transform: uppercase;
 	font-size: 0.8rem;
 }
+html[dir="rtl"] #header.header .fusion-column-wrapper nav .menu-text,
+html[dir="rtl"] footer .fusion-column-wrapper nav .menu-text{
+	font-family:var(--gedinar);
+}
 .navbar .awb-menu__main-a{
 	text-decoration:none;
 	padding: 0 1rem!important;
@@ -685,6 +695,9 @@ button.header-search-wrapper span{
 }
 .pageIntroTitle{
 	font-weight:600;
+}
+html[dir="rtl"] .pageIntroTitle{
+	font-family:var(--gedinar);
 }
 .formTitle{
 	color: #121e38;
@@ -883,6 +896,7 @@ html[dir="ltr"] .aboutUsContainer .subtitle p{
 }
 html[dir="rtl"] .aboutUsContainer .subtitle p{
 	text-align:right!important;
+	font-family:var(--gedinar)
 }
 .aboutUsContainer .aboutus .fusion-column-wrapper{
 	flex-direction:column;
@@ -1330,6 +1344,9 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 .heroImage .awb-imageframe-caption .awb-imageframe-caption-title{
     color:white!important;
 	text-transform: uppercase;
+}
+html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title{
+	font-family:var(--gedinar)
 }
 .kpisContainer .fusion-title-heading {
     color: #255cb1!important;
