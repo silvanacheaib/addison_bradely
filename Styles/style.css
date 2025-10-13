@@ -804,6 +804,9 @@ html[dir="rtl"] .pageIntroTitle{
 .awb-menu__sub-ul li a{
 	text-decoration:none;
 }
+html[dir="rtl"] .awb-menu__sub-ul li a{
+	font-family:var(--gedinar);
+}
 .heroTitle h1{
 	color: #121e38 !important;
 	font-family: "Helvetica", Sans-serif;
