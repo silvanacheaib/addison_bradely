@@ -438,6 +438,26 @@ html[dir="rtl"]  .text-editor-description p{
     font-size:1rem!important;
     font-family:var(--helvetica)!important;
 }
+.fusion-accordian .panel-heading .panel-title a:hover span{
+    color:var(--light-blue);
+}
+.fusion-accordian .panel-heading .panel-title a{
+    border-bottom:1px solid rgb(0 0 0 / 10%);
+    padding:0 0rem 2rem!important;
+}
+.fusion-accordian .panel-heading .panel-title a.active{
+    border:none;
+    padding:0!important;
+}
+.fusion-accordian .panel-heading .panel-title{
+    padding: .5rem 2rem 0;
+}
+.fusion-accordian:first-child .panel-heading .panel-title{
+    padding-top:1.4rem!impoRTANT;
+}
+.panel-body.toggle-content.fusion-clearfix{
+    padding:0.5rem 2rem 0!important;
+}
 @media(min-width:992px){
 	.ourValuesContainer .fusion-column-wrapper > .fusion-post-cards:first-child{
     width: 28%;
