@@ -519,6 +519,24 @@ html body .appTitle h1.fusion-title-heading{
 	width: 100%;
 	white-space: nowrap;
 }
+.faqAppIntro .appTitle{
+	margin:0!important;
+}
+.faqAppIntro .appTitle h1.fusion-title-heading{
+	color:var(--medium-blue)!important;
+	font-family:var(--helvetica-bold)!important;
+	margin:0!important;
+	font-size:1.6rem!important;
+}
+.faqAppIntro .subTitle{
+	margin-bottom:0!important;
+}
+.faqAppIntro .subTitle , html body .subTitle .fusion-title-heading{
+	text-transform:capitalize;
+	color:#235cb1!important;
+	font-family:var(--helvetica)!important;
+	font-size:1.2rem!important;
+}
 html[dir="rtl"] body .appTitle h1.fusion-title-heading,
 html[dir="rtl"] body .subTitle , 
 html[dir="rtl"] body .subTitle .fusion-title-heading{
