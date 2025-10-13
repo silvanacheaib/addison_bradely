@@ -390,7 +390,7 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 }
 .aboutUsContainer .fusion-column-wrapper .fusion-image-element  {
 	width: 34rem;
-	height: 19rem;
+	/* height: 19rem; */
 }
 .aboutUsContainer .fusion-imageframe {
 	max-width: 100%;
