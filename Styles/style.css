@@ -1891,21 +1891,15 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	}
 
 }
-
 @media(min-width:1200px) {
 	.providersContainer {
 		padding-left: 6rem;
 	}
-
 	.container {
 		max-width: 100% !important;
 		width: 100% !important;
 		margin: 0;
 		padding-left: 8rem !important;
 		padding-right: 8rem !important;
-	}
-
-	.servicesContainer .swiper-wrapper {
-		padding: 0 6rem !important;
 	}
 }
