@@ -276,10 +276,10 @@ header nav.awb-menu{
 	text-align:inherit;
 }
 /* Our Services Section */
-.servicesContainer{
+html body .width-100 .fusion-fullwidth.servicesContainer{
 	background-color:var(--dark-blue);
-	padding-top: 1.4rem;
-	padding-bottom: 1.4rem;
+	padding-top: 1.4rem!important;
+	padding-bottom: 1.4rem!important;
 }
 html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-left.fusion-responsive-typography-calculated{
 	color:white!important;
@@ -323,11 +323,9 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	width: 100%;
 	margin: 0!important;
 }
-.ourValuesContainer .fusion-post-cards:nth-child(2) ul{
-	margin-left: 2rem!important;
-}
+
 .ourValuesContainer .fusion-post-cards:nth-child(2) ul li{
-	width: 18%;
+	width: 7rem!important;
 }
 .ourValuesContainer ul li{
 	padding:0!important;
@@ -342,7 +340,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text{
 .ourValuesContainer  .fusion-grid{
     display:flex;
     align-items:flex-start;
-    justify-content:space-between;
+    justify-content:center;
     width: 100%;
 }
 .ourValuesContainer .fusion-grid .fusion-column-wrapper{
@@ -360,18 +358,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text{
 	border-radius:100%;
 	padding:1rem;
 }
-.ourValuesContainer  .fusion-grid .fusion-layout-column:not(:last-child) .fusion-imageframe::after{
-    content:"";
-    position:absolute;
-    top:50%;
-    transform: translate(100% , -50%);
-    left: 10%;
-    background-image:url("https://silvanacheaib.github.io/addison_bradely/Images/Line%209.svg");
-    background-size:contain;
-    height: 6px;
-    width: 100%;
-    background-repeat:no-repeat;
-}
+
 .ourValuesContainer .fusion-grid .fusion-imageframe img{
     height:100%;
     width:100%;
@@ -401,8 +388,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text{
 	align-items: flex-start;
 }
 .aboutUsContainer .fusion-column-wrapper .fusion-image-element  {
-	width: 34rem;
-	/* height: 19rem; */
+	width: 100%;
 }
 .aboutUsContainer .fusion-imageframe {
 	max-width: 100%;
@@ -1539,6 +1525,32 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	justify-content:space-between;
 }
 @media(min-width:992px){
+	html body .width-100 .fusion-fullwidth.servicesContainer{
+	background-color:var(--dark-blue);
+	padding-top: 3rem!important;
+	padding-bottom: 3rem!important;
+}
+	.ourValuesContainer .fusion-post-cards:nth-child(2) ul li{
+	width: auto!important;
+}
+	.ourValuesContainer .fusion-post-cards:nth-child(2) ul{
+	margin-left: 2rem!important;
+}
+	.ourValuesContainer  .fusion-grid .fusion-layout-column:not(:last-child) .fusion-imageframe::after{
+    content:"";
+    position:absolute;
+    top:50%;
+    transform: translate(100% , -50%);
+    left: 10%;
+    background-image:url("https://silvanacheaib.github.io/addison_bradely/Images/Line%209.svg");
+    background-size:contain;
+    height: 6px;
+    width: 100%;
+    background-repeat:no-repeat;
+}
+	.aboutUsContainer .fusion-column-wrapper .fusion-image-element  {
+	width: 34rem;
+}
 	.providersContainer .fusion-row{
 	display:flex;
 	flex-direction:row!important;
@@ -1558,16 +1570,10 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column{
 	width: 50%!important;
 }
-		html .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
-			/* padding-left:4rem!important; */
-		}
 	html[dir="rtl"] .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
 			padding-right:4rem!important;
 		padding-left:0!important
 		}
-    .servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
-    /* padding: 0 6rem; */
-}
 	.hero-section-container .fusion-layout-column:first-child {
     padding: 0 8rem;
 }
