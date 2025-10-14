@@ -30,6 +30,10 @@ html[dir="rtl"],html[dir="rtl"] body{
 	src: url("../Fonts/gedinaronemedium.otf");
 	font-display: swap;
 }
+.awb-menu_row .menu-text > span{
+	display: flex;
+	align-items: center;
+}
 #main .fusion-row, 
 #slidingbar-area .fusion-row, 
 .fusion-footer-widget-area .fusion-row, .fusion-page-title-row, 
