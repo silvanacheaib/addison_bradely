@@ -1531,7 +1531,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	padding-bottom: 3rem!important;
 }
 	.ourValuesContainer .fusion-post-cards:nth-child(2) ul li{
-	width: auto!important;
+	width: 14rem!important;
 }
 	.ourValuesContainer .fusion-post-cards:nth-child(2) ul{
 	margin-left: 2rem!important;
@@ -1570,10 +1570,16 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column{
 	width: 50%!important;
 }
+		html .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
+			/* padding-left:4rem!important; */
+		}
 	html[dir="rtl"] .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child{
 			padding-right:4rem!important;
 		padding-left:0!important
 		}
+    .servicesContainer .fusion-post-cards.fusion-post-cards-7.fusion-grid-archive.fusion-grid-columns-1 {
+    /* padding: 0 6rem; */
+}
 	.hero-section-container .fusion-layout-column:first-child {
     padding: 0 8rem;
 }
