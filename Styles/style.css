@@ -49,6 +49,17 @@ html[dir="rtl"] body {
 	src: url("../Fonts/Cairo-SemiBold.ttf");
 	font-display: swap;
 }
+@keyframes fadeDown{
+	0%{
+		opacity: 0;
+		transform: translateY(-100%);
+
+	}
+	100%{
+		opacity: 0;
+		transform:translateY(0);
+	}
+}
 .awb-menu_row .menu-text>span {
 	display: flex;
 	align-items: center;
