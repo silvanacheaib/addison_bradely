@@ -4,9 +4,9 @@
 	--dark-blue: #121e38;
 	--helvetica: "Helvetica";
 	--helvetica-bold: "Helvetica Bold";
-	--cairoRegular:"Cairo Regular", sans-serif;
-	--cairoSemiBold:"Cairo Semi Bold", sans-serif;
-	--cairoBold:"Cairo Bold", sans-serif;
+	--cairoRegular:"Cairo Regular";
+	--cairoSemiBold:"Cairo Semi Bold";
+	--cairoBold:"Cairo Bold";
 	--transition: all .3s ease-in-out;
 }
 
@@ -35,23 +35,17 @@ html[dir="rtl"] body {
 }
 
 @font-face {
-	font-family: "Ge Dinar";
-	src: url("../Fonts/gedinaronemedium.otf");
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "Cairo Regular", sans-serif;
+	font-family: "Cairo Regular";
 	src: url("../Fonts/Cairo-Regular.ttf");
 	font-display: swap;
 }
 @font-face {
-	font-family: "Cairo Bold", sans-serif;
+	font-family: "Cairo Bold";
 	src: url("../Fonts/Cairo-Bold.ttf");
 	font-display: swap;
 }
 @font-face {
-	font-family: "Cairo Semi Bold", sans-serif;
+	font-family: "Cairo Semi Bold";
 	src: url("../Fonts/Cairo-SemiBold.ttf");
 	font-display: swap;
 }
@@ -959,7 +953,10 @@ html[dir="rtl"] .awb-menu__sub-ul li a {
 	letter-spacing: .05rem;
 	width: 100%;
 }
-
+html[dir="rtl"] .heroTitle h1{
+	font-family:var(--cairoBold)!important;
+	text-align:right!important;
+}
 .heroDescription p {
 	font-family: var(--helvetica);
 	font-size: 1rem;
@@ -967,7 +964,10 @@ html[dir="rtl"] .awb-menu__sub-ul li a {
 	line-height: 1.5rem;
 	color: #121E38;
 }
-
+html[dir="rtl"] .heroDescription p{
+	font-family:var(--cairoRegular);
+	text-align:right;
+}
 .aboutUsBtn {
 	background-color: #121e38;
 	border-radius: 40px 40px 40px 40px;
