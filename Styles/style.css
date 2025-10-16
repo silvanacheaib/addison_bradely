@@ -53,7 +53,10 @@ html[dir="rtl"] body {
 	display: flex;
 	align-items: center;
 }
-
+html[dir="rtl"] .post-content p{
+	font-family:var(--cairoRegular)!important;
+	text-align: right;
+}
 #main .fusion-row,
 #slidingbar-area .fusion-row,
 .fusion-footer-widget-area .fusion-row,
