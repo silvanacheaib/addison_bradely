@@ -108,7 +108,10 @@ html[dir="rtl"] body {
 	text-decoration: none;
 	margin: 0 .5rem;
 }
-
+.topBar .awb-menu__main-a[title="العربية"] span.trp-ls-language-name{
+	font-family:var(--cairoRegular)!important;
+	margin-left:.2rem;
+}
 /* SEARCH ICON ADJUSTMENTS START */
 .actionMenu .fusion-column-wrapper {
 	display: flex;
