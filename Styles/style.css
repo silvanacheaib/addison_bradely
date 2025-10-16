@@ -1897,7 +1897,17 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
     flex-wrap: nowrap!important;
     margin: 0!important;
 }
-.pageTitleBarContainer svg{height: 2rem;width: 2rem;}
+.pageTitleBarContainer svg{
+	height: 2rem;
+	width: 2rem;
+}
+.text-editor-container.horizontalView .fusion-builder-row {
+    display:flex!important;
+    align-items:flex-start!important;
+}
+.text-editor-container.horizontalView .fusion-builder-row .fusion-layout-column{
+    margin-bottom:0!important
+}
 @media(min-width:992px) {
 	.pageTitleBarContainer svg {
     height: 1.5rem;
