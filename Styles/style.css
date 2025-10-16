@@ -1153,7 +1153,8 @@ html[dir="rtl"] .cv_description p {
 }
 
 .ourServicesContainer .awb-swiper-button-next {
-	right: -6.2rem!important;
+	right: -8rem!important;
+	width:8rem;
 }
 
 .ourServicesContainer .awb-swiper-button i {
