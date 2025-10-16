@@ -4,7 +4,9 @@
 	--dark-blue: #121e38;
 	--helvetica: "Helvetica";
 	--helvetica-bold: "Helvetica Bold";
-	--gedinar: "Ge Dinar";
+	--cairoRegular:"Cairo Regular", sans-serif;
+	--cairoSemiBold:"Cairo Semi Bold", sans-serif;
+	--cairoBold:"Cairo Bold", sans-serif;
 	--transition: all .3s ease-in-out;
 }
 
@@ -17,7 +19,7 @@ body {
 html[dir="rtl"],
 html[dir="rtl"] body {
 	font-weight: 500;
-	font-family: var(--gedinar) !important;
+	font-family: var(--cairoRegular) !important;
 }
 
 @font-face {
@@ -38,6 +40,21 @@ html[dir="rtl"] body {
 	font-display: swap;
 }
 
+@font-face {
+	font-family: "Cairo Regular", sans-serif;
+	src: url("../Fonts/Cairo-Regular.ttf");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Cairo Bold", sans-serif;
+	src: url("../Fonts/Cairo-Bold.ttf");
+	font-display: swap;
+}
+@font-face {
+	font-family: "Cairo Semi Bold", sans-serif;
+	src: url("../Fonts/Cairo-SemiBold.ttf");
+	font-display: swap;
+}
 .awb-menu_row .menu-text>span {
 	display: flex;
 	align-items: center;
@@ -222,7 +239,7 @@ html .aboutUsContainer .fusion-button span {
 
 html[dir="rtl"] .hero-section-container .fusion-button span,
 html[dir="rtl"] .aboutUsContainer .fusion-button span {
-	font-family: var(--gedinar);
+	font-family: var(--cairoRegular);
 }
 
 .hero-section-container .fusion-button .awb-button__icon,
@@ -406,7 +423,7 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 }
 
 html[dir="rtl"] .ourValuesContainer .fusion-text {
-	font-family: var(--gedinar);
+	font-family: var(--cairoRegular);
 }
 
 .ourValuesContainer .fusion-grid {
@@ -494,11 +511,11 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 
 html[dir="rtl"] .text-editor-title .fusion-title-heading {
 	text-align: right !important;
-	font-family: var(--gedinar) !important;
+	font-family: var(--cairoRegular) !important;
 }
 
 html[dir="rtl"] .text-editor-description p {
-	font-family: var(--gedinar) !important;
+	font-family: var(--cairoRegular) !important;
 }
 
 .text-editor-description p {
@@ -624,7 +641,7 @@ html[dir="rtl"] body .appTitle h1.fusion-title-heading,
 html[dir="rtl"] body .subTitle,
 html[dir="rtl"] body .subTitle .fusion-title-heading {
 	text-align: right !important;
-	font-family: var(--gedinar) !important;
+	font-family: var(--cairoRegular) !important;
 }
 
 .providersIntro .fusion-title.title {
@@ -700,7 +717,7 @@ footer .fusion-column-wrapper nav .menu-text {
 
 html[dir="rtl"] #header.header .fusion-column-wrapper nav .menu-text,
 html[dir="rtl"] footer .fusion-column-wrapper nav .menu-text {
-	font-family: var(--gedinar);
+	font-family: var(--cairoRegular);
 }
 
 .navbar .awb-menu__main-a {
@@ -802,7 +819,7 @@ button.header-search-wrapper span {
 }
 
 html[dir="rtl"] .pageIntroTitle {
-	font-family: var(--gedinar);
+	font-family: var(--cairoRegular);
 }
 
 .formTitle {
@@ -930,7 +947,7 @@ html[dir="rtl"] .pageIntroTitle {
 }
 
 html[dir="rtl"] .awb-menu__sub-ul li a {
-	font-family: var(--gedinar);
+	font-family: var(--cairoRegular);
 }
 
 .heroTitle h1 {
@@ -1024,7 +1041,7 @@ html[dir="rtl"] .awb-menu__sub-ul li a {
 }
 
 html[dir="rtl"] .cvTitle p {
-	font-family: var(--gedinar) !important;
+	font-family: var(--cairoRegular) !important;
 }
 
 .aboutUsContainer .subtitle p {
@@ -1042,7 +1059,7 @@ html[dir="ltr"] .aboutUsContainer .subtitle p {
 
 html[dir="rtl"] .aboutUsContainer .subtitle p {
 	text-align: right !important;
-	font-family: var(--gedinar)
+	font-family: var(--cairoRegular)
 }
 
 .aboutUsContainer .aboutus .fusion-column-wrapper {
@@ -1088,7 +1105,7 @@ html[dir="rtl"] .cvTitle h1 {
 
 html[dir="rtl"] .cv_description p {
 	text-align: right;
-	font-family: var(--gedinar);
+	font-family: var(--cairoRegular);
 }
 
 .ourServicesContainer .awb-swiper-button-prev,
@@ -1423,7 +1440,7 @@ footer {
 }
 
 html[dir="rtl"] .contactSection p {
-	font-family: var(--gedinar) !important;
+	font-family: var(--cairoRegular) !important;
 }
 
 .contactSection .tileDescription p {
@@ -1590,7 +1607,7 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 }
 
 html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title {
-	font-family: var(--gedinar)
+	font-family: var(--cairoRegular)
 }
 
 .kpisContainer .fusion-title-heading {
