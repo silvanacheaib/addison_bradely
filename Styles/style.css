@@ -60,6 +60,17 @@ html[dir="rtl"] body {
 		transform:translateY(0);
 	}
 }
+@keyframes fadeUp{
+	0%{
+		opacity: 0;
+		transform: translateY(100%);
+
+	}
+	100%{
+		opacity: 1;
+		transform:translateY(0);
+	}
+}
 .topHeader,
 header.header{
     opacity: 0;
