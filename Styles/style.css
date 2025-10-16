@@ -60,6 +60,12 @@ html[dir="rtl"] body {
 		transform:translateY(0);
 	}
 }
+.topHeader,
+header.header{
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: 1s fadeDown forwards;
+}
 .awb-menu_row .menu-text>span {
 	display: flex;
 	align-items: center;
