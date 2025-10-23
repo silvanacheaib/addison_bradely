@@ -1919,11 +1919,56 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
     box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
     padding: 0!important;
     width: 32.4%!important;
+	position:relative;
+	border-radius:.5rem;
+	overflow:hidden;
+}
+.blogCard .blogCategory{
+	position:absolute;
+	top:1rem;
+	right:1rem;
+	z-index: 1;
+	background-color: #121e38;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding:.4rem 1rem;
+	border-radius:.5rem;
+}
+.blogCard .blogCategory p{
+	margin:0;
+	font-size:.8rem;
+	font-family:var(--helvetica)!important;
 }
 .blogCard .blogTitle{
-    color:#4b6f9f;
+	padding:1rem 1rem 0.5rem;
+}
+.blogCard .blogTitle p{
+	margin:0;
+	color:#4b6f9f;
     font-weight:600!important;
-    font-size:1.3rem;
+    font-size:1.15rem;
+	font-family:var(--helvetica-bold)!important;
+}
+.blogCard .blogImage{
+	height: 14rem;
+	width:100%;
+}
+.blogDescription{
+	padding:0 1rem;
+}
+blogDescription p{
+	margin:0!important;
+	font-family: "Poppins", Sans-serif;
+    font-size: .85rem;
+    font-weight: 400;
+	color:#121e38!important;
+}
+.blogCard .blogImage img{
+	height:100%;
+	width:100%;
+	object-fit:cover;
 }
 @media(min-width:992px) {
 	.pageTitleBarContainer svg {
