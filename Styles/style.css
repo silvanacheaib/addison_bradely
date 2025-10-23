@@ -1910,6 +1910,21 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 .text-editor-container.horizontalView .fusion-builder-row .fusion-layout-column{
     margin-bottom:0!important
 }
+.blogsContainer .fusion-grid{
+    display:flex;
+    align-items:flex-start;
+    gap: 1rem;
+}
+.blogCard {
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+    padding: 0!important;
+    width: 32.4%!important;
+}
+.blogCard .blogTitle{
+    color:#4b6f9f;
+    font-weight:600!important;
+    font-size:1.3rem;
+}
 @media(min-width:992px) {
 	.pageTitleBarContainer svg {
     height: 1.5rem;
