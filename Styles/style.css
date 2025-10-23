@@ -2008,7 +2008,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	width: 100% !important;
 }
 	.testimonialCard {
-	padding: 5rem 3rem 2rem;
+	padding: 5rem 3rem 2rem!important;
 	height: 20rem;
 }
 	html body .width-100 .fusion-fullwidth.servicesContainer {
