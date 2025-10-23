@@ -1919,9 +1919,24 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
     box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
     padding: 0!important;
     width: 32.4%!important;
+    position:relative;
+    border-radius:.5rem;
+    overflow:hidden;
+    height: 29rem;
+}
+.blogCard div a{
+	margin:0 0 1rem 1rem;
+	background-color: transparent!important;
+	padding:0!important;
+	
+}
+.blogCard div a span::after{
+	content:"»";
+}
+.blogCard div a span{
+	color:#4b6f9f!important;
+	font-size:.8rem;
 	position:relative;
-	border-radius:.5rem;
-	overflow:hidden;
 }
 .blogCard .blogCategory{
 	position:absolute;
@@ -1958,12 +1973,15 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 .blogDescription{
 	padding:0 1rem;
 }
-blogDescription p{
-	margin:0!important;
+.blogDescription p{
 	font-family: "Poppins", Sans-serif;
     font-size: .85rem;
     font-weight: 400;
 	color:#121e38!important;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:4;
+	overflow:hidden;
 }
 .blogCard .blogImage img{
 	height:100%;
