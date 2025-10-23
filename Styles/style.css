@@ -663,10 +663,15 @@ html body .appTitle h1.fusion-title-heading {
 html body .subTitle .fusion-title-heading {
 	text-transform: capitalize;
 	color: #235cb1 !important;
-	font-family: var(--helvetica) !important;
+	font-family: var(--helvetica)!important;
 	font-size: 1.2rem !important;
 }
-
+.testimonialsContainer .subTitle .fusion-title-heading{
+	color:#2D4B78!important;
+	letter-spacing:0.05rem;
+	font-size:1.3rem!important;
+	
+}
 html[dir="rtl"] body .appTitle h1.fusion-title-heading,
 html[dir="rtl"] body .subTitle,
 html[dir="rtl"] body .subTitle .fusion-title-heading {
@@ -1384,14 +1389,16 @@ html[lang="en-US"] .testimonials .testimonialCard .fusion-text {
 	text-align: left;
 }
 
-.testimonials .testimonialCard .fusion-text {
+.testimonials .testimonialCard .fusion-text.testimonialDesc p {
 	color: #111D38;
 	font-size: 1rem;
+	line-height:1.5;
+	font-family:var(--helvetica)!important;
 }
 
 .testimonials .testimonialCard::before {
 	content: "";
-	background-image: url("http://3.29.18.204/wp-content/uploads/2025/08/❝.svg");
+	background-image: url("https://silvanacheaib.github.io/addison_bradely/Images/quote.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	height: 8rem;
@@ -1997,7 +2004,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	padding:0!important;
 }
 	.testimonialsContainer .awb-swiper.fusion-post-cards {
-	padding: 3rem 5rem !important;
+	padding: 1rem 5rem !important;
 	width: 100% !important;
 }
 	.testimonialCard {
