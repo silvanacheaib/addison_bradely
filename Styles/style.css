@@ -592,7 +592,29 @@ html[dir="rtl"] .text-editor-description p {
 	padding: .5rem 2rem 0;
 }
 .faqSectionContainer .fusion-accordian .panel-heading .panel-title {
-	padding: 1rem 0;
+	padding: 0;
+}
+.faqSectionContainer .fusion-panel{
+    background-color:transparent!important;
+    border-radius:.5rem!important;
+    border:1px solid rgb(0 0 0 / 11%)!important;
+    padding:1rem!important;
+    margin-bottom:1rem!important;
+}
+.faqSectionContainer  .fusion-accordian .panel-heading .panel-title a{
+    padding:0!important;
+    border:none!important;
+    font-family:var(--helvetica)!important;
+    font-weight:600!important;
+    font-size:1rem!important;
+}
+.faqSectionContainer .fusion-accordian .fusion-toggle-boxed-mode:hover .panel-title a,
+.faqSectionContainer .fusion-accordian .fusion-toggle-boxed-mode .panel-title a.active{
+    color:var(--light-blue)!important;
+}
+.faqSectionContainer .panel-body.toggle-content.fusion-clearfix{
+	padding:1rem 0!important;
+	color: rgb(0 0 0 / 70%)!important;
 }
 .fusion-accordian:first-child .panel-heading .panel-title {
 	padding-top: 1.4rem !impoRTANT;
