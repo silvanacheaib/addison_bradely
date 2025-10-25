@@ -91,7 +91,7 @@ html[dir="rtl"] .post-content p{
 .fusion-page-title-row,
 .tfs-slider .slide-content-container .slide-content {
 	max-width: unset !important;
-	margin: 0 !important;
+	/* margin: 0 !important; */
 }
 
 html[dir="rtl"],
@@ -1613,8 +1613,8 @@ html[dir="rtl"] .contactSection p {
 }
 
 #wrapper #main .fullwidth-box .fusion-row {
-	margin: 0 !important;
-	max-width: unset !important;
+	/* margin: 0 !important; */
+	/* max-width: unset !important; */
 }
 
 .providersContainer .fusion-row {
@@ -1664,7 +1664,7 @@ html[dir="rtl"] .contactSection p {
 }
 
 .contactSection .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
-	margin-right: var(--awb-spacing-right);
+	margin-left: var(--awb-spacing-right);
 }
 
 li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-column.heroImage.post-card.fusion-grid-column.fusion-post-cards-grid-column {
