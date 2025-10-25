@@ -591,7 +591,9 @@ html[dir="rtl"] .text-editor-description p {
 .fusion-accordian .panel-heading .panel-title {
 	padding: .5rem 2rem 0;
 }
-
+.faqSectionContainer .fusion-accordian .panel-heading .panel-title {
+	padding: 1rem 0;
+}
 .fusion-accordian:first-child .panel-heading .panel-title {
 	padding-top: 1.4rem !impoRTANT;
 }
