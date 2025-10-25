@@ -608,6 +608,12 @@ html[dir="rtl"] .text-editor-description p {
     font-weight:600!important;
     font-size:1rem!important;
 }
+html[dir="rtl"] .faqSectionContainer  .fusion-accordian .panel-heading .panel-title a{
+	font-family:var(--cairoSemiBold)!important;
+}
+html[dir="rtl"] .faqSectionContainer  .fusion-accordian .panel-heading .panel-title a .fusion-toggle-heading{
+	margin:0!important;
+}
 .faqSectionContainer .fusion-accordian .fusion-toggle-boxed-mode:hover .panel-title a,
 .faqSectionContainer .fusion-accordian .fusion-toggle-boxed-mode .panel-title a.active{
     color:var(--light-blue)!important;
@@ -615,6 +621,9 @@ html[dir="rtl"] .text-editor-description p {
 .faqSectionContainer .panel-body.toggle-content.fusion-clearfix{
 	padding:1rem 0!important;
 	color: rgb(0 0 0 / 70%)!important;
+}
+html[dir="rtl"] .faqSectionContainer .panel-body.toggle-content.fusion-clearfix{
+	font-family:var(--cairoRegular)!important;
 }
 .fusion-accordian:first-child .panel-heading .panel-title {
 	padding-top: 1.4rem !impoRTANT;
