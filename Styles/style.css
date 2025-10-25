@@ -1660,7 +1660,7 @@ html[dir="rtl"] .contactSection p {
 }
 
 .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
-	margin: unset;
+	/* margin: unset; */
 }
 
 .contactSection .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
