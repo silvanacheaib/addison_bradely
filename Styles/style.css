@@ -2060,7 +2060,13 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 .awb-stars-rating-icons-wrapper{
 	display:flex;
 	align-items:center;
-	margin-bottom: .6rem;
+}
+html[dir="rtl"] .menu-item .awb-menu__main-background-default{
+    border-right:0;
+    border-left:1px solid rgb(255 255 255 );
+}
+html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
+    border-left:none;
 }
 @media(min-width:992px) {
 	.pageTitleBarContainer svg {
@@ -2117,9 +2123,11 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	.providersIntro {
 		padding-left: 6rem!important;
 		padding-right: 2rem!important;
-		/* padding: 0 3rem 0 6rem!important; */
 	}
-
+	html[dir="rtl"] .providersIntro {
+			padding-right: 6rem!important;
+			padding-left: 2rem!important;
+		}
 	.heroTitle h1 {
 		font-size: 2.2rem !important;
 	}
