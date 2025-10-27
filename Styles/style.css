@@ -215,10 +215,19 @@ div#searchBoxContainer .fusion-builder-row .fusion-layout-column .fusion-search-
 	height: 1rem;
 }
 
-.dark_background_color {
+.dark_background_color , .dark_blue_button .fusion-button{
 	background-color: var(--dark-blue) !important;
 }
-
+.white_bg_button .fusion-button{
+	background-color:white!important;
+	color:#111D38!important;
+}
+.white_bg_button  .fusion-button i{
+	background-color:#111D38!important;
+}
+.textEditorButton i::before{
+	color:#ffffff!important;
+}
 .dark_background_color .fusion-title-heading,
 .dark_background_color .text-editor-description p,
 .dark_background_color .text-editor-description li,
