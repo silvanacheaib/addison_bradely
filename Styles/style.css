@@ -1654,7 +1654,10 @@ html[dir="rtl"] .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkb
 	/* margin: 0 !important; */
 	/* max-width: unset !important; */
 }
-
+.textEditor {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 .providersContainer .fusion-row {
 	display: flex;
 	flex-direction: column !important;
