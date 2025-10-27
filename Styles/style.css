@@ -238,7 +238,6 @@ html[dir="rtl"] .trp-language-switcher-container:first-child {
 .trp-language-switcher-container a span {
 	font-weight: 600;
 	color: var(--dark-blue);
-	text-transform: uppercase;
 }
 
 .current-language-menu-item a span {
@@ -1061,7 +1060,7 @@ html[dir="rtl"] .heroDescription p{
 	margin: 0 !important;
 }
 .providersContainer .fusion-layout-column {
-	padding:0!important;
+	/* padding:0!important; */
 }
 .providersContainer .fusion-text-3 {
 	font-family: "Helvetica", Sans-serif;
@@ -2082,7 +2081,9 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	}
 
 	.providersIntro {
-		padding-left: 6rem;
+		padding-left: 6rem!important;
+		padding-right: 2rem!important;
+		/* padding: 0 3rem 0 6rem!important; */
 	}
 
 	.heroTitle h1 {
