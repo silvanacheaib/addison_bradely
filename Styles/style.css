@@ -2041,9 +2041,13 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
     content:"";
     height:1.3rem;
     width:1.3rem;
-    background-image:url("https://silvanacheaib.github.io/addison_bradely/Images/empty star.svg");
+    background-image:url("https://silvanacheaib.github.io/addison_bradely/Images/empty%20star.png");
     background-size:contain;
     background-repeat:no-repeat;
+	display:block;
+}
+.fa-star.fas.awb-stars-rating-filled-icon{
+	background-image:url("https://silvanacheaib.github.io/addison_bradely/Images/filled%20star.png");
 }
 @media(min-width:992px) {
 	.pageTitleBarContainer svg {
