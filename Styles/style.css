@@ -1558,6 +1558,7 @@ html[dir="rtl"] .contactSection p {
 
 .contactSection .fusion-layout-column {
 	padding: 0 !important;
+	margin: 0;
 }
 
 .contactSection [for="contact_us_consent_field"] {
