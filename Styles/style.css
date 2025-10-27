@@ -222,10 +222,13 @@ div#searchBoxContainer .fusion-builder-row .fusion-layout-column .fusion-search-
 	background-color:white!important;
 	color:#111D38!important;
 }
+.white_bg_button .fusion-button span{
+	color:#111D38!important;
+}
 .white_bg_button  .fusion-button i{
 	background-color:#111D38!important;
 }
-.textEditorButton i::before{
+.white_bg_button  .fusion-button i::before{
 	color:#ffffff!important;
 }
 .dark_background_color .fusion-title-heading,
