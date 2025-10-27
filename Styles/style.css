@@ -238,6 +238,7 @@ html[dir="rtl"] .trp-language-switcher-container:first-child {
 .trp-language-switcher-container a span {
 	font-weight: 600;
 	color: var(--dark-blue);
+	text-transform: uppercase;
 }
 
 .current-language-menu-item a span {
