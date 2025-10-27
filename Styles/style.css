@@ -699,6 +699,10 @@ html body .subTitle .fusion-title-heading {
 	font-family: var(--helvetica)!important;
 	font-size: 1.2rem !important;
 }
+.ourValuesContainer .subTitle .fusion-title-heading,
+.ourValuesContainer .fusion-text p{
+	color:#2D4B78!important;
+}
 .testimonialsContainer .subTitle .fusion-title-heading{
 	color:#2D4B78!important;
 	letter-spacing:0.05rem;
@@ -2037,7 +2041,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	padding:0!important;
 }
 	.testimonialsContainer .awb-swiper.fusion-post-cards {
-	padding: 1rem 5rem !important;
+	padding: 1rem 0rem !important;
 	width: 100% !important;
 }
 	.testimonialCard {
