@@ -1614,7 +1614,7 @@ html[dir="rtl"] .contactSection .fusion-form-form-wrapper .fusion-form-field .fu
 	left:auto;
 	top: 10%;
 }
-.fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox label:before{
+html[dir="rtl"] .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox label:before{
 	right:0!important;
 	left: auto;
 	top: 1.1rem!important;
