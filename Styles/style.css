@@ -628,7 +628,7 @@ html[dir="rtl"] .faqSectionContainer  .fusion-accordian .panel-heading .panel-ti
 }
 .faqSectionContainer .fusion-accordian .fusion-toggle-boxed-mode:hover .panel-title a,
 .faqSectionContainer .fusion-accordian .fusion-toggle-boxed-mode .panel-title a.active{
-    color:var(--light-blue)!important;
+    color:#101828!important;
 }
 .faqSectionContainer .panel-body.toggle-content.fusion-clearfix{
 	padding:1rem 0!important;
