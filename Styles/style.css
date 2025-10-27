@@ -2037,6 +2037,14 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
     font-family:var(--helvetica-bold);
     text-transform:capitalize;
 }
+.fa-star::before{
+    content:"";
+    height:1.3rem;
+    width:1.3rem;
+    background-image:url("https://silvanacheaib.github.io/addison_bradely/Images/empty star.svg");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
 @media(min-width:992px) {
 	.pageTitleBarContainer svg {
     height: 1.5rem;
