@@ -2032,6 +2032,11 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	width:100%;
 	object-fit:cover;
 }
+.user-name-rating p{
+    color:#2D4B77;
+    font-family:var(--helvetica-bold);
+    text-transform:capitalize;
+}
 @media(min-width:992px) {
 	.pageTitleBarContainer svg {
     height: 1.5rem;
