@@ -2037,14 +2037,15 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
     font-family:var(--helvetica-bold);
     text-transform:capitalize;
 }
-.fa-star::before{
+.fa-star.awb-stars-rating-empty-icon::before{
     content:"";
     height:1.3rem;
     width:1.3rem;
     background-image:url("https://silvanacheaib.github.io/addison_bradely/Images/empty%20star.png");
     background-size:contain;
     background-repeat:no-repeat;
-	display:block;
+    display:inline-flex;
+    color: transparent;
 }
 .fa-star.fas.awb-stars-rating-filled-icon{
 	content:"";
@@ -2053,7 +2054,12 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	background-image:url("https://silvanacheaib.github.io/addison_bradely/Images/filled%20star.png");
 	background-size:contain;
     background-repeat:no-repeat;
-	display:block;
+    display:inline-flex;
+    color: transparent;
+}
+.awb-stars-rating-icons-wrapper{
+	display:flex;
+	align-items:center;
 }
 @media(min-width:992px) {
 	.pageTitleBarContainer svg {
