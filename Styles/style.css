@@ -2060,6 +2060,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 .awb-stars-rating-icons-wrapper{
 	display:flex;
 	align-items:center;
+	margin-bottom:.8rem;
 }
 html[dir="rtl"] .menu-item .awb-menu__main-background-default{
     border-right:0;
