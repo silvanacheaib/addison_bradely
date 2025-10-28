@@ -2097,6 +2097,27 @@ html[dir="rtl"] .menu-item .awb-menu__main-background-default{
 html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
     border-left:none;
 }
+.CenteredContent .fusion-column-wrapper{
+    display:flex!important;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.CenteredContent .fusion-image-element {
+    height:7rem;
+    width:7rem;
+    margin-bottom:2rem;
+    
+}
+.CenteredContent .fusion-image-element img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+.CenteredContent .text-editor-description{
+    text-align:center;
+    width:68%;
+}
 @media(min-width:992px) {
 	.pageTitleBarContainer svg {
     height: 1.5rem;
