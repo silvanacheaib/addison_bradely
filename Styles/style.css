@@ -2116,7 +2116,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 }
 .CenteredContent .text-editor-description{
     text-align:center;
-    width:68%;
+    width: 82%;
 }
 @media(min-width:992px) {
 	.pageTitleBarContainer svg {
