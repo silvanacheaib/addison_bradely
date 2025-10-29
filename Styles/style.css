@@ -2109,6 +2109,11 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
     margin-bottom:2rem;
     
 }
+.smallContactIcons .CenteredContent .fusion-image-element {
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 1rem;
+}
 .CenteredContent .fusion-image-element img{
     height:100%;
     width:100%;
