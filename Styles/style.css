@@ -2121,6 +2121,20 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 .meet_out_team .fusion-content-layout-column{
 	background-image:none!important;
 }
+.contactPage input,
+.contactPage textarea{
+	border:1px solid var(--dark-blue)!important;
+}
+.contactPage .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox label,
+.contactSection.contactPage .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox label:after{
+	color:var(--dark-blue)!important;
+}
+.contactSection.contactPage .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox label:before{
+	border-color:var(--dark-blue)!important;
+}
+.contactPage .fusion-form{
+	width:100%;
+}
 @media(min-width:992px) {
 	.pageTitleBarContainer svg {
     height: 1.5rem;
