@@ -1825,6 +1825,8 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 
 .member_email span {
 	color: var(--light-blue) !important;
+	white-space: nowrap;
+	text-align: center;
 }
 
 .member_email {
