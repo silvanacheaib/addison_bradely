@@ -1845,7 +1845,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 }
 
 .team_member:nth-child(even).post-card {
-	background-color: white;
+	/* background-color: white; */
 }
 
 .team_member:nth-child(odd).post-card {
