@@ -1847,7 +1847,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 }
 
 .team_member:nth-child(odd).post-card {
-	background-color: #e5e3e3;
+	/* background-color: #e5e3e3; */
 }
 
 .team_member.post-card>.fusion-column-wrapper {
@@ -2109,6 +2109,10 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
     margin-bottom:2rem;
     
 }
+.meet_out_team{
+    background-color: #FAF8F8;
+}
+
 .smallContactIcons .CenteredContent .fusion-image-element {
     height: 3rem;
     width: 3rem;
