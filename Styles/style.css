@@ -2161,13 +2161,27 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
     width:20rem;
     border:1px solid rgb(0 0 0 / 20%);
     border-radius: 1rem!important;
-    overflow: hidden;
+    /* overflow: hidden; */
     opacity:0;
-    top: 9rem;
+    top: 10rem;
     position: absolute;
     z-index: 9999;
     background-color:white;
     margin: 0!important;
+}
+.valueDescription::before{
+	content:"";
+	width: 0;
+	height: 0;
+	position:absolute;
+	top: -2rem;
+	left:50%;
+	transform: translateX(-50%);
+	border-bottom: 1rem solid #fff;
+	border-top: 1rem solid transparent;
+	border-right: 1rem solid transparent;
+	border-left: 1rem solid  transparent;
+	z-index:2;
 }
 .valueContainer:hover .valueDescription{
     opacity:1;
