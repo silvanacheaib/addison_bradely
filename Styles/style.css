@@ -2158,22 +2158,23 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 }
 .valueDescription {
   position: absolute;
-
   background: white;
   padding: 1rem 1.5rem;
   border: 1px solid rgb(0 0 0 / 20%);
   border-radius: 0.5rem;
   display: inline-block; /* so the triangle aligns with the box width */
   width: 20rem;
-  top: 9rem;
+  top: 7.9rem;
+  transform: translateX(-50%);
+  left: 50%;
   opacity: 0;
 }
 
 .valueDescription::after {
   content: "";
-	scale:-1;
+  scale:-1;
   position: absolute;
-  left: 50%;
+  left: 44%;
   transform: translateX(-50%);
   top: -10px; /* place below the box */
   width: 0;
@@ -2187,7 +2188,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 .valueDescription::before {
   content: "";
   position: absolute;
-  left: 50%;
+  left: 44%;
   scale:-1;
   transform: translateX(-43%);
   top: -12px; /* slightly lower to show border behind */
