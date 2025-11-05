@@ -220,7 +220,7 @@ div#searchBoxContainer .fusion-builder-row .fusion-layout-column .fusion-search-
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
-/* .dark_background_color h1,
+.dark_background_color h1,
 .dark_background_color h2,
 .dark_background_color h3,
 .dark_background_color h4,
@@ -235,7 +235,7 @@ div#searchBoxContainer .fusion-builder-row .fusion-layout-column .fusion-search-
 .dark_background_color h5 *,
 .dark_background_color h6 *{
 	color:white!important
-} */
+}
 
 .dark_background_color , .dark_blue_button .fusion-button{
 	background-color: var(--dark-blue) !important;
