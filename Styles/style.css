@@ -216,7 +216,10 @@ div#searchBoxContainer .fusion-builder-row .fusion-layout-column .fusion-search-
 	padding: 0.8rem 0.5rem;
 	height: 1rem;
 }
-
+.dark_background_color {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
 .dark_background_color , .dark_blue_button .fusion-button{
 	background-color: var(--dark-blue) !important;
 }
