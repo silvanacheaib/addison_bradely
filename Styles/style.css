@@ -2175,6 +2175,8 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 .ourValuesContainer{
     overflow:visible;
     z-index: 1;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 @media(min-width:992px) {
 	.pageTitleBarContainer svg {
