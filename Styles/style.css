@@ -2156,33 +2156,49 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
     text-transform:lowercase
     
 }
-.valueDescription{
-    padding:.4rem 1rem;
-    width:20rem;
-    border:1px solid rgb(0 0 0 / 20%);
-    border-radius: 1rem!important;
-    /* overflow: hidden; */
-    opacity:0;
-    top: 10rem;
-    position: absolute;
-    z-index: 9999;
-    background-color:white;
-    margin: 0!important;
+.valueDescription {
+  position: relative;
+  background: white;
+  padding: 1rem 1.5rem;
+  border: 1px solid rgb(0 0 0 / 20%);
+  border-radius: 0.5rem;
+  display: inline-block; /* so the triangle aligns with the box width */
+  width: 20rem;
+  top: -2rem;
+  opacity: 0;
 }
-.valueDescription::before{
-	content:"";
-	width: 0;
-	height: 0;
-	position:absolute;
-	top: -2rem;
-	left:50%;
-	transform: translateX(-50%);
-	border-bottom: 1rem solid #fff;
-	border-top: 1rem solid transparent;
-	border-right: 1rem solid transparent;
-	border-left: 1rem solid  transparent;
-	z-index:2;
+
+.valueDescription::after {
+  content: "";
+	scale:-1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -10px; /* place below the box */
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white; /* white fill */
+  z-index: 2;
 }
+
+.valueDescription::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  scale:-1;
+  transform: translateX(-43%);
+  top: -12px; /* slightly lower to show border behind */
+  width: 0;
+  height: 0;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 11px solid rgb(0 0 0 / 20%); /* subtle border */
+  z-index: 1;
+}
+
+
 .valueContainer:hover .valueDescription{
     opacity:1;
 }
