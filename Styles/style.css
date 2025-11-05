@@ -269,6 +269,7 @@ html[dir="rtl"] .trp-language-switcher-container:first-child {
 	transition: var(--transition);
 	padding: 0.5rem 1rem;
 	margin-bottom: 1rem;
+	display: none;
 }
 
 .hero-section-container .fusion-button span,
