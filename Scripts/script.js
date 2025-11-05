@@ -18,3 +18,12 @@ document.addEventListener('DOMContentLoaded', function() {
 //         }
 //     });
 // });
+document.addEventListener("DOMContentLoaded", function() {
+  const heading = document.querySelector(".aboutUsIntro .fusion-title-heading");
+  if (heading) {
+    heading.innerHTML = heading.innerHTML.replace(
+      "to earn your trust",
+      '<span id="blue_text">to earn your trust</span>'
+    );
+  }
+});
