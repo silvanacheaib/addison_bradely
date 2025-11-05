@@ -2151,6 +2151,31 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 .contactPage .fusion-form{
 	width:100%;
 }
+.valueDescription p{
+    font-size:.75rem;
+    text-transform:lowercase
+    
+}
+.valueDescription{
+    padding:.4rem 1rem;
+    width:20rem;
+    border:1px solid rgb(0 0 0 / 20%);
+    border-radius: 1rem!important;
+    overflow: hidden;
+    opacity:0;
+    top: 9rem;
+    position: absolute;
+    z-index: 9999;
+    background-color:white;
+    margin: 0!important;
+}
+.valueContainer:hover .valueDescription{
+    opacity:1;
+}
+.ourValuesContainer{
+    overflow:visible;
+    z-index: 1;
+}
 @media(min-width:992px) {
 	.pageTitleBarContainer svg {
     height: 1.5rem;
