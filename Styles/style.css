@@ -542,12 +542,14 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 	object-fit: cover;
 	object-position: top;
 }
-
+.text-editor-container .fusion-column-wrapper{
+    margin:0!important;
+}
 .text-editor-title .fusion-title-heading {
-	font-size: 1.8rem !important;
+	font-size: 1.5rem !important;
 	color: var(--dark-blue) !important;
 	text-transform: uppercase;
-	width: 86%;
+	width: 90%;
 }
 #blue_text{
 	color:var(--light-blue);
