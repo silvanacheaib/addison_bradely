@@ -21,9 +21,27 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener("DOMContentLoaded", function() {
   const heading = document.querySelector(".aboutUsIntro .fusion-title-heading");
   if (heading) {
-    heading.innerHTML = heading.innerHTML.replace(
-      "to earn your trust",
-      '<span id="blue_text">to earn your trust</span>'
-    );
+    // Get plain text (not HTML)
+    const text = heading.textContent.trim();
+
+    // Split into words (preserve punctuation as separate “words” if needed)
+    const words = text.split(/\s+/);
+
+    // Word positions to wrap (1-based index)
+    const start = 5; // from word #5
+    const end = 8;   // to word #8
+
+    // Build the new HTML
+    const wrapped = words
+      .map((word, i) => {
+        const index = i + 1;
+        if (index === start) return '<span id="blue_text">' + word;
+        if (index > start && index < end) return word;
+        if (index === end) return word + '</span>';
+        return word;
+      })
+      .join(' ');
+
+    heading.innerHTML = wrapped;
   }
 });
