@@ -220,6 +220,9 @@ div#searchBoxContainer .fusion-builder-row .fusion-layout-column .fusion-search-
 .dark_background_color , .dark_blue_button .fusion-button{
 	background-color: var(--dark-blue) !important;
 }
+.dark_background_color .text-editor-subtitle p{
+	color: white!important;
+}
 .white_bg_button .fusion-button{
 	background-color:white!important;
 	color:#111D38!important;
