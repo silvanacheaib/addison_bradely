@@ -1174,6 +1174,7 @@ html .aboutUsContainer .fusion-button {
 	text-transform: uppercase;
 	transition: var(--transition);
 	padding: 0.5rem 1rem;
+	display: none;
 }
 
 html[dir="ltr"] .aboutUsContainer .fusion-text,
