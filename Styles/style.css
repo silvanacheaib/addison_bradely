@@ -2157,14 +2157,15 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
     
 }
 .valueDescription {
-  position: relative;
+  position: absolute;
+
   background: white;
   padding: 1rem 1.5rem;
   border: 1px solid rgb(0 0 0 / 20%);
   border-radius: 0.5rem;
   display: inline-block; /* so the triangle aligns with the box width */
   width: 20rem;
-  top: -2rem;
+  top: 9rem;
   opacity: 0;
 }
 
