@@ -588,6 +588,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 	width: 100%;
 	object-fit: cover;
 	object-position: top;
+	display: none;
 }
 .text-editor-container .fusion-column-wrapper{
     margin:0!important;
@@ -1689,8 +1690,9 @@ html[dir="rtl"] .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkb
 	text-decoration: none;
 }
 
-.heroImage {
+html body .fusion-layout-column.heroImage {
 	width: 100vw !important;
+	min-width: 100vw;
 	height: 73vh;
 	position: relative;
 	padding: 0 !important;
@@ -1747,9 +1749,9 @@ html[dir="rtl"] .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkb
 	justify-content: space-between;
 }
 
-.width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
+html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
 	padding: 0 !important;
-	width: 40%;
+	width: 40%!important;
 }
 
 .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li>.fusion-column-wrapper>.fusion-builder-row {
@@ -2270,8 +2272,27 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 }
 .topHeader .fusion-builder-row  .fusion-layout-column:first-child .fusion-layout-columngmai {
     width:8rem;
+	
+}
+.text-editor-container .fusion-builder-row {
+	flex-direction:column;
+}
+@media(min-width:768px){
+	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
+		width:fit-content!Important;
+	}
 }
 @media(min-width:992px) {
+	html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
+	padding: 0 !important;
+	/* width: 40%!important; */
+}
+	.aboutUsContainer .fusion-column-wrapper .fusion-image-element img{
+		display:inline-block;
+	}
+	.text-editor-container .fusion-builder-row {
+	flex-direction:row;
+}
 	.width-100 .nonhundred-percent-fullwidth.kpisSection {
 	padding: 3rem 10rem !important;
 }
@@ -2324,7 +2345,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 		margin-left: 2rem !important;
 	}
 
-	.ourValuesContainer .fusion-grid .fusion-layout-column:not(:last-child) .fusion-imageframe::after {
+	html[dir="ltr"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last-child) .fusion-imageframe::after {
 		content: "";
 		position: absolute;
 		top: 50%;
@@ -2336,7 +2357,18 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 		width: 100%;
 		background-repeat: no-repeat;
 	}
-
+html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last-child) .fusion-imageframe::after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translate(-100%, 50%);
+		right: 10%;
+		background-image: url("https://silvanacheaib.github.io/addison_bradely/Images/Line%209.svg");
+		background-size: contain;
+		height: 6px;
+		width: 100%;
+		background-repeat: no-repeat;
+	}
 	.aboutUsContainer .fusion-column-wrapper .fusion-image-element {
 		width: 34rem;
 	}
