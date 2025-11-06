@@ -121,10 +121,13 @@ html[dir="rtl"] body {
 	gap: .5rem;
 }
 
-.actionMenu .searchIcon {
-	height: 1.5rem;
-	width: 1.5rem;
-	max-width: 1.5rem;
+.actionMenu .fusion-image-element {
+	height: 1.5rem!important;
+	width: 1.5rem!important;
+	max-width: 2rem;
+	position: absolute !important;
+	top: 1.9rem;
+	right: -1rem;
 }
 
 .actionMenu .searchIcon img {
@@ -134,8 +137,8 @@ html[dir="rtl"] body {
 }
 
 .actionMenu .fusion-image-element {
-	height: 1.5rem !important;
-	width: 1.5rem !important;
+	/* height: 1.5rem !important; */
+	/* width: 1.5rem !important; */
 }
 
 /* SEARCH ICON ADJUSTMENTS END */
@@ -176,7 +179,17 @@ div#searchBoxContainer .fusion-builder-row .fusion-layout-column .fusion-search-
 	height: 100%;
 	width: 100%;
 }
-
+.awb-menu.collapse-enabled.mobile-mode-collapse-to-button .awb-menu__m-toggle{
+	background-color:transparent;
+	height:1.5rem;
+	width:1.5rem;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+}
+#header.header .fusion-column-wrapper>div:first-child{
+	display:none;
+}
 .fusion-search-field.search-field label {
 	height: 100%;
 	width: 100%;
@@ -903,7 +916,9 @@ a.getInTouchButton img {
 a.getInTouchButton:hover {
 	background-color: #4b6f9f;
 }
-
+.fusion-tb-header .fusion-layout-column {
+    width: fit-content;
+}
 a.getInTouchButton span {
 	color: white;
 	font-size: 15px;
@@ -1751,7 +1766,7 @@ html body .fusion-layout-column.heroImage {
 
 html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
 	padding: 0 !important;
-	width: 40%!important;
+	width: 100%!important;
 }
 
 .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li>.fusion-column-wrapper>.fusion-builder-row {
@@ -2277,15 +2292,32 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 .text-editor-container .fusion-builder-row {
 	flex-direction:column;
 }
+.topBar{
+	position: relative!important;
+	right: 0rem!important;
+	width:fit-content!important;
+	min-width: 11rem;
+}
+.topHeader .fusion-layout-column{
+	padding-bottom:0!important;
+}
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
 		width:fit-content!Important;
 	}
 }
 @media(min-width:992px) {
+	#header.header .fusion-column-wrapper>div:first-child{
+		display:block;
+	}
+	.actionMenu .fusion-image-element {
+		position:relative!important;
+		top:unset;
+		right:unset;
+	}
 	html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
 	padding: 0 !important;
-	/* width: 40%!important; */
+	width: 40%!important;
 }
 	.aboutUsContainer .fusion-column-wrapper .fusion-image-element img{
 		display:inline-block;
