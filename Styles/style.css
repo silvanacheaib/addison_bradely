@@ -2258,6 +2258,13 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+.topHeader .fusion-builder-row {
+    display: flex;
+    flex-direction: row;
+}
+.topHeader .fusion-builder-row  .fusion-layout-column:first-child .fusion-layout-columngmai {
+    width:8rem;
+}
 @media(min-width:992px) {
 	footer > div{
 		justify-content:space-between!important;
