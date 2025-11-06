@@ -762,9 +762,15 @@ html body .subTitle .fusion-title-heading {
 	font-family: var(--helvetica)!important;
 	font-size: 1.2rem !important;
 }
-.ourValuesContainer .subTitle .fusion-title-heading,
+.ourValuesContainer .subTitle .fusion-title-heading{
+	color: #111D38!important;
+	font-family: var(--helvetica)!important;
+}
 .ourValuesContainer .fusion-text p{
-	color:#2D4B78!important;
+	color: #2D4B79!important;
+	font-family: var(--helvetica)!important;
+	line-height: 2;
+	margin: 0!Important;
 }
 .testimonialsContainer .subTitle .fusion-title-heading{
 	color:#2D4B78!important;
@@ -1196,7 +1202,7 @@ html[dir="rtl"] .cvTitle p {
 }
 
 .aboutUsContainer .subtitle p {
-	font-size: 1.9rem;
+	font-size: 1.5rem;
 	margin: 0 0 1.4rem !important;
 	text-transform: uppercase;
 	color: #121E38 !important;
@@ -1224,7 +1230,6 @@ html .aboutUsContainer .fusion-button {
 	text-transform: uppercase;
 	transition: var(--transition);
 	padding: 0.5rem 1rem;
-	display: none;
 }
 
 html[dir="ltr"] .aboutUsContainer .fusion-text,
@@ -1728,7 +1733,7 @@ html[dir="rtl"] .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkb
 }
 
 .width-100 .nonhundred-percent-fullwidth.kpisSection {
-	padding: 3rem 8rem !important;
+	padding: 1rem !important;
 	background-color: #faf8f8;
 	margin: 0 !important;
 }
@@ -1782,11 +1787,11 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 }
 
 .kpisContainer .fusion-title-heading {
-	color: #255cb1 !important;
+	color: #235CB1 !important;
 }
 
-.kpisContainer .fusion-text {
-	color: var(--medium-blue) !important;
+.kpisContainer .fusion-text p {
+	color: #2D4B79!important;
 }
 
 .kpisContainer .fusion-text p {
@@ -1798,8 +1803,8 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 }
 
 .kpisContainer .fusion-layout-column:last-child {
-	width: 45%;
-	margin: 0 1.5rem !important;
+	width: 53%;
+	margin: 0 1.9rem !important;
 }
 
 .team_member_photo {
@@ -2255,7 +2260,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 }
 .ourValuesContainer{
     overflow:visible;
-    z-index: 1;
+    z-index: 11;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -2267,6 +2272,10 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
     width:8rem;
 }
 @media(min-width:992px) {
+	.width-100 .nonhundred-percent-fullwidth.kpisSection {
+	padding: 3rem 10rem !important;
+}
+
 	footer > div{
 		justify-content:space-between!important;
 	}
