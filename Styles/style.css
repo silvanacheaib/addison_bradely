@@ -211,7 +211,29 @@ div#searchBoxContainer .fusion-builder-row .fusion-layout-column .fusion-search-
 .awb-menu .awb-menu__main-ul {
 	align-content: center;
 }
-
+footer > div{
+	display: flex!important;
+	align-items: flex-start!important;
+	justify-content: flex-start!important;
+	width: 100%!important;
+	margin:0!important;
+}
+#menu-footer-menu{
+	display:flex;
+	flex-direction:column;
+	width:100vw;
+	justify-content:flex-start;
+	align-items:flex-start;
+}
+#menu-footer-menu li{
+	width:100%;
+}
+#menu-footer-menu li span a span{
+	text-align:left!important;
+}
+#menu-footer-menu li span a{
+justify-content:flex-start!important;
+}
 .trp-language-switcher-container {
 	padding: 0.8rem 0.5rem;
 	height: 1rem;
@@ -1556,9 +1578,9 @@ footer {
 }
 
 .contactSection.container.fusion-flex-container {
-	clip-path: ellipse(158% 100% at 50% 100%);
-	padding-top: 8rem !important;
-	padding-bottom: 8rem !important;
+	clip-path: ellipse(202% 100% at 50% 100%);
+	padding-top: 5rem !important;
+	padding-bottom: 5rem !important;
 	background-color: var(--dark-blue);
 }
 .contactSection.container.fusion-flex-container.bg-transparent{
@@ -1751,6 +1773,7 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 .heroImage .awb-imageframe-caption .awb-imageframe-caption-title {
 	color: white !important;
 	text-transform: uppercase;
+	font-size: 1.9rem!important;
 }
 
 html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title {
@@ -2236,6 +2259,25 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
     padding-bottom: 3rem;
 }
 @media(min-width:992px) {
+	footer > div{
+		justify-content:space-between!important;
+	}
+	#menu-footer-menu li {
+		width:fit-content;
+	}
+	#menu-footer-menu{
+	display:flex;
+	flex-direction:row;
+	justify-content:unset;
+	align-items:unset;
+	width: fit-content;
+}
+	.contactSection.container.fusion-flex-container {
+	clip-path: ellipse(158% 100% at 50% 100%);
+	padding-top: 8rem !important;
+	padding-bottom: 8rem !important;
+	background-color: var(--dark-blue);
+}
 	.pageTitleBarContainer svg {
     height: 1.5rem;
     width: 1.5rem;
