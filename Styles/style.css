@@ -597,6 +597,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 	color: var(--dark-blue) !important;
 	text-transform: uppercase;
 	width: 90%;
+	font-family: var(--helvetica-bold);
 }
 #blue_text{
 	color:var(--light-blue);
