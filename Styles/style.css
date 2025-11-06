@@ -132,8 +132,8 @@ html[dir="rtl"] body {
 	width: 1.5rem!important;
 	max-width: 2rem;
 	position: absolute !important;
-	top: 1.9rem;
-	right: -1rem;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .actionMenu .searchIcon img {
