@@ -640,6 +640,7 @@ html[dir="rtl"] .text-editor-description p {
 	color: var(--medium-blue) !important;
 	line-height: 1.8;
 	font-family: var(--helvetica) !important;
+	margin-bottom: 0!important;
 }
 
 .grey_background_color {
