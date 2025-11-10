@@ -1781,7 +1781,7 @@ html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
 }
 
 .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
-	/* margin: unset; */
+	margin: unset;
 }
 
 .contactSection .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
@@ -2313,7 +2313,10 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 	}
 }
 @media(min-width:992px) {
-	.topHeader .fusion-layout-column{
+	.fusion-tb-header .fusion-layout-column{
+		width: var(--awb-col-width);
+	}
+	.topHeader .fusion-builder-row{
 		width:100%;
 	}
 	.topBar{
