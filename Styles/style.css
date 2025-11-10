@@ -2322,6 +2322,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 	}
 	.topHeader .fusion-builder-row{
 		width:100%;
+		max-width: 100%!important;
 	}
 	.topBar{
 		min-width: unset;
