@@ -2313,6 +2313,13 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 	}
 }
 @media(min-width:992px) {
+	.topHeader .fusion-layout-column{
+		width:100%;
+	}
+	.topBar{
+		min-width: unset;
+		right: unset;
+	}
 	#header.header .fusion-column-wrapper>div:first-child{
 		display:block;
 	}
@@ -2320,6 +2327,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 		position:relative!important;
 		top:unset;
 		right:unset;
+		transform: none;
 	}
 	html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
 	padding: 0 !important;
