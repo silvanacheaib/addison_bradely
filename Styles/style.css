@@ -645,8 +645,8 @@ html[dir="rtl"] .text-editor-description p {
 
 .grey_background_color {
 	background-color: #f8f8f8;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
+	/* padding-top: 3rem; */
+	/* padding-bottom: 3rem; */
 }
 
 .grey_background_color .text-editor-subtitle p {
