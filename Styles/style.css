@@ -2025,6 +2025,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	text-transform: uppercase;
 	letter-spacing: 0.07rem;
 	font-size: .9rem !important;
+	margin-top: 1rem;
 }
 
 .textEditorButton i {
