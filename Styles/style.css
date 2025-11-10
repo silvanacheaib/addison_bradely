@@ -18,6 +18,9 @@ body {
 b{
 	font-family:var(--helvetica-bold)!important;
 }
+br{
+	display: none!important;
+}
 span.awb-menu__m-collapse-icon-close.awb-menu__m-collapse-icon-close_no-text.fa-align-right.fas::before {
     color: white;
 }
