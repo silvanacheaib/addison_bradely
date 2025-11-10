@@ -2314,6 +2314,10 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 	}
 }
 @media(min-width:992px) {
+	.text-editor-container.horizontalView{
+		padding-top:3rem!important;
+		padding-bottom:3rem!important;
+	}
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
 		width:100%!important;
 	}
