@@ -651,7 +651,7 @@ html[dir="rtl"] .text-editor-description p {
 .grey_background_color .text-editor-subtitle p {
 	color: var(--medium-blue);
 	font-size: 1.5rem;
-	width: 39%;
+	/* width: 39%; */
 	font-family: var(--helvetica-bold) !important;
 }
 
