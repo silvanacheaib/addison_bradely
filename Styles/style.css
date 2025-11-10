@@ -786,6 +786,7 @@ html body .subTitle .fusion-title-heading {
 	color: #235cb1 !important;
 	font-family: var(--helvetica)!important;
 	font-size: 1.2rem !important;
+	width: 80%;
 }
 .ourValuesContainer .subTitle .fusion-title-heading{
 	color: #111D38!important;
