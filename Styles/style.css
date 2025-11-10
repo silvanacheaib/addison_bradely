@@ -1109,8 +1109,8 @@ html[dir="rtl"] .pageIntroTitle {
 
 .awb-menu__sub-ul {
 	background-color: #ffffff;
-	border-radius: 20px 20px 20px 20px;
-	margin-top: 30px !important;
+	/* border-radius: 20px 20px 20px 20px;
+	margin-top: 30px !important; */
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5) !important;
 }
 
