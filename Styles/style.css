@@ -58,6 +58,16 @@
 		transform:translateY(0);
 	}
 }
+@keyframes zoomOut{
+	0%{
+		opacity:0;
+		scale:1.1;
+	}
+	100%{
+		opacity:1;
+		scale:1;
+	}
+}
 html,
 body {
 	font-weight: 500;
@@ -1800,6 +1810,9 @@ html body .fusion-layout-column.heroImage {
 	height: 100% !important;
 	width: 100% !important;
 	object-fit: cover;
+	opacity: 0;
+	scale: 1.1;
+	animation: 1s zoomOut forwards;
 }
 .hero-section-container  .fusion-row {
 	margin:0!important;
