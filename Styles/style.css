@@ -1128,7 +1128,9 @@ html[dir="rtl"] .pageIntroTitle {
 html[dir="rtl"] .awb-menu__sub-ul li a {
 	font-family: var(--cairoRegular);
 }
-
+html[dir="rtl"] .awb-menu__sub-ul li a span::before{
+	scale:-1;
+}
 .heroTitle h1 {
 	color: #121e38 !important;
 	font-family: var(--helvetica-bold);
