@@ -2462,7 +2462,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 		margin-left: 2rem !important;
 	}
 
-	html[dir="ltr"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last-child) .fusion-imageframe::after {
+	.ourValuesContainer .fusion-grid .fusion-layout-column:not(:last-child) .fusion-imageframe::after {
 		content: "";
 		position: absolute;
 		top: 50%;
