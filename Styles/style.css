@@ -89,6 +89,9 @@ br{
 	padding-left:1rem;
 	padding-right:1rem;
 }
+.fusion-tb-page-title-bar .fusion-fullwidth .fusion-builder-row{
+	max-width:unset!important;
+}
 .fusion-page-title-bar.fusion-tb-page-title-bar .fusion-fullwidth{
 	margin:0!important;
 	padding:0!important;
