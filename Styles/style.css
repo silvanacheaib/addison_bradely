@@ -239,15 +239,17 @@ div#searchBoxContainer .fusion-builder-row .fusion-layout-column .fusion-search-
 	margin: 0 !important;
 }
 
-.container {
+html body .container {
 	max-width: 100% !important;
 	width: 100% !important;
 	margin: 0;
 	padding-left: 1rem !important;
 	padding-right: 1rem !important;
 	overflow: unset!important;
+	position: relative;
 }
-
+html body .container .fusion-builder-row{
+margin:0!important;}
 .awb-menu .awb-menu__main-ul {
 	align-content: center;
 }
@@ -2527,13 +2529,14 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column {
 		width: 50% !important;
 	}
-	.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child {
-		padding-right: 0rem !important;
-		padding-left: 4rem !important
-	}
+
 	html[dir="rtl"] .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child {
 		padding-right: 4rem !important;
 		padding-left: 0 !important
+	}
+		.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child {
+		padding-right: 0rem !important;
+		padding-left: 4rem !important
 	}
 
 }
