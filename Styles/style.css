@@ -21,6 +21,15 @@ b{
 br{
 	display: none!important;
 }
+.fusion-page-title-bar.fusion-tb-page-title-bar{
+	padding-left:1rem;
+	padding-right:1rem;
+}
+.fusion-page-title-bar.fusion-tb-page-title-bar .fusion-fullwidth{
+	margin:0!important;
+	padding:0!important;
+	width: 100%!important;
+}
 span.awb-menu__m-collapse-icon-close.awb-menu__m-collapse-icon-close_no-text.fa-align-right.fas::before {
     color: white;
 }
@@ -131,7 +140,9 @@ html[dir="rtl"] body {
 	align-items: center;
 	gap: .5rem;
 }
-
+.topHeader .actionMenu .fusion-column-wrapper{
+	margin:0!important;
+}
 .actionMenu .fusion-image-element {
 	height: 1.5rem!important;
 	width: 1.5rem!important;
@@ -2482,6 +2493,10 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 
 }
 @media(min-width:1200px) {
+	.fusion-page-title-bar.fusion-tb-page-title-bar{
+	padding-left:8rem;
+	padding-right:8rem;
+}
 	.providersContainer {
 		padding-left: 6rem;
 	}
