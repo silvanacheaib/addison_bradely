@@ -1589,7 +1589,9 @@ html[dir="rtl"] .contactTile .fusion-grid fusion-grid-1 .fusion-layout-column {
 	margin-top: 3rem;
 	align-items: flex-start;
 }
-
+.contactSection .contactTile  .fusion-layout-column{
+	margin-bottom:1rem!important;
+}
 .contactTile .tileDescription {
 	color: white;
 	width: 100% !important;
