@@ -1511,6 +1511,10 @@ html[dir="rtl"] .ourServicesContainer .fusion-button{
 }
 
 /* TESTIMONIALS */
+html body .width-100 .nonhundred-percent-fullwidth:not(.container).testimonialsContainer{
+	padding-top:3rem!important;
+	padding-bottom:3rem!important;
+}
 .testimonialsContainer .awb-swiper-button-prev,
 .testimonialsContainer .awb-swiper-button-next {
 	height: 100%;
