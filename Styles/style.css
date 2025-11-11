@@ -18,6 +18,12 @@ body {
 b{
 	font-family:var(--helvetica-bold)!important;
 }
+html[dir="rtl"] b{
+	font-family:var(--cairoBold)!important;
+}
+html[dir="rtl"] header #getInTouchBtn span{
+	font-family: var(--cairoRegular)!important;
+}
 br{
 	display: none!important;
 }
