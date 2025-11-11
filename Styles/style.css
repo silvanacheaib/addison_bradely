@@ -79,6 +79,9 @@ a[title="disabled link"]{
 b{
 	font-family:var(--helvetica-bold)!important;
 }
+p{
+	margin-bottom:0!important;
+}
 html[dir="rtl"] b{
 	font-family:var(--cairoBold)!important;
 }
@@ -493,7 +496,7 @@ header nav.awb-menu {
 }
 
 .providersContainer .fusion-imageframe {
-	width: 6rem !important;
+	width: 8rem !important;
 	height: auto !important;
 }
 
@@ -833,7 +836,9 @@ html body .subTitle .fusion-title-heading {
 	text-transform: uppercase;
 	font-family: var(--helvetica-bold) !important;
 }
-
+.ourServicesContainer .subTitle .fusion-title-heading{
+	text-transform:uppercase!important;
+}
 html body .appTitle h1.fusion-title-heading {
 	text-align: left !important;
 	font-size: 2rem !important;
@@ -890,7 +895,7 @@ html[dir="rtl"] body .subTitle .fusion-title-heading {
 }
 
 .providersIntro .fusion-title.title {
-	margin: 0 !important;
+	margin: 0 0 0.3rem!important;
 }
 
 .providersIntro .fusion-text {
@@ -1327,7 +1332,7 @@ html[dir="rtl"] .providersContainer .fusion-text-3 p{
 	font-weight: 400 !important;
 	line-height: 2rem !important;
 	/* text-align: left!important; */
-	margin-bottom: 0.6rem;
+	margin-bottom: 0.6rem!important;
 }
 
 html[dir="rtl"] .cvTitle p {
@@ -1391,6 +1396,7 @@ html[dir="rtl"] .cvTitle h1 {
 	font-family: var(--helvetica);
 	font-weight: 400;
 	line-height: 1.7em;
+	margin-bottom: 0.9rem!important;
 }
 
 html[dir="rtl"] .cv_description p {
@@ -1470,6 +1476,8 @@ html[dir="rtl"] .ourServicesContainer .awb-swiper-button-prev i{
 .servicesContainer h1.fusion-title-heading.title-heading-left.fusion-responsive-typography-calculated {
 	font-size: 1.5rem !important;
 	color: white !important;
+	text-transform: uppercase;
+	font-weight: var(--helvetica-bold)!important;
 }
 
 .awb-stars-rating-text {
@@ -1573,11 +1581,11 @@ html body .contactSection .fusion-title.appTitle h1.fusion-title-heading {
 	padding: 0.3rem;
 	position: absolute;
 	bottom: 1rem;
-	right: 1.6rem;
+	right: 3rem;
 	transition: var(--transition);
 }
 html[dir="rtl"] .ourServicesContainer .fusion-button{
-	left:1.6rem;
+	left:3rem;
 	right:auto;
 	scale:-1;
 }
@@ -2622,6 +2630,8 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 		padding-left: 8rem!important;
 		padding-right: 2rem!important;
 		width: auto;
+		padding-top: 1rem;
+		padding-bottom: 2rem;
 	}
 	html[dir="rtl"] .providersIntro {
 			padding-right: 8rem!important;
@@ -2652,7 +2662,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	}
 		.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child {
 		padding-right: 0rem !important;
-		padding-left: 4rem !important
+		padding-left: 6rem !important;
 	}
 
 }
