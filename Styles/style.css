@@ -103,7 +103,8 @@ header.header{
 	display: flex;
 	align-items: center;
 }
-html[dir="rtl"] .post-content p{
+html[dir="rtl"] .post-content p,
+html[dir="rtl"] .testimonials .testimonialCard .fusion-text.testimonialDesc p{
 	font-family:var(--cairoRegular)!important;
 	text-align: right;
 }
