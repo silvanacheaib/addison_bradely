@@ -108,6 +108,9 @@ html[dir="rtl"] .testimonials .testimonialCard .fusion-text.testimonialDesc p{
 	font-family:var(--cairoRegular)!important;
 	text-align: right;
 }
+html[dir="rtl"] .contactSection .fusion-button{
+		font-family:var(--cairoRegular)!important;
+}
 #main .fusion-row,
 #slidingbar-area .fusion-row,
 .fusion-footer-widget-area .fusion-row,
