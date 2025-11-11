@@ -1044,7 +1044,7 @@ html[dir="rtl"] .pageIntroTitle {
 
 .awb-icon-linkedin:before {
 	content: "";
-	background-image: url(http://3.29.18.204/wp-content/uploads/2025/09/Fill-1.svg);
+	background-image: url(http://3.28.188.20/wp-content/uploads/2025/09/Fill-1.svg);
 	background-size: contain;
 	height: 100%;
 	width: 100%;
@@ -1644,7 +1644,10 @@ footer {
 	padding-top: 2rem;
 	padding-bottom: 0rem;
 }
-
+.copyrightSection .fusion-column-wrapper{
+	margin:0!important;
+	padding:0!important;
+}
 .copyrightSection p {
 	margin-bottom: 0.3rem;
 }
