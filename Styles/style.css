@@ -134,6 +134,7 @@ html[dir="rtl"] .post-content p,
 html[dir="rtl"] .testimonials .testimonialCard .fusion-text.testimonialDesc p{
 	font-family:var(--cairoRegular)!important;
 	text-align: right;
+	font-size:1rem;
 }
 html[dir="rtl"] .contactSection .fusion-button{
 		font-family:var(--cairoRegular)!important;
@@ -1235,13 +1236,14 @@ html[dir="rtl"] .heroDescription p{
 .providersContainer .fusion-image-carousel {
 	margin: 0 !important;
 }
-.providersContainer .fusion-text-3 {
+.providersContainer .fusion-text-3 p {
 	font-family: "Helvetica", Sans-serif;
-	font-size: 20px;
 	font-weight: 400;
 	line-height: 27px
 }
-
+html[dir="rtl"] .providersContainer .fusion-text-3 p{
+	margin-top:1rem;
+}
 .providersContainer .fusion-text-4 {
 	font-family: var(--helvetica);
 	font-size: 16px;
