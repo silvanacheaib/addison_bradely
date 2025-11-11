@@ -248,8 +248,10 @@ html body .container {
 	overflow: unset!important;
 	position: relative;
 }
-html body .container .fusion-builder-row{
-margin:0!important;}
+html body .container .fusion-builder-row,
+.fusion-builder-row{
+	margin:0!important;
+}
 .awb-menu .awb-menu__main-ul {
 	align-content: center;
 }
