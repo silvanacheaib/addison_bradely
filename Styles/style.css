@@ -93,7 +93,7 @@ br{
 	padding-right:1rem;
 }
 .fusion-tb-page-title-bar .fusion-fullwidth .fusion-builder-row{
-	max-width:unset!important;
+	max-width: 100%!important;
 }
 .fusion-page-title-bar.fusion-tb-page-title-bar .fusion-fullwidth{
 	margin:0!important;
@@ -959,6 +959,7 @@ footer .fusion-column-wrapper nav .menu-text {
 html[dir="rtl"] #header.header .fusion-column-wrapper nav .menu-text,
 html[dir="rtl"] footer .fusion-column-wrapper nav .menu-text {
 	font-family: var(--cairoRegular);
+	font-size:1rem;
 }
 
 .navbar .awb-menu__main-a {
