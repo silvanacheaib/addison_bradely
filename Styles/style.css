@@ -1752,10 +1752,8 @@ html body .fusion-layout-column.heroImage {
 	width: 100% !important;
 	object-fit: cover;
 }
-
-#wrapper #main .fullwidth-box .fusion-row {
-	/* margin: 0 !important; */
-	/* max-width: unset !important; */
+.hero-section-container  .fusion-row {
+	margin:0!important;
 }
 .textEditor {
     padding-top: 2rem;
@@ -1769,7 +1767,6 @@ html body .fusion-layout-column.heroImage {
 .width-100 .fusion-fullwidth,
 .width-100 .nonhundred-percent-fullwidth {
 	width: 100% !important;
-	/* padding:0!important; */
 	margin: 0 !important;
 }
 
