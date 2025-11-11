@@ -478,7 +478,15 @@ header nav.awb-menu {
 	margin-left: 0rem !important;
 	border-left: 1px solid rgb(0 0 0 /52%);
 }
-
+html[dir="rtl"] .providersContainer .awb-swiper {
+	margin-left: 0rem !important;
+	margin-right:0!important;
+	border-right: 1px solid rgb(0 0 0 /52%);
+	border-left:none;
+}
+.providersContainer .servicesImage{
+	margin:0!important;
+}
 .providersContainer .fusion-text {
 	font-size: .85rem !important;
 	text-align: inherit;
@@ -970,11 +978,6 @@ a.getInTouchButton span {
 .heroImage img {
 	/* width:1200px!important; */
 }
-
-.providersIntro {
-	padding-left: 1rem;
-}
-
 button.header-search-wrapper {
 	background-color: transparent;
 	border: none;
@@ -1189,9 +1192,6 @@ html[dir="rtl"] .heroDescription p{
 
 .providersContainer .fusion-image-carousel {
 	margin: 0 !important;
-}
-.providersContainer .fusion-layout-column {
-	/* padding:0!important; */
 }
 .providersContainer .fusion-text-3 {
 	font-family: "Helvetica", Sans-serif;
@@ -2504,6 +2504,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	.providersContainer .fusion-row {
 		display: flex;
 		flex-direction: row !important;
+		margin: 0!important;
 	}
 
 	.providersIntro {
@@ -2511,7 +2512,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 		padding-right: 2rem!important;
 	}
 	html[dir="rtl"] .providersIntro {
-			padding-right: 6rem!important;
+			padding-right: 8rem!important;
 			padding-left: 2rem!important;
 			width: auto;
 		}
