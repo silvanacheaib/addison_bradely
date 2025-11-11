@@ -2128,7 +2128,14 @@ html[dir="rtl"] .stepContainer .stepDescription p{
 	justify-content: center;
 
 }
-
+html[dir="rtl"] .textEditorButton span{
+	font-family:var(--cairoRegular);
+}
+html[dir="rtl"] .textEditorButton i {
+	scale:-1;
+	margin-right:.6rem;
+	margin-left:0;
+}
 .textEditorButton i::before {
 	color: #235cb1 !important;
 	top: 50%;
