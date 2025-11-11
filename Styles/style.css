@@ -1073,7 +1073,6 @@ height:unset!important;
 	margin: 0!important;
 	padding: 0 2.6rem!important;
 	color: #4B6F9F;
-	text-transform: uppercase;
 }
 .fusion-page-title-bar .fusion-page-title-row h1::before{
 	content:"";
@@ -2616,8 +2615,9 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	}
 
 	.providersIntro {
-		padding-left: 6rem!important;
+		padding-left: 8rem!important;
 		padding-right: 2rem!important;
+		width: auto;
 	}
 	html[dir="rtl"] .providersIntro {
 			padding-right: 8rem!important;
