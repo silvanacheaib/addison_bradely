@@ -377,6 +377,7 @@ html[dir="rtl"] .trp-language-switcher-container.current-language-menu-item a[ti
 	clip-path: ellipse(100% 54% at 47% 47%);
 	overflow: hidden !important;
 	height: 100% !important;
+	width: 100%!important;
 }
 
 .hero-section-container .fusion-button {
