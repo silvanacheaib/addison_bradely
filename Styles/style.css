@@ -2033,7 +2033,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	background-color: white;
 	border-radius: 1rem;
 	overflow: hidden;
-	max-width: 46rem !important;
+	max-width: 61%!important;
 }
 
 .faqSection .fusion-column-wrapper {
