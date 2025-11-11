@@ -85,6 +85,9 @@ html[dir="rtl"] header #getInTouchBtn span{
 br{
 	display: none!important;
 }
+.topHeader .fusion-column-wrapper{
+	margin:0!important;
+}
 .fusion-page-title-bar.fusion-tb-page-title-bar{
 	padding-left:1rem;
 	padding-right:1rem;
@@ -2481,7 +2484,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 	.actionMenu .fusion-image-element {
 		position:relative!important;
 		top:unset;
-		right:unset;
+		right: 0;
 		transform: none;
 	}
 	html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
