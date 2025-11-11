@@ -1058,16 +1058,37 @@ button.header-search-wrapper span {
 
 }
 
-.pageIntroTitle {
+.pageIntroTitle,
+.fusion-page-title-bar .fusion-page-title-row h1{
 	font-weight: 600;
 	font-size: 1rem;
 	font-family: var(--helvetica-bold);
 	width: 100%!important;
 	margin-right:0!important;
 	margin-left: 0.9rem!important;
+	text-align: justify;
+	position: relative;
+	margin: 0!important;
+	padding: 0 2rem!important;
 }
-
-html[dir="rtl"] .pageIntroTitle {
+.fusion-page-title-bar .fusion-page-title-row h1::before{
+	content:"";
+	background-image:url("https://silvanacheaib.github.io/addison_bradely/Images/pageTitleBar.svg");
+	height:1rem;
+	width:1rem;
+	background-repeat:no-repeat;
+	background-position:center;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	left: 0;
+}
+.fusion-page-title-bar .fusion-page-title-wrapper{
+	height:unset;
+	padding: 1rem 0;
+}
+html[dir="rtl"] .pageIntroTitle,
+html[dir="rtl"] .fusion-page-title-bar .fusion-page-title-row h1{
 	font-family: var(--cairoRegular);
 	margin-left:0!important;
 	margin-right:1rem!important;
