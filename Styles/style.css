@@ -2551,7 +2551,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	.providersContainer {
 		padding-left: 6rem;
 	}
-	.container {
+	html body .container {
 		max-width: 100% !important;
 		width: 100% !important;
 		margin: 0;
