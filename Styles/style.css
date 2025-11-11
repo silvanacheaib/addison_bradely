@@ -2410,8 +2410,8 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 }
 .valueDescription p{
     font-size:.75rem;
-    text-transform:lowercase
-    
+    text-transform:lowercase;
+	text-transform: math-auto;
 }
 .valueDescription {
   position: absolute;
