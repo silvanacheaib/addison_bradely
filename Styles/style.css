@@ -1712,6 +1712,8 @@ footer {
 }
 .contactSection.container.fusion-flex-container.bg-transparent{
 	background: transparent!important;
+	padding-top: 0!important;
+	padding-bottom: 0!Important;
 }
 .contactSection p {
 	color: rgb(255 255 255 / 70%);
