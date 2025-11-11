@@ -2375,6 +2375,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 	}
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
 		width:100%!important;
+		padding: 0;
 	}
 	    .fusion-post-cards>.fusion-grid>.fusion-grid-column.stepContainer {
         width: 31% !important;
@@ -2501,6 +2502,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	html[dir="rtl"] .providersIntro {
 			padding-right: 6rem!important;
 			padding-left: 2rem!important;
+			width: auto;
 		}
 	.heroTitle h1 {
 		font-size: 2.2rem !important;
