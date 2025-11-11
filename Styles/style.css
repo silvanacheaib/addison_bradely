@@ -1337,10 +1337,12 @@ html[dir="rtl"] .cv_description p {
 }
 html[dir="rtl"] .ourServicesContainer .awb-swiper-button-next {
 	left: -8rem!important;
+	right: auto!important;
 	width:8rem;
 }
 html[dir="rtl"] .ourServicesContainer .awb-swiper-button-prev {
 	right: -8rem!important;
+	left: auto!important;
 	width:8rem;
 }
 html[dir="rtl"] .ourServicesContainer .awb-swiper-button-next i,
