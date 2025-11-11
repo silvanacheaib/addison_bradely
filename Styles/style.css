@@ -1137,10 +1137,10 @@ html[dir="rtl"] .pageIntroTitle {
 .ourServicesContainer .swiper-wrapper .swiper-slide .serviceCaption {
 	width: 80%;
 	margin: auto;
-	display: -webkit-box;
+	/* display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 3;
-	overflow: hidden;
+	overflow: hidden; */
 	line-height: 1.4;
 	font-size: 1.01rem;
 }
