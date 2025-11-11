@@ -367,8 +367,8 @@ html[dir="rtl"] .trp-language-switcher-container:first-child {
 	color: var(--dark-blue);
 }
 
-.current-language-menu-item a span {
-	/* color: var(--light-blue); */
+html[lang="en-US"] .current-language-menu-item a span {
+	color: var(--light-blue);
 }
 html[dir="rtl"] .trp-language-switcher-container.current-language-menu-item a[title="English"] span {
 	color: var(--light-blue);
