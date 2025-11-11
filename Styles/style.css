@@ -123,7 +123,12 @@ html[dir="rtl"] body {
 }
 .fusion-body:not(.avada-has-page-title-mobile-height-auto) .fusion-page-title-bar:not(.fusion-tb-page-title-bar){
 	min-height: unset!important;
+	
 }
+    .fusion-page-title-row {
+        height: unset;
+        min-height: unset !important;
+    }
 .textEditorContainer{
 	padding-top:2rem!important;
 	padding-bottom:2rem!important;
