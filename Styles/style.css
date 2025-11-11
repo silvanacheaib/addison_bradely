@@ -276,6 +276,17 @@ html body .container .fusion-builder-row,
 .testimonialsContainer .fusion-column-wrapper{
 	margin:0!important;
 }
+html body .contactSection .fusion-column-wrapper > .fusion-builder-row:first-child{
+	margin: 0 0rem!important;
+	gap: 0.7rem;
+	display: flex;
+	flex-wrap: nowrap;
+	max-width: 90%!important;
+}
+.contactSection .firstNameContact .fusion-column-wrapper,
+.contactSection .lastNameContact .fusion-column-wrapper{
+	margin:0!important;
+}
 .awb-menu .awb-menu__main-ul {
 	align-content: center;
 }
@@ -1875,7 +1886,12 @@ html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
 .contactSection .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
 	margin-left: var(--awb-spacing-right);
 }
-
+.contactSection .fusion-layout-column .fusion-column-wrapper:has(.firstNameContact){
+	margin:0!important;
+}
+.contactSection .fusion-layout-column .fusion-column-wrapper .lastNameContact{
+	width: 50%;
+}
 li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-column.heroImage.post-card.fusion-grid-column.fusion-post-cards-grid-column {
 	width: 100% !important;
 	margin: 0 !important;
