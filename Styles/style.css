@@ -1265,6 +1265,7 @@ html[dir="rtl"] .heroTitle h1{
 	font-weight: 500;
 	line-height: 1.5rem;
 	color: #121E38;
+	margin-bottom: 1rem!important;
 }
 html[dir="rtl"] .heroDescription p{
 	font-family:var(--cairoRegular);
