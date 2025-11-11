@@ -1071,7 +1071,7 @@ height:unset!important;
 	text-align: justify;
 	position: relative;
 	margin: 0!important;
-	padding: 0 2.6rem!important;
+	padding: 0  2.4rem!important;
 	color: #4B6F9F;
 }
 .fusion-page-title-bar .fusion-page-title-row h1::before{
@@ -1086,6 +1086,10 @@ height:unset!important;
 	transform:translateY(-50%);
 	left: 0;
 }
+html[dir="rtl"] .fusion-page-title-bar .fusion-page-title-row h1::before{
+	right:0;
+	left:auto;
+}
 .fusion-page-title-bar .fusion-page-title-wrapper{
 	height:unset;
 	padding: 1.5rem 0;
@@ -1094,7 +1098,7 @@ html[dir="rtl"] .pageIntroTitle,
 html[dir="rtl"] .fusion-page-title-bar .fusion-page-title-row h1{
 	font-family: var(--cairoRegular);
 	margin-left:0!important;
-	margin-right:1rem!important;
+	/* margin-right:1rem!important; */
 }
 
 .formTitle {
