@@ -872,8 +872,10 @@ html body .subTitle .fusion-title-heading {
 	width: 80%;
 }
 .ourValuesContainer .subTitle .fusion-title-heading{
-	color: #111D38!important;
-	font-family: var(--helvetica)!important;
+	color: #2D4B78!important;
+	font-family: var(--helvetica-bold)!important;
+	text-transform: uppercase;
+	width: 85%;
 }
 .ourValuesContainer .fusion-text p{
 	color: #2D4B79!important;
