@@ -79,6 +79,10 @@ a[title="disabled link"]{
 b{
 	font-family:var(--helvetica-bold)!important;
 }
+.ptb-0{
+	padding-top:0 !important;
+	padding-bottom: 0!important;
+}
 p{
 	margin-bottom:0!important;
 }
