@@ -9,47 +9,6 @@
 	--cairoBold:"Cairo Bold";
 	--transition: all .3s ease-in-out;
 }
-
-html,
-body {
-	font-weight: 500;
-	font-family: var(--helvetica) !important;
-}
-b{
-	font-family:var(--helvetica-bold)!important;
-}
-html[dir="rtl"] b{
-	font-family:var(--cairoBold)!important;
-}
-html[dir="rtl"] header #getInTouchBtn span{
-	font-family: var(--cairoRegular)!important;
-}
-br{
-	display: none!important;
-}
-.fusion-page-title-bar.fusion-tb-page-title-bar{
-	padding-left:1rem;
-	padding-right:1rem;
-}
-.fusion-page-title-bar.fusion-tb-page-title-bar .fusion-fullwidth{
-	margin:0!important;
-	padding:0!important;
-	width: 100%!important;
-}
-span.awb-menu__m-collapse-icon-close.awb-menu__m-collapse-icon-close_no-text.fa-align-right.fas::before {
-    color: white;
-}
-.valueContainer:hover {
-    z-index: 11;
-}
-html[dir="rtl"],
-html[dir="rtl"] body {
-	font-weight: 500;
-	font-family: var(--cairoRegular) !important;
-}
-#toTop{
-	display: none!important;
-}
 @font-face {
 	font-family: "Helvetica";
 	src: url("../Fonts/Helvetica.ttf") format("truetype");
@@ -98,6 +57,51 @@ html[dir="rtl"] body {
 		opacity: 1;
 		transform:translateY(0);
 	}
+}
+html,
+body {
+	font-weight: 500;
+	font-family: var(--helvetica) !important;
+}
+b{
+	font-family:var(--helvetica-bold)!important;
+}
+html[dir="rtl"] b{
+	font-family:var(--cairoBold)!important;
+}
+html[dir="rtl"] header #getInTouchBtn span{
+	font-family: var(--cairoRegular)!important;
+}
+br{
+	display: none!important;
+}
+.fusion-page-title-bar.fusion-tb-page-title-bar{
+	padding-left:1rem;
+	padding-right:1rem;
+}
+.fusion-page-title-bar.fusion-tb-page-title-bar .fusion-fullwidth{
+	margin:0!important;
+	padding:0!important;
+	width: 100%!important;
+}
+span.awb-menu__m-collapse-icon-close.awb-menu__m-collapse-icon-close_no-text.fa-align-right.fas::before {
+    color: white;
+}
+.valueContainer:hover {
+    z-index: 11;
+}
+html[dir="rtl"],
+html[dir="rtl"] body {
+	font-weight: 500;
+	font-family: var(--cairoRegular) !important;
+}
+#toTop{
+	display: none!important;
+}
+
+.textEditorContainer{
+	padding-top:2rem!important;
+	padding-bottom:2rem!important;
 }
 .topHeader,
 header.header{
