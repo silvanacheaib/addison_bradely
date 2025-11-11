@@ -76,7 +76,7 @@ body {
 a[title="disabled link"]{
 	pointer-events: none!important;
 }
-b{
+b,strong{
 	font-family:var(--helvetica-bold)!important;
 }
 .ptb-0{
