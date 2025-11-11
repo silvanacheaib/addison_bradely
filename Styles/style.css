@@ -2087,7 +2087,16 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	margin: 0;
 	height: 7rem;
 }
-
+html[dir="rtl"] .stepContainer .stepNumber {
+	padding: 1rem 0rem 1rem 3rem;
+	border-left: 1px solid var(--dark-blue);
+	border-right:none;
+}
+html[dir="rtl"] .stepContainer .stepTitle p,
+html[dir="rtl"] .stepContainer .stepDescription p{
+	margin-right:1rem;
+	margin-left:0;
+}
 .stepContainer {
 	width: 33.33% !important;
 }
