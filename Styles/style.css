@@ -368,9 +368,11 @@ html[dir="rtl"] .trp-language-switcher-container:first-child {
 }
 
 .current-language-menu-item a span {
+	/* color: var(--light-blue); */
+}
+html[dir="rtl"] .trp-language-switcher-container.current-language-menu-item a[title="English"] span {
 	color: var(--light-blue);
 }
-
 .hero-section-container .swiper-slide {
 	clip-path: ellipse(100% 54% at 47% 47%);
 	overflow: hidden !important;
