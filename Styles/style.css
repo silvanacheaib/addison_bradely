@@ -493,7 +493,10 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	font-size: 1rem;
 	width: 100%;
 }
-
+.servicesContainer .fusion-text.serviceCaption p{
+	margin-bottom:0!important;
+	text-align:center;
+}
 .servicesContainer .awb-imageframe-caption {
 	border: 3px solid white;
 }
@@ -1324,11 +1327,22 @@ html[dir="rtl"] .cv_description p {
 	left: -6.2rem;
 }
 
-.ourServicesContainer .awb-swiper-button-next {
+html[dir="ltr"] .ourServicesContainer .awb-swiper-button-next {
 	right: -8rem!important;
 	width:8rem;
 }
-
+html[dir="rtl"] .ourServicesContainer .awb-swiper-button-next {
+	left: -8rem!important;
+	width:8rem;
+}
+html[dir="rtl"] .ourServicesContainer .awb-swiper-button-prev {
+	right: -8rem!important;
+	width:8rem;
+}
+html[dir="rtl"] .ourServicesContainer .awb-swiper-button-next i,
+html[dir="rtl"] .ourServicesContainer .awb-swiper-button-prev i{
+	scale:-1;
+}
 .ourServicesContainer .awb-swiper-button i {
 	background-color: var(--light-blue) !important;
 	height: 2.5rem;
@@ -1476,7 +1490,11 @@ html body .contactSection .fusion-title.appTitle h1.fusion-title-heading {
 	right: 1.6rem;
 	transition: var(--transition);
 }
-
+html[dir="rtl"] .ourServicesContainer .fusion-button{
+	left:1.6rem;
+	right:auto;
+	scale:-1;
+}
 .ourServicesContainer .fusion-button i::before {
 	color: var(--light-blue);
 	font-size: 1.4rem;
