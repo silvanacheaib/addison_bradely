@@ -1088,7 +1088,7 @@ height:unset!important;
 }
 .fusion-page-title-bar .fusion-page-title-wrapper{
 	height:unset;
-	padding: 1rem 0;
+	padding: 1.5rem 0;
 }
 html[dir="rtl"] .pageIntroTitle,
 html[dir="rtl"] .fusion-page-title-bar .fusion-page-title-row h1{
