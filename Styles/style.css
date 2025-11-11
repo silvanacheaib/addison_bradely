@@ -2487,7 +2487,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 		background-repeat: no-repeat;
 	}
 	.aboutUsContainer .fusion-column-wrapper .fusion-image-element {
-		width: 34rem;
+		/* width: 34rem; */
 	}
 
 	.providersContainer .fusion-row {
