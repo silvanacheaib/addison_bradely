@@ -2542,11 +2542,11 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 .dark_background_color .text-editor-description h4{
 	color:white!important;
 }
-.horizontalView.dark_background_color .text-editor-description p{
+.dark_background_color .horizontalView .text-editor-description p{
 	margin-top:1rem;
-	margin-bottom:1rem!important;
+	/* margin-bottom:1.5rem!important; */
 }
-.horizontalView .text-editor-description h4{
+.horizontalView .text-editor-description h4:first-child{
 	margin-top:0
 }
 @media(min-width:768px){
