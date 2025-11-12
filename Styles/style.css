@@ -2512,8 +2512,9 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 		width:100%;
 	}
 	.text-editor-title h4 {
-    font-size: 24px!important;
-    margin: 0;
+    font-size: 22px!important;
+	color:var(--medium-blue)!important;
+    margin:1rem 0 0;
 }
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
