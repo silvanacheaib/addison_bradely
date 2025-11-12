@@ -771,6 +771,9 @@ html[dir="rtl"] .text-editor-description ul li{
 .horizontalView .text-editor-subtitle{
 	margin-bottom:1rem;
 }
+.fusion-text.fusion-text-3.text-editor-subtitle:empty {
+    display: none;
+}
 .grey_background_color .text-editor-description p,
 .grey_background_color .text-editor-description ul li{
 	color: var(--medium-blue) !important;
