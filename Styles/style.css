@@ -2627,7 +2627,7 @@ padding-bottom:2rem;
 }
 	.testimonialCard {
 	padding: 5rem 3rem 2rem!important;
-	height: 20rem;
+	height: 22rem!important;
 }
 	html body .width-100 .fusion-fullwidth.servicesContainer {
 		background-color: var(--dark-blue);
