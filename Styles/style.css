@@ -714,7 +714,13 @@ html[dir="rtl"] .text-editor-description p {
 	font-family: var(--helvetica) !important;
 	margin-bottom: 0!important;
 }
-
+.text-editor-description h5{
+	color: var(--medium-blue) !important;
+	line-height: 1.8;
+	font-family: var(--helvetica-bold) !important;
+	margin-bottom: 0!important;
+	font-size:1.05rem;
+}
 .grey_background_color {
 	background-color: #f8f8f8;
 }
