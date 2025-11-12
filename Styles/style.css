@@ -344,8 +344,8 @@ justify-content:flex-start!important;
 	height: 1rem;
 }
 .dark_background_color {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	/* padding-top: 2rem; */
+	/* padding-bottom: 2rem; */
 }
 .dark_background_color h1,
 .dark_background_color h2,
