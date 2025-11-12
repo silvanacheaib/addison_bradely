@@ -73,6 +73,9 @@ body {
 	font-weight: 500;
 	font-family: var(--helvetica) !important;
 }
+.container > .fusion-column-wrapper{
+	margin:0!important;
+}
 a[title="disabled link"]{
 	pointer-events: none!important;
 }
