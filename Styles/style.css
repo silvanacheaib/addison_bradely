@@ -203,7 +203,15 @@ html[dir="rtl"] .contactSection .fusion-button{
 	max-width: unset !important;
 	margin: 0!important;
 }
-
+.contactForm .fusion-column-wrapper > .fusion-builder-row{
+	width:90%;
+}
+.contactForm .fusion-column-wrapper > .fusion-builder-row .fusion-layout-column{
+	width:47%;
+}
+.contactForm .fusion-column-wrapper > .fusion-builder-row .fusion-layout-column .fusion-column-wrapper{
+     width: 92%;
+ }
 html[dir="rtl"],
 html[dir="rtl"] body {
 	text-align: right !important;
@@ -329,7 +337,7 @@ html body .container {
 }
 .contactSection .firstNameContact .fusion-column-wrapper,
 .contactSection .lastNameContact .fusion-column-wrapper{
-	margin:0!important;
+	/* margin:0!important; */
 }
 .awb-menu .awb-menu__main-ul {
 	align-content: center;
@@ -1782,9 +1790,9 @@ html[dir="rtl"] .contactTile .fusion-grid fusion-grid-1 .fusion-layout-column {
 
 .contactTile .fusion-layout-column.fusion_builder_column_inner.fusion-builder-nested-column-19.fusion_builder_column_inner_1_2.\31 _2.fusion-flex-column,
 .fusion-layout-column.fusion_builder_column_inner.fusion-builder-nested-column-21.fusion_builder_column_inner_1_2.\31 _2.fusion-flex-column {
-	width: 80% !important;
-	display: flex;
-	flex-direction: column !important;
+	/* width: 80% !important; */
+	/* display: flex; */
+	/* flex-direction: column !important; */
 }
 
 button.fusion-button.button-flat.fusion-button-default-size.button-default.fusion-button-default.button-6.fusion-button-default-span.form-form-submit.button-default {
@@ -2557,6 +2565,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 }
 .contactForm .fusion-column-wrapper > .fusion-builder-row .fusion-layout-column .fusion-column-wrapper{
      width: 92%;
+     margin: 0;
  }
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
