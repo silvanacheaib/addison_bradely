@@ -195,6 +195,7 @@ html[dir="rtl"] .contactSection .fusion-button{
 .fusion-page-title-row,
 .tfs-slider .slide-content-container .slide-content {
 	max-width: unset !important;
+	margin: 0!important;
 }
 
 html[dir="rtl"],
