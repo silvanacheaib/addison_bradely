@@ -147,6 +147,9 @@ html[dir="rtl"] body {
 #toTop{
 	display: none!important;
 }
+.text-editor-title{
+	margin:0!important;
+}
 .fusion-body:not(.avada-has-page-title-mobile-height-auto) .fusion-page-title-bar:not(.fusion-tb-page-title-bar){
 	min-height: unset!important;
 	
@@ -158,6 +161,9 @@ html[dir="rtl"] body {
 .textEditorContainer{
 	padding-top:2rem!important;
 	padding-bottom:2rem!important;
+}
+.multiSections .textEditorContainer{
+	padding-bottom:0!important;
 }
 .topHeader,
 header.header{
@@ -708,7 +714,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
     margin:0!important;
 }
 .text-editor-title .fusion-title-heading {
-	font-size: 1.7rem !important;
+	font-size: 1.5rem !important;
 	color: var(--dark-blue) !important;
 	text-transform: uppercase;
 	width: 90%;
@@ -2515,10 +2521,10 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 .contactForm{
 		width:100%;
 	}
-	.text-editor-title h4,.text-editor-description h4 {
+.text-editor-description h4 {
     font-size: 22px!important;
-	color:var(--medium-blue)!important;
-    margin:1rem 0 0;
+    color:var(--medium-blue)!important;
+    margin: 1rem 0 .5rem;
 }
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
