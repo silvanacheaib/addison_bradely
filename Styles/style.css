@@ -82,6 +82,11 @@ a[title="disabled link"]{
 b,strong{
 	font-family:var(--helvetica-bold)!important;
 }
+html[dir="rtl"] .text-editor-description h4,
+html[dir="rtl"] .text-editor-description h5,
+html[dir="rtl"] .text-editor-description h6{
+	font-family:var(--cairoSemiBold)!important;
+}
 html[dir=rtl] b,
 html[dir=rtl] strong{
 	font-family:var(--cairoBold)!important;
