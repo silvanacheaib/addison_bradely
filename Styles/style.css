@@ -2168,6 +2168,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	font-family: var(--helvetica);
 	margin-left: 1rem;
 	margin-bottom: 0;
+	width: 75%;
 }
 
 .stepContainer .stepNumber .fusion-title-heading {
@@ -2534,7 +2535,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 		padding: 0;
 	}
 	    .fusion-post-cards>.fusion-grid>.fusion-grid-column.stepContainer {
-        width: 31% !important;
+        width: 33% !important;
     }
 	.fusion-tb-header .fusion-layout-column{
 		width: var(--awb-col-width);
