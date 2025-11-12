@@ -2539,6 +2539,16 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
     color:var(--medium-blue)!important;
     margin: 1rem 0 .5rem;
 }
+.dark_background_color .text-editor-description h4{
+	color:white!important;
+}
+.horizontalView.dark_background_color .text-editor-description p{
+	margin-top:1rem;
+	margin-bottom:1rem!important;
+}
+.horizontalView .text-editor-description h4{
+	margin-top:0
+}
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
 		width:fit-content!Important;
