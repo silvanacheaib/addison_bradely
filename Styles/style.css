@@ -2584,7 +2584,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column.verticalIconText{
 	width:33%!important;
 }
-	.twoCol .fusion-grid-column.verticalIconText{
+.twoCol  .fusion-post-cards>.fusion-grid>.fusion-grid-column.verticalIconText{
 	width:50%!important;
 }
 	.text-editor-container.horizontalView{
