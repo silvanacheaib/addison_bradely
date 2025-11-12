@@ -731,12 +731,18 @@ html[dir="rtl"] .text-editor-description p {
 	font-family: var(--helvetica-bold) !important;
 }
 
-.grey_background_color .text-editor-description p {
+.grey_background_color .text-editor-description p,
+.grey_background_color .text-editor-description ul li{
 	color: var(--medium-blue) !important;
 	font-size: 1rem !important;
 	font-family: var(--helvetica) !important;
 }
-
+.grey_background_color .text-editor-description ul{
+	padding-left: 1rem;
+}
+.grey_background_color .text-editor-description ul li{
+	margin-bottom:.4rem;
+}
 .fusion-accordian .panel-heading .panel-title a:hover span {
 	color: var(--light-blue);
 }
