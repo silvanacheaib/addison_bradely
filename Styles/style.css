@@ -302,11 +302,11 @@ html body .container .fusion-builder-row,
 	margin:0!important;
 }
 html body .contactSection .fusion-column-wrapper > .fusion-builder-row:first-child{
-	margin: 0 0rem!important;
+	/* margin: 0 0rem!important;
 	gap: 0.7rem;
 	display: flex;
 	flex-wrap: nowrap;
-	max-width: 90%!important;
+	max-width: 90%!important; */
 }
 .contactSection .firstNameContact .fusion-column-wrapper,
 .contactSection .lastNameContact .fusion-column-wrapper{
@@ -1954,7 +1954,7 @@ html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
 }
 
 .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
-	margin: unset;
+	/* margin: unset; */ /*commented because it is affecting the contact form design*/
 }
 
 .contactSection .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
