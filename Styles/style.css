@@ -2580,7 +2580,9 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 	.width-100 .nonhundred-percent-fullwidth.kpisSection {
 	padding: 3rem 8rem !important;
 }
-
+.copyrightSection{
+padding-bottom:2rem;
+}
 	footer > div{
 		justify-content:space-between!important;
 	}
