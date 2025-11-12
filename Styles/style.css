@@ -2279,7 +2279,7 @@ html[dir="rtl"] .textEditorButton i {
 }
 .text-editor-container.horizontalView .fusion-builder-row {
     display:flex!important;
-    align-items:flex-start!important;
+    align-items:center!important;
 }
 .text-editor-container.horizontalView .fusion-builder-row .fusion-layout-column{
     margin-bottom:0!important
