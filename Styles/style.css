@@ -2510,6 +2510,10 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 .contactForm{
 		width:100%;
 	}
+	.text-editor-title h4 {
+    font-size: 24px!important;
+    margin: 0;
+}
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
 		width:fit-content!Important;
