@@ -1961,6 +1961,9 @@ html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
 	/* margin-right: var(--awb-spacing-right)!important; */
 	/* margin-left: var(--awb-spacing-left)!important; */
 }
+html body .faqSection  .appTitle h1.fusion-title-heading {
+    text-transform: inherit;
+}
 .contactSection .fusion-content-layout-column  .fusion-builder-row{
 	margin: 0 -4%!important;
 }
