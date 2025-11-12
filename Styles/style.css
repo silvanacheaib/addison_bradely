@@ -757,7 +757,7 @@ html[dir="rtl"] .text-editor-description ul li{
 	line-height: 1.8;
 	font-family: var(--helvetica-bold) !important;
 	margin-bottom: 0!important;
-	font-size:1.05rem;
+	font-size: 1.09rem;
 }
 .grey_background_color {
 	background-color: #f8f8f8;
