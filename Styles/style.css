@@ -768,6 +768,9 @@ html[dir="rtl"] .text-editor-description ul li{
 	font-size: 1.2rem;
 	font-family: var(--helvetica-bold) !important;
 }
+.horizontalView .text-editor-subtitle{
+	margin-bottom:1rem;
+}
 .grey_background_color .text-editor-description p,
 .grey_background_color .text-editor-description ul li{
 	color: var(--medium-blue) !important;
