@@ -299,7 +299,7 @@ html body .container {
 html body .container .fusion-builder-row,
 .fusion-builder-row,
 .testimonialsContainer .fusion-column-wrapper{
-	margin:0!important;
+	/* margin:0!important; */
 }
 html body .contactSection .fusion-column-wrapper > .fusion-builder-row:first-child{
 	/* margin: 0 0rem!important;
@@ -1954,17 +1954,25 @@ html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
 }
 
 .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
-	/* margin: unset; */ /*commented because it is affecting the contact form design*/
+	margin:0!important;
 }
 
 .contactSection .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
-	margin-left: var(--awb-spacing-right);
+	/* margin-right: var(--awb-spacing-right)!important; */
+	/* margin-left: var(--awb-spacing-left)!important; */
+}
+.contactSection .fusion-content-layout-column  .fusion-builder-row{
+	margin: 0 -4%!important;
 }
 .contactSection .fusion-layout-column .fusion-column-wrapper:has(.firstNameContact){
-	margin:0!important;
+	margin-left:0!important;
+	margin-right:var(--awb-spacing-right)!important;
+}
+.contactSection .fusion-layout-column .fusion-column-wrapper:has(.lastNameContact){
+	margin-right:0!important;
 }
 .contactSection .fusion-layout-column .fusion-column-wrapper .lastNameContact{
-	width: 50%;
+	/* width: 50%; */
 }
 li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-column.heroImage.post-card.fusion-grid-column.fusion-post-cards-grid-column {
 	width: 100% !important;
