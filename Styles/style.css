@@ -1826,6 +1826,7 @@ html[dir="rtl"] .contactSection p {
 	color: #ffffffb5;
 	margin: 0 !important;
 	font-size: .85rem;
+	width: 66%;
 }
 
 .contactSection .appTitle {
