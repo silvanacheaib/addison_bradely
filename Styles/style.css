@@ -703,7 +703,8 @@ html[dir="rtl"] .text-editor-title .fusion-title-heading {
 	font-family: var(--cairoRegular) !important;
 }
 
-html[dir="rtl"] .text-editor-description p {
+html[dir="rtl"] .text-editor-description p,
+html[dir="rtl"] .text-editor-description ul li{
 	font-family: var(--cairoRegular) !important;
 }
 
@@ -738,7 +739,7 @@ html[dir="rtl"] .text-editor-description p {
 	font-family: var(--helvetica) !important;
 }
 .grey_background_color .text-editor-description ul{
-	padding-left: 1rem;
+	padding: 0 1rem;
 }
 .grey_background_color .text-editor-description ul li{
 	margin-bottom:.4rem;
