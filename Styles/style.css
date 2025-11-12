@@ -126,7 +126,7 @@ html[dir="rtl"] .text-editor-description h4,
 html[dir="rtl"] .text-editor-description h4 b,
 html[dir="rtl"] .text-editor-description h4 strong{
 	font-family:var(--cairoSemiBold)!important;
-	font-size: 1.4rem!important;
+	font-size: 1.3rem!important;
 }
 .fusion-tb-page-title-bar .fusion-fullwidth .fusion-builder-row{
 	max-width: 100%!important;
