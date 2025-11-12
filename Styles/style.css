@@ -728,10 +728,12 @@ html[dir="rtl"] .text-editor-description ul li{
 
 .grey_background_color .text-editor-subtitle p {
 	color: var(--medium-blue);
-	font-size: 1.5rem;
+	
+}
+.text-editor-subtitle{
+	font-size: 1.2rem;
 	font-family: var(--helvetica-bold) !important;
 }
-
 .grey_background_color .text-editor-description p,
 .grey_background_color .text-editor-description ul li{
 	color: var(--medium-blue) !important;
