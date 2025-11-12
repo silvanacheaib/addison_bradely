@@ -2592,6 +2592,9 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 		width:100%!important;
 		padding: 0;
 	}
+	.fusion-post-cards>.fusion-grid>.fusion-grid-column.blogCard{
+		width: 32%!important;
+	}
 	    .fusion-post-cards>.fusion-grid>.fusion-grid-column.stepContainer {
         width: 33% !important;
     }
