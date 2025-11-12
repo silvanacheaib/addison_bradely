@@ -165,7 +165,6 @@ html[dir="rtl"] .contactSection .fusion-button{
 .fusion-page-title-row,
 .tfs-slider .slide-content-container .slide-content {
 	max-width: unset !important;
-	/* margin: 0 !important; */
 }
 
 html[dir="rtl"],
@@ -208,11 +207,6 @@ html[dir="rtl"] body {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-}
-
-.actionMenu .fusion-image-element {
-	/* height: 1.5rem !important; */
-	/* width: 1.5rem !important; */
 }
 
 /* SEARCH ICON ADJUSTMENTS END */
@@ -295,18 +289,6 @@ html body .container {
 	padding-right: 1rem !important;
 	overflow: unset!important;
 	position: relative;
-}
-html body .container .fusion-builder-row,
-.fusion-builder-row,
-.testimonialsContainer .fusion-column-wrapper{
-	/* margin:0!important; */
-}
-html body .contactSection .fusion-column-wrapper > .fusion-builder-row:first-child{
-	/* margin: 0 0rem!important;
-	gap: 0.7rem;
-	display: flex;
-	flex-wrap: nowrap;
-	max-width: 90%!important; */
 }
 .contactSection .firstNameContact .fusion-column-wrapper,
 .contactSection .lastNameContact .fusion-column-wrapper{
@@ -423,7 +405,6 @@ html[dir="rtl"] .trp-language-switcher-container.current-language-menu-item a[ti
 	transition: var(--transition);
 	padding: 0.5rem 1rem;
 	margin-bottom: 1rem;
-	/* display: none; */
 }
 
 .hero-section-container .fusion-button span,
@@ -478,12 +459,7 @@ html[dir="rtl"] .aboutUsContainer .fusion-button:hover i::before {
 	color: var(--dark-blue);
 }
 
-.fusion-post-cards.fusion-post-cards-8.awb-carousel.awb-swiper.awb-swiper-carousel.awb-swiper-dots-position-bottom.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-autoheight.swiper-backface-hidden {
-	/* padding: 0 6rem; */
-}
-
 header {
-	/* padding:0!important; */
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
 	width: 100% !important;
@@ -741,14 +717,11 @@ html[dir="rtl"] .text-editor-description p {
 
 .grey_background_color {
 	background-color: #f8f8f8;
-	/* padding-top: 3rem; */
-	/* padding-bottom: 3rem; */
 }
 
 .grey_background_color .text-editor-subtitle p {
 	color: var(--medium-blue);
 	font-size: 1.5rem;
-	/* width: 39%; */
 	font-family: var(--helvetica-bold) !important;
 }
 
@@ -1957,10 +1930,6 @@ html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
 	margin:0!important;
 }
 
-.contactSection .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
-	/* margin-right: var(--awb-spacing-right)!important; */
-	/* margin-left: var(--awb-spacing-left)!important; */
-}
 html body .faqSection  .appTitle h1.fusion-title-heading {
     text-transform: inherit;
 }
@@ -1973,9 +1942,6 @@ html body .faqSection  .appTitle h1.fusion-title-heading {
 }
 .contactSection .fusion-layout-column .fusion-column-wrapper:has(.lastNameContact){
 	margin-right:0!important;
-}
-.contactSection .fusion-layout-column .fusion-column-wrapper .lastNameContact{
-	/* width: 50%; */
 }
 li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-column.heroImage.post-card.fusion-grid-column.fusion-post-cards-grid-column {
 	width: 100% !important;
@@ -2116,15 +2082,6 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	padding-top: 2rem !important;
 	padding-bottom: 2rem !important;
 }
-
-.team_member:nth-child(even).post-card {
-	/* background-color: white; */
-}
-
-.team_member:nth-child(odd).post-card {
-	/* background-color: #e5e3e3; */
-}
-
 .team_member.post-card>.fusion-column-wrapper {
 	background-color: transparent !important
 }
@@ -2661,10 +2618,6 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 		width: 100%;
 		background-repeat: no-repeat;
 	}
-	.aboutUsContainer .fusion-column-wrapper .fusion-image-element {
-		/* width: 34rem; */
-	}
-
 	.providersContainer .fusion-row {
 		display: flex;
 		flex-direction: row !important;
