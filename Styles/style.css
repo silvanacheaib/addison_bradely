@@ -82,6 +82,10 @@ a[title="disabled link"]{
 b,strong{
 	font-family:var(--helvetica-bold)!important;
 }
+html[dir=rtl] b,
+html[dir=rtl] strong{
+	font-family:var(--cairoBold)!important;
+}
 .ptb-0{
 	padding-top:0 !important;
 	padding-bottom: 0!important;
