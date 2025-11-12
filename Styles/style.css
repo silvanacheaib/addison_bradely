@@ -2292,7 +2292,8 @@ html[dir="rtl"] .textEditorButton i {
 	height: 2rem;
 	width: 2rem;
 }
-.text-editor-container.horizontalView .fusion-builder-row {
+.text-editor-container.horizontalView .fusion-builder-row,
+.textEditorContainer.horizontalView .fusion-builder-row{
     display:flex!important;
     align-items:center!important;
 }
