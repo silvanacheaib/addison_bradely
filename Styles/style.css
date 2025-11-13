@@ -1438,7 +1438,7 @@ html[dir="rtl"] .cvTitle p {
 
 .aboutUsContainer .subtitle p {
 	font-size: 1.5rem;
-	margin: 0 0 1.4rem !important;
+	margin: 0 0 0.1rem !important;
 	text-transform: uppercase;
 	color: #121E38 !important;
 	font-weight: 600;
@@ -2833,9 +2833,6 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	padding-left:8rem;
 	padding-right:8rem;
 }
-	.providersContainer {
-		/* padding-left: 6rem; */
-	}
 	html body .container {
 		max-width: 100% !important;
 		width: 100% !important;
