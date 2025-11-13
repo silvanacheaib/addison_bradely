@@ -515,7 +515,12 @@ header {
 .awb-menu__main-li:last-child span {
 	border-right: none !important;
 }
-
+html[dir="rtl"] .awb-menu__main-li {
+	border-right: none !important;
+	border-left: 1px solid var(--dark-blue)!important;
+}
+html[dir="rtl"] .awb-menu__main-li:last-child{
+border:none!important;}
 header>div {
 	width: fit-content;
 	justify-content: center !important;
