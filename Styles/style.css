@@ -130,6 +130,7 @@ html[dir="rtl"] .text-editor-description h4 strong{
 }
 html[dir="rtl"] .fusion-form-input{
 	font-family:var(--cairoRegular);
+	text-align: right;
 }
 .fusion-tb-page-title-bar .fusion-fullwidth .fusion-builder-row{
 	max-width: 100%!important;
@@ -2024,6 +2025,10 @@ html body .faqSection  .appTitle h1.fusion-title-heading {
 	margin-left:0!important;
 	margin-right:var(--awb-spacing-right)!important;
 }
+html[dir="rtl"] .contactSection .fusion-layout-column .fusion-column-wrapper:has(.firstNameContact){
+	margin-right:0!important;
+	margin-left:var(--awb-spacing-left)!important;
+}
 .contactSection .fusion-layout-column .fusion-column-wrapper:has(.lastNameContact){
 	margin-right:0!important;
 }
@@ -2197,7 +2202,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	background-color: white;
 	border-radius: 1rem;
 	overflow: hidden;
-	max-width: 61%!important;
+	max-width: 60%!important;
 }
 
 .faqSection .fusion-column-wrapper {
