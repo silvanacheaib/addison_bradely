@@ -1975,7 +1975,6 @@ html body .fusion-layout-column.heroImage {
 	height: 100% !important;
 	width: 100% !important;
 	object-fit: cover;
-	object-position: bottom;
 	opacity: 0;
 	scale: 1.1;
 	animation: 1s zoomOut forwards;
