@@ -525,6 +525,7 @@ header>div {
 header nav.awb-menu {
 	padding: 0 !important;
 }
+
 .providersCarousel .fusion-image-wrapper{
 	width: 7rem!important;
 	height:auto;
@@ -534,14 +535,12 @@ header nav.awb-menu {
 	height:100%;
 	object-fit:contain;
 }
-
 .providersImages .fusion-column-wrapper {
 	background-color: transparent !important;
 }
 .providersIntro{
 	border-right:1px solid #121E38;
 }
-
 .width-100 .fusion-fullwidth:not(.container), .width-100 .nonhundred-percent-fullwidth:not(.container).providersContainerSection{
 	padding-top: 2rem!important;
 	padding-bottom: 0rem!important;
@@ -891,7 +890,8 @@ html body .subTitle .fusion-title-heading {
 	margin-bottom:.3rem!important
 }
 .testimonialsContainer .subTitle{
-	margin-top: 0.4rem!important;
+	margin-top: 0.3rem!important;
+	margin-bottom: 0.3rem!important;
 }
 .ourServicesContainer .subTitle .fusion-title-heading{
 	text-transform:uppercase!important;
@@ -956,6 +956,7 @@ html body .subTitle .fusion-title-heading {
 .testimonialsContainer p{
 	color:#2D4B79;
 	margin-bottom: 3rem!important;
+	margin-top: 0.8rem;
 }
 html[dir="rtl"] body .appTitle h1.fusion-title-heading,
 html[dir="rtl"] body .subTitle,
@@ -1539,6 +1540,7 @@ html[dir="rtl"] .ourServicesContainer .awb-swiper-button-prev i{
 	color: white !important;
 	text-transform: uppercase;
 	font-weight: var(--helvetica-bold)!important;
+	font-weight: 600!important;
 }
 
 .awb-stars-rating-text {
@@ -1733,6 +1735,7 @@ html[lang="en-US"] .testimonials .testimonialCard .fusion-text {
 }
 
 .testimonials .testimonialCard .fusion-text.testimonialDesc p {
+	margin-bottom: 1.5rem!important;
 	color: #111D38;
 	font-size: 1rem;
 	line-height:1.5;
@@ -1744,8 +1747,8 @@ html[lang="en-US"] .testimonials .testimonialCard .fusion-text {
 	background-image: url("https://silvanacheaib.github.io/addison_bradely/Images/quote.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	height: 8rem;
-	width: 8rem;
+	height: 9rem;
+	width: 9rem;
 	position: absolute;
 	top: -2rem;
 	left: 3rem;
@@ -2404,6 +2407,7 @@ html[dir="rtl"] .textEditorButton i {
     color:#2D4B77;
     font-family:var(--helvetica-bold);
     text-transform:capitalize;
+    margin: 0!important;
 }
 .fa-star.awb-stars-rating-empty-icon::before{
     content:"";
@@ -2701,19 +2705,17 @@ padding-bottom:2rem;
 	width: 100% !important;
 }
 	.testimonialCard {
-	padding: 5rem 3rem 2rem!important;
-	height: 22rem!important;
+	padding: 3.5rem 3rem 2rem!important;
+	height: 20rem!important;
 }
 	html body .width-100 .fusion-fullwidth.servicesContainer {
 		background-color: var(--dark-blue);
 		padding-top: 3rem !important;
 		padding-bottom: 3rem !important;
 	}
-
 	.ourValuesContainer .fusion-post-cards:nth-child(2) ul li {
 		width: 13rem !important;
 	}
-
 	.ourValuesContainer .fusion-post-cards:nth-child(2) ul {
 		margin-left: 2rem !important;
 	}
