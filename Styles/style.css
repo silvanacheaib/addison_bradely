@@ -942,6 +942,7 @@ html body .appTitle h1.fusion-title-heading {
 	margin: 0 !important;
 	font-size: 1.6rem !important;
 	text-transform: uppercase!important;
+	white-space: break-spaces;
 }
 
 .faqAppIntro .subTitle {
@@ -2216,8 +2217,8 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	background-color: white;
 	border-radius: 1rem;
 	overflow: hidden;
-	max-width: 55%!important;
-	width: 55%;
+	/* max-width: 55%!important; */
+	/* width: 55%; */
 }
 .stepsContainer{
 	padding-top:3rem;
