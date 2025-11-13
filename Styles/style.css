@@ -746,9 +746,11 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 }
 html[dir="rtl"] .text-editor-title .fusion-title-heading {
 	text-align: right !important;
-	font-family: var(--cairoRegular) !important;
+	font-family: var(--cairoBold) !important;
 }
-
+html[dir="rtl"] .horizontalView .text-editor-title .fusion-title-heading {
+	font-size:2rem!important;
+}
 html[dir="rtl"] .text-editor-description p,
 html[dir="rtl"] .text-editor-description ul li{
 	font-family: var(--cairoRegular) !important;
@@ -781,10 +783,12 @@ html[dir="rtl"] .text-editor-description ul li{
 	width: 49%;
 	font-family: var(--helvetica-bold) !important;
 }
-html[dir="rtl"] .horizontalView .text-editor-subtitle{
-	font-size: 1.4rem;
-	width: 49%;
-	font-family:var(--cairoBold);
+html[dir="rtl"] .horizontalView .text-editor-subtitle,
+html[dir="rtl"] .horizontalView .text-editor-subtitle p,
+html[dir="rtl"] .horizontalView .text-editor-subtitle h4{
+	font-size: 1.4rem!important;
+	width: 60%;
+	font-family:var(--cairoBold)!important;
 }
 .horizontalView .text-editor-subtitle{
 	margin-bottom: 0.6rem;
