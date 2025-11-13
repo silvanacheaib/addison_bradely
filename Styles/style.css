@@ -935,7 +935,9 @@ html body .appTitle h1.fusion-title-heading {
 .faqAppIntro .appTitle {
 	margin: 0 !important;
 }
-
+.faqContainer .appTitle{
+display:none!important;
+}
 .faqAppIntro .appTitle h1.fusion-title-heading {
 	color: var(--medium-blue) !important;
 	font-family: var(--helvetica-bold) !important;
