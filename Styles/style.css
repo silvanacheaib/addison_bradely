@@ -541,6 +541,9 @@ header nav.awb-menu {
 .providersIntro{
 	border-right:1px solid #121E38;
 }
+html[dir="rtl"] .providersIntro{
+	border-left:1px solid #121E38;
+}
 .width-100 .fusion-fullwidth:not(.container), .width-100 .nonhundred-percent-fullwidth:not(.container).providersContainerSection{
 	padding-top: 2rem!important;
 	padding-bottom: 0rem!important;
