@@ -1294,7 +1294,7 @@ html[dir="rtl"] .fusion-page-title-bar .fusion-page-title-row h1{
 	top: 0;
 	left: 0;
 	padding: 2rem;
-	background-color: rgb(18 30 56 / 30%);
+	background: linear-gradient(to top, black, transparent);
 }
 
 .fusion-carousel-item-wrapper {
@@ -2051,7 +2051,7 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 .heroImage .awb-imageframe-caption .awb-imageframe-caption-title {
 	color: white !important;
 	text-transform: uppercase;
-	font-size: 1.9rem!important;
+	font-size: 2.3rem!important;
 	opacity: 0;
 	transform: translateY(100%);
 	animation: 1s fadeUp .1s  forwards;
