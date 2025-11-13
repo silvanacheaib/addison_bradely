@@ -617,8 +617,10 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 	padding: 0 1rem;
 }
 
-.providersContainer {
+.width-100 .fusion-fullwidth:not(.container).providersContainer {
 	padding-left: 1rem;
+	padding-top: 2rem!important;
+	padding-bottom: 2rem!important;
 }
 
 /* OUR VALUES START */
