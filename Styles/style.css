@@ -1720,7 +1720,20 @@ html body .width-100 .nonhundred-percent-fullwidth:not(.container).testimonialsC
 	position: absolute;
 	right: 0rem;
 }
-
+html[dir="rtl"] .testimonialsContainer .awb-swiper-button-next {
+	right:auto;
+	
+}
+html[dir="rtl"] .testimonialsContainer .awb-swiper-button-next i{
+	scale:-1;
+}
+html[dir="rtl"] .testimonialsContainer .awb-swiper-button-prev {
+	left:auto;
+	
+}
+html[dir="rtl"] .testimonialsContainer .awb-swiper-button-prev i{
+	scale:-1;
+}
 .testimonialsContainer .awb-swiper-button.awb-swiper-button-prev i {
 	background-color: var(--light-blue) !important;
 	height: 2.5rem;
