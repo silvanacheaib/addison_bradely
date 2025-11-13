@@ -2216,6 +2216,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	border-radius: 1rem;
 	overflow: hidden;
 	max-width: 55%!important;
+	width: 55%;
 }
 .stepsContainer{
 	padding-top:3rem;
