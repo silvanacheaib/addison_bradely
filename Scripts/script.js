@@ -9,15 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
-// jQuery(document).ready(function($){
-//     $('.awb-swiper-carousel').each(function(){
-//         var swiper = this.swiper; // get Swiper instance
-//         if(swiper){
-//             swiper.params.slidesPerView = 'auto'; // set slides per view to auto
-//             swiper.update(); // apply the change
-//         }
-//     });
-// });
 document.addEventListener("DOMContentLoaded", function() {
   const heading = document.querySelector(".aboutUsIntro .fusion-title-heading");
   if (heading) {
