@@ -588,6 +588,9 @@ html[dir="rtl"] .providersContainer .awb-swiper {
 	padding-top: 2rem!important;
 	padding-bottom: 2rem!important;
 }
+.providersContainerSection .swiper-wrapper{
+	height: 100%!important;
+}
 /* Our Services Section */
 html body .width-100 .fusion-fullwidth.servicesContainer {
 	background-color: var(--dark-blue);
