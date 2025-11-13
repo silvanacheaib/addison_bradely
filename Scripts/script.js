@@ -36,3 +36,10 @@ document.addEventListener("DOMContentLoaded", function() {
     heading.innerHTML = wrapped;
   }
 });
+
+$('.providersImages .fusion-grid').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
