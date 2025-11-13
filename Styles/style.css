@@ -340,10 +340,6 @@ html body .container {
 	overflow: unset!important;
 	position: relative;
 }
-.contactSection .firstNameContact .fusion-column-wrapper,
-.contactSection .lastNameContact .fusion-column-wrapper{
-	/* margin:0!important; */
-}
 .awb-menu .awb-menu__main-ul {
 	align-content: center;
 }
@@ -373,10 +369,6 @@ justify-content:flex-start!important;
 .trp-language-switcher-container {
 	padding: 0.8rem 0.5rem;
 	height: 1rem;
-}
-.dark_background_color {
-	/* padding-top: 2rem; */
-	/* padding-bottom: 2rem; */
 }
 .dark_background_color h1,
 .dark_background_color h2,
@@ -557,10 +549,6 @@ header nav.awb-menu {
 	padding: .5rem 0;
 }
 .providersCarousel .fusion-image-wrapper{
-	/* width: initial; */
-	/* height: 5rem; */
-}
-.providersCarousel .fusion-image-wrapper{
 	width: 7rem!important;
 	height:auto;
 }
@@ -655,7 +643,6 @@ html body .servicesContainer .appTitle h1.fusion-title-heading.title-heading-lef
 
 .ourValuesContainer .fusion-column-wrapper {
 	display: flex;
-	/* align-items:center; */
 	justify-content: space-between;
 	width: 100%;
 	margin: 0 !important;
@@ -806,7 +793,6 @@ padding:0 1rem!important;}
 }
 .text-editor-subtitle{
 	font-size: 1.35rem;
-	/* width: 49%; */
 	font-family: var(--helvetica-bold) !important;
 }
 .verticalView .text-editor-subtitle{
@@ -950,6 +936,7 @@ html body .appTitle h1.fusion-title-heading {
 	color: var(--dark-blue) !important;
 	width: 100%;
 	white-space: nowrap;
+	font-family: var(--helvetica-bold);
 }
 
 .faqAppIntro .appTitle {
@@ -1029,7 +1016,6 @@ html[dir="rtl"] body .subTitle .fusion-title-heading {
 	z-index: 0;
 	height: 100%;
 	width: 100%;
-	/* clip-path: ellipse(100% 56% at 47% 44%); */
 }
 
 body {
@@ -1141,10 +1127,6 @@ a.getInTouchButton span {
 	padding: 0 !important;
 	margin: 0 !important;
 }
-
-.heroImage img {
-	/* width:1200px!important; */
-}
 button.header-search-wrapper {
 	background-color: transparent;
 	border: none;
@@ -1220,7 +1202,6 @@ html[dir="rtl"] .pageIntroTitle,
 html[dir="rtl"] .fusion-page-title-bar .fusion-page-title-row h1{
 	font-family: var(--cairoRegular);
 	margin-left:0!important;
-	/* margin-right:1rem!important; */
 }
 
 .formTitle {
@@ -1284,7 +1265,6 @@ html[dir="rtl"] .fusion-page-title-bar .fusion-page-title-row h1{
 
 .ourServicesContainer .swiper-wrapper .swiper-slide .serviceTitle {
 	text-transform: uppercase;
-	/* letter-spacing:.1rem; */
 	font-size: 1.4rem;
 	font-weight: 600;
 	line-height: 2;
@@ -1296,10 +1276,6 @@ html[dir="rtl"] .fusion-page-title-bar .fusion-page-title-row h1{
 .ourServicesContainer .swiper-wrapper .swiper-slide .serviceCaption {
 	width: 80%;
 	margin: auto;
-	/* display: -webkit-box;
-	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 3;
-	overflow: hidden; */
 	line-height: 1.4;
 	font-size: 1.01rem;
 }
@@ -1337,8 +1313,6 @@ html[dir="rtl"] .fusion-page-title-bar .fusion-page-title-row h1{
 
 .awb-menu__sub-ul {
 	background-color: #ffffff;
-	/* border-radius: 20px 20px 20px 20px;
-	margin-top: 30px !important; */
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5) !important;
 }
 
@@ -1449,7 +1423,6 @@ html[dir="rtl"] .providersContainer .fusion-text-3 p{
 	font-size: 1.4rem !important;
 	font-weight: 400 !important;
 	line-height: 2rem !important;
-	/* text-align: left!important; */
 	margin-bottom: 0.6rem!important;
 }
 
@@ -1857,14 +1830,6 @@ html[dir="rtl"] .contactTile .fusion-grid fusion-grid-1 .fusion-layout-column {
 	margin: 0;
 	padding: 0;
 }
-
-.contactTile .fusion-layout-column.fusion_builder_column_inner.fusion-builder-nested-column-19.fusion_builder_column_inner_1_2.\31 _2.fusion-flex-column,
-.fusion-layout-column.fusion_builder_column_inner.fusion-builder-nested-column-21.fusion_builder_column_inner_1_2.\31 _2.fusion-flex-column {
-	/* width: 80% !important; */
-	/* display: flex; */
-	/* flex-direction: column !important; */
-}
-
 button.fusion-button.button-flat.fusion-button-default-size.button-default.fusion-button-default.button-6.fusion-button-default-span.form-form-submit.button-default {
 	background-color: var(--light-blue);
 	border-radius: 2rem;
@@ -2267,8 +2232,6 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	background-color: white;
 	border-radius: 1rem;
 	overflow: hidden;
-	/* max-width: 55%!important; */
-	/* width: 55%; */
 }
 .stepsContainer{
 	padding-top:3rem;
@@ -2566,7 +2529,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
   padding: 1rem 1.5rem;
   border: 1px solid rgb(0 0 0 / 20%);
   border-radius: 0.5rem;
-  display: inline-block; /* so the triangle aligns with the box width */
+  display: inline-block;
   width: 20rem;
   top: 7.9rem;
   transform: translateX(-50%);
@@ -2678,7 +2641,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 }
 @media(min-width:992px) {
 	html body .appTitle h1.fusion-title-heading{
-		font-size:2rem;
+		font-size: 2rem!important;
 	}
 	.smallContactIcons{
 		display:flex;
