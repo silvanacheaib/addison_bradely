@@ -941,6 +941,7 @@ html body .appTitle h1.fusion-title-heading {
 	font-family: var(--helvetica-bold) !important;
 	margin: 0 !important;
 	font-size: 1.6rem !important;
+	text-transform: uppercase!important;
 }
 
 .faqAppIntro .subTitle {
