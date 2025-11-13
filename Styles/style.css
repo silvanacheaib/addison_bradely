@@ -1174,6 +1174,7 @@ height:unset!important;
 	margin: 0!important;
 	padding: 0  2.4rem!important;
 	color: #4B6F9F;
+	text-transform: uppercase;
 }
 .fusion-page-title-bar .fusion-page-title-row h1::before{
 	content:"";
