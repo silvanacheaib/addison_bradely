@@ -689,7 +689,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 /* OUR VALUES END */
 .aboutUsContainer {
 	padding-top: 2rem !important;
-	padding-bottom: 0rem !important;
+	padding-bottom: 2rem !important;
 	background-color: #FAF8F8;
 }
 
