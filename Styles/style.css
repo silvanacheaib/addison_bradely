@@ -942,7 +942,6 @@ html body .appTitle h1.fusion-title-heading {
 	margin: 0 !important;
 	font-size: 1.6rem !important;
 	text-transform: uppercase!important;
-	white-space: break-spaces;
 }
 
 .faqAppIntro .subTitle {
@@ -2019,12 +2018,18 @@ html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
 	padding: 0 !important;
 	width: 100%!important;
 }
-
+.kpisContainer .fusion-title{
+	margin-bottom:.3rem!important;
+}
 .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li>.fusion-column-wrapper>.fusion-builder-row {
 	display: flex;
 	align-items: center;
 }
-
+.kpisContainer .fusion-builder-row{
+	display:flex;
+	flex-direction:row;
+	flex-wrap: nowrap!important;
+}
 .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
 	margin:0!important;
 }
@@ -2073,6 +2078,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 
 .kpisContainer .fusion-title-heading {
 	color: #235CB1 !important;
+	text-align: center!important;
 }
 
 .kpisContainer .fusion-text p {
@@ -2082,7 +2088,12 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 .kpisContainer .fusion-text p {
 	margin: 0 !important;
 }
-
+.kpisSection .kpi_subtitle{
+	text-transform:uppercase;
+	width: 90%;
+	text-align: center;
+	font-family: var(--helvetica-bold);
+}
 .kpisContainer .fusion-layout-column:first-child {
 	width: fit-content !important;
 }
@@ -2217,8 +2228,8 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	background-color: white;
 	border-radius: 1rem;
 	overflow: hidden;
-	/* max-width: 55%!important; */
-	/* width: 55%; */
+	max-width: 55%!important;
+	width: 55%;
 }
 .stepsContainer{
 	padding-top:3rem;
