@@ -2569,6 +2569,10 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
      width: 92%;
      margin: 0;
  }
+.contentEditor{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
 		width:fit-content!Important;
