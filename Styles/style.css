@@ -765,10 +765,13 @@ html[dir="rtl"] .horizontalView .text-editor-title .fusion-title-heading {
 	font-size:2rem!important;
 }
 html[dir="rtl"] .text-editor-description p,
-html[dir="rtl"] .text-editor-description ul li{
+html[dir="rtl"] .text-editor-description ul li,
+html[dir="rtl"] .text-editor-description ol li{
 	font-family: var(--cairoRegular) !important;
 }
-
+.text-editor-description ul,
+.text-editor-description ol{
+padding:0 1rem!important;}
 .text-editor-description p {
 	font-size: 1rem;
 	color: var(--medium-blue) !important;
@@ -810,7 +813,8 @@ html[dir="rtl"] .horizontalView .text-editor-subtitle h4{
     display: none;
 }
 .grey_background_color .text-editor-description p,
-.grey_background_color .text-editor-description ul li{
+.grey_background_color .text-editor-description ul li,
+.grey_background_color .text-editor-description ol li{
 	color: var(--medium-blue) !important;
 	font-size: 1rem !important;
 	font-family: var(--helvetica) !important;
