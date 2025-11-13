@@ -157,6 +157,9 @@ html[dir="rtl"] body {
 .text-editor-title{
 	margin:0!important;
 }
+.verticalView .text-editor-title{
+	margin-bottom:1rem!important;
+}
 .fusion-body:not(.avada-has-page-title-mobile-height-auto) .fusion-page-title-bar:not(.fusion-tb-page-title-bar){
 	min-height: unset!important;
 	
@@ -397,6 +400,8 @@ justify-content:flex-start!important;
 }
 .dark_background_color .text-editor-subtitle p{
 	color: white!important;
+	text-transform: uppercase;
+	width: 100%;
 }
 .white_bg_button .fusion-button{
 	background-color:white!important;
@@ -788,7 +793,7 @@ html[dir="rtl"] .text-editor-description ul li{
 }
 .text-editor-subtitle{
 	font-size: 1.4rem;
-	width: 49%;
+	/* width: 49%; */
 	font-family: var(--helvetica-bold) !important;
 }
 html[dir="rtl"] .horizontalView .text-editor-subtitle,
@@ -913,7 +918,7 @@ html body .subTitle .fusion-title-heading {
 	margin-bottom:.3rem!important
 }
 .testimonialsContainer .subTitle{
-	margin-top:0!important;
+	margin-top: 0.4rem!important;
 }
 .ourServicesContainer .subTitle .fusion-title-heading{
 	text-transform:uppercase!important;
@@ -2210,9 +2215,12 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	background-color: white;
 	border-radius: 1rem;
 	overflow: hidden;
-	max-width: 55%!important;
+	max-width: 60%!important;
 }
-
+.stepsContainer{
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
 .faqSection .fusion-column-wrapper {
 	justify-content: space-between;
 }
@@ -2225,7 +2233,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	color: var(--dark-blue) !important;
 	font-size: 1.1rem !important;
 	font-family: var(--helvetica-bold);
-	margin-left: 1rem;
+	margin-left: 1.6rem;
 	margin-bottom: 0.8rem;
 	text-transform: uppercase;
 }
@@ -2234,7 +2242,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	color: var(--medium-blue) !important;
 	font-size: 1rem !important;
 	font-family: var(--helvetica);
-	margin-left: 1rem;
+	margin-left: 1.6rem;
 	margin-bottom: 0;
 	width: 75%;
 }
@@ -2248,6 +2256,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 	border-right: 1px solid var(--dark-blue);
 	margin: 0;
 	height: 7rem;
+	width: 7.2rem;
 }
 html[dir="rtl"] .stepContainer .stepNumber {
 	padding: 1rem 0rem 1rem 3rem;
