@@ -2019,7 +2019,7 @@ html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
 	width: 100%!important;
 }
 .kpisContainer .fusion-title{
-	margin-bottom:.3rem!important;
+	margin-bottom: 0rem!important;
 }
 .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li>.fusion-column-wrapper>.fusion-builder-row {
 	display: flex;
