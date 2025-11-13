@@ -1,0 +1,133 @@
+<!-- <div class="swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="./Images/providers/1.png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/2.png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/3.png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/4.png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/5.png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/6.png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/7.png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/8.png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/9.png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/10.png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/11.svg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/12.svg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/13.svg.png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/14.png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/15.svg.png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="./Images/providers/16.png" alt="">
+        </div>
+    </div>
+</div> -->
+
+<!-- Include Swiper CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<style>
+  /* Swiper container */
+  .swiper {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  /* Center images */
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Image styling */
+  .swiper-slide img {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: all 0.3s ease;
+  }
+
+  .swiper-slide img:hover {
+    filter: grayscale(0);
+    opacity: 1;
+    transform: scale(1.05);
+  }
+</style>
+
+<!-- Swiper container -->
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="./Images/providers/1.png" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/2.png" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/3.png" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/4.png" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/5.png" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/6.png" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/7.png" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/8.png" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/9.png" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/10.png" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/11.svg" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/12.svg" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/13.svg.png" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/14.png" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/15.svg.png" alt="" /></div>
+    <div class="swiper-slide"><img src="./Images/providers/16.png" alt="" /></div>
+  </div>
+</div>
+
+<!-- Include Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  // Initialize Swiper
+  const swiper = new Swiper(".mySwiper", {
+    slidesPerView: 5,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+    //   delay: 1500,
+      disableOnInteraction: false,
+    },
+    speed: 1000,
+    breakpoints: {
+      320: { slidesPerView: 2, spaceBetween: 10 },
+      640: { slidesPerView: 3, spaceBetween: 15 },
+      1024: { slidesPerView: 5, spaceBetween: 20 },
+    },
+  });
+</script>
