@@ -781,6 +781,11 @@ html[dir="rtl"] .text-editor-description ul li{
 	width: 49%;
 	font-family: var(--helvetica-bold) !important;
 }
+html[dir="rtl"] .horizontalView .text-editor-subtitle{
+	font-size: 1.4rem;
+	width: 49%;
+	font-family:var(--cairoBold);
+}
 .horizontalView .text-editor-subtitle{
 	margin-bottom: 0.6rem;
 }
