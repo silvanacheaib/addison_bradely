@@ -562,7 +562,7 @@ header nav.awb-menu {
 }
 
 .providersContainer .swiper-slide:nth-child(n+7) {
-	display: none;
+	/* display: none; */
 }
 
 .providersImages .fusion-column-wrapper {
