@@ -508,7 +508,6 @@ header {
 	padding-bottom: 0 !important;
 	width: 100% !important;
 }
-.copyrightContainer .fusion-flex-container .fusion-row .fusion-flex-column .fusion-column-wrapper:not(.fusion-flex-column-wrapper-legacy).fusion-content-layout-row{}
 .awb-menu__main-li:last-child span {
 	border-right: none !important;
 }
@@ -526,28 +525,6 @@ header>div {
 header nav.awb-menu {
 	padding: 0 !important;
 }
-
-/* providers */
-.providersContainer .fusion-column-wrapper {
-	/* display: flex;
-	align-items: center;
-	justify-content: space-between; */
-}
-
-.providersContainer .fusion-imageframe {
-	/* width: 8rem !important;
-	height: auto !important; */
-}
-
-.providersContainer .fusion-imageframe img {
-	/* height: 100% !important;
-	width: 100% !important;
-	object-fit: contain !important; */
-}
-
-.providersContainer .providersImages {
-	/* padding: .5rem 0; */
-}
 .providersCarousel .fusion-image-wrapper{
 	width: 7rem!important;
 	height:auto;
@@ -557,9 +534,7 @@ header nav.awb-menu {
 	height:100%;
 	object-fit:contain;
 }
-.providersContainer .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-space-between.fusion-content-layout-row.fusion-flex-align-items-center {
-	/* padding: 0; */
-}
+
 .providersImages .fusion-column-wrapper {
 	background-color: transparent !important;
 }
@@ -567,23 +542,6 @@ header nav.awb-menu {
 	border-right:1px solid #121E38;
 }
 
-.providersContainer .awb-swiper {
-	/* margin-left: 0rem !important;
-	border-left: 1px solid rgb(0 0 0 /52%); */
-}
-html[dir="rtl"] .providersContainer .awb-swiper {
-	/* margin-left: 0rem !important;
-	margin-right:0!important;
-	border-right: 1px solid rgb(0 0 0 /52%);
-	border-left:none; */
-}
-.providersContainer .servicesImage{
-	/* margin:0!important; */
-}
-.providersContainer .fusion-text {
-	/* font-size: .85rem !important;
-	text-align: inherit; */
-}
 .width-100 .fusion-fullwidth:not(.container), .width-100 .nonhundred-percent-fullwidth:not(.container).providersContainerSection{
 	padding-top: 2rem!important;
 	padding-bottom: 0rem!important;
@@ -918,7 +876,10 @@ html body .fusion-title-heading.appTitle {
 	margin: 0 !important;
 	color: var(--dark-blue) !important;
 }
-
+html body .subTitle{
+	margin-top:0!important;
+	margin-bottom:0.5rem!important;
+}
 html body .subTitle,
 html body .subTitle .fusion-title-heading {
 	font-size: 1.5rem !important;
@@ -983,7 +944,7 @@ html body .subTitle .fusion-title-heading {
 .ourValuesContainer .fusion-text p{
 	color: #2D4B79!important;
 	font-family: var(--helvetica)!important;
-	line-height: 2;
+	line-height: 1.7;
 	margin: 0!Important;
 }
 .testimonialsContainer .subTitle .fusion-title-heading{
@@ -2781,12 +2742,6 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 		width: 100%;
 		background-repeat: no-repeat;
 	}
-	.providersContainer .fusion-row {
-		/* display: flex;
-		flex-direction: row !important;
-		margin: 0!important; */
-	}
-
 	.providersIntro {
 		padding-left: 8rem!important;
 		padding-right: 2rem!important;
