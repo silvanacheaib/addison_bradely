@@ -892,6 +892,12 @@ html body .subTitle .fusion-title-heading {
 	text-transform: uppercase;
 	font-family: var(--helvetica-bold) !important;
 }
+.testimonialsContainer .appTitle{
+	margin-bottom:.3rem!important
+}
+.testimonialsContainer .subTitle{
+	margin-top:0!important;
+}
 .ourServicesContainer .subTitle .fusion-title-heading{
 	text-transform:uppercase!important;
 }
