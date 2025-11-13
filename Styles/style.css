@@ -586,7 +586,7 @@ html[dir="rtl"] .providersContainer .awb-swiper {
 }
 .width-100 .fusion-fullwidth:not(.container), .width-100 .nonhundred-percent-fullwidth:not(.container).providersContainerSection{
 	padding-top: 2rem!important;
-	padding-bottom: 2rem!important;
+	padding-bottom: 0rem!important;
 }
 .providersContainerSection .swiper-wrapper{
 	height: 100%!important;
