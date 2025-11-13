@@ -511,7 +511,7 @@ header {
 	padding-bottom: 0 !important;
 	width: 100% !important;
 }
-
+.copyrightContainer .fusion-flex-container .fusion-row .fusion-flex-column .fusion-column-wrapper:not(.fusion-flex-column-wrapper-legacy).fusion-content-layout-row{}
 .awb-menu__main-li:last-child span {
 	border-right: none !important;
 }
@@ -793,7 +793,7 @@ html[dir="rtl"] .horizontalView .text-editor-subtitle,
 html[dir="rtl"] .horizontalView .text-editor-subtitle p,
 html[dir="rtl"] .horizontalView .text-editor-subtitle h4{
 	font-size: 1.4rem!important;
-	width: 60%;
+	width: 100%;
 	font-family:var(--cairoBold)!important;
 }
 .horizontalView .text-editor-subtitle{
