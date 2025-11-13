@@ -584,9 +584,9 @@ html[dir="rtl"] .providersContainer .awb-swiper {
 	/* font-size: .85rem !important;
 	text-align: inherit; */
 }
-.providersContainerSection{
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+.width-100 .fusion-fullwidth:not(.container), .width-100 .nonhundred-percent-fullwidth:not(.container).providersContainerSection{
+	padding-top: 2rem!important;
+	padding-bottom: 2rem!important;
 }
 /* Our Services Section */
 html body .width-100 .fusion-fullwidth.servicesContainer {
