@@ -2060,7 +2060,7 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 }
 
 html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title {
-	font-family: var(--cairoRegular)
+	font-family: var(--cairoBold)
 }
 
 .kpisContainer .fusion-title-heading {
