@@ -944,6 +944,7 @@ html body .appTitle h1.fusion-title-heading {
 	text-transform: uppercase!important;
 	text-wrap: auto;
 	white-space: break-spaces;
+	width: 90%;
 }
 
 .faqAppIntro .subTitle {
