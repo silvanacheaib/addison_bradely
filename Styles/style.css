@@ -735,7 +735,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
     margin:0!important;
 }
 .text-editor-title .fusion-title-heading {
-	font-size: 1.5rem !important;
+	font-size: 1.6rem !important;
 	color: var(--dark-blue) !important;
 	text-transform: uppercase;
 	width: 90%;
@@ -777,11 +777,12 @@ html[dir="rtl"] .text-editor-description ul li{
 	
 }
 .text-editor-subtitle{
-	font-size: 1.2rem;
+	font-size: 1.4rem;
+	width: 49%;
 	font-family: var(--helvetica-bold) !important;
 }
 .horizontalView .text-editor-subtitle{
-	margin-bottom:1rem;
+	margin-bottom: 0.6rem;
 }
 .fusion-text.fusion-text-3.text-editor-subtitle:empty {
     display: none;
@@ -2559,8 +2560,13 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 	color:white!important;
 }
 .dark_background_color .horizontalView .text-editor-description p{
-	margin-top:1rem;
+	/* margin-top:1rem; */
 	/* margin-bottom:1.5rem!important; */
+}
+.horizontalView .text-editor-description{
+	gap:1rem 0;
+	display:flex;
+	flex-direction:column;
 }
 .horizontalView .text-editor-description h4:first-child{
 	margin-top:0
