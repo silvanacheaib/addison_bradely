@@ -795,13 +795,19 @@ padding:0 1rem!important;}
 	
 }
 .text-editor-subtitle{
-	font-size: 1.4rem;
+	font-size: 1.35rem;
 	/* width: 49%; */
 	font-family: var(--helvetica-bold) !important;
 }
+.verticalView .text-editor-subtitle{
+	margin-top: -0.7rem!important;
+	margin-bottom: 0.7rem;
+}
 html[dir="rtl"] .horizontalView .text-editor-subtitle,
 html[dir="rtl"] .horizontalView .text-editor-subtitle p,
-html[dir="rtl"] .horizontalView .text-editor-subtitle h4{
+html[dir="rtl"] .horizontalView .text-editor-subtitle h4,
+html[dir="rtl"]  .text-editor-subtitle p,
+html[dir="rtl"]  .text-editor-subtitle h4{
 	font-size: 1.4rem!important;
 	width: 100%;
 	font-family:var(--cairoBold)!important;
