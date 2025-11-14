@@ -2848,7 +2848,9 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 		padding-right: 0rem !important;
 		padding-left: 6rem !important;
 	}
-
+	html[dir="rtl"] #menu-footer-menu li:last-child span{
+		border:none!Important;
+	}
 }
 @media(min-width:1200px) {
 	.avada-has-titlebar-content_only.fusion-body .fusion-page-title-bar,
