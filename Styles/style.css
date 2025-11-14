@@ -1860,7 +1860,7 @@ footer {
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
-.contactSection.container.fusion-flex-container.bg-transparent{
+.contactSection.container.fusion-flex-container.bg-transparent > .fusion-builder-row{
 	background: transparent!important;
 	padding-top: 1rem!important;
 	padding-bottom: 3rem!important;
@@ -2775,7 +2775,7 @@ padding-bottom:2rem;
 	clip-path: ellipse(158% 100% at 50% 100%);
 	padding-top: 6rem !important;
 	padding-bottom: 6rem !important;
-	background-color: var(--dark-blue);
+	/* background-color: var(--dark-blue); */
 }
 	.contactSection.fusion-flex-container{
 		background-image:none!important;
