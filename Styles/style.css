@@ -2467,6 +2467,10 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
     align-items:center;
     justify-content:center;
 }
+.CenteredContent .fusion-column-wrapper .text-editor-description,
+.CenteredContent .fusion-column-wrapper .text-editor-description a{
+	color:var(--medium-blue);
+}
 .CenteredContent .fusion-image-element {
     height:7rem;
     width:7rem;
@@ -2481,7 +2485,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 .smallContactIcons .CenteredContent .fusion-image-element {
     height: 3rem;
     width: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 .CenteredContent .fusion-image-element img{
     height:100%;
