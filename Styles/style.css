@@ -1422,11 +1422,11 @@ html[dir="rtl"] .providersContainer .fusion-text-3 p{
 }
 
 html[dir="rtl"] .cvTitle p {
-	font-family: var(--cairoRegular) !important;
+	font-family: var(--cairoBold) !important;
 }
 
 .aboutUsContainer .subtitle p {
-	font-size: 2rem;
+	font-size: 2rem!important;
 	margin: 0 0 0.1rem !important;
 	text-transform: uppercase;
 	color: #121E38 !important;
@@ -1440,7 +1440,7 @@ html[dir="ltr"] .aboutUsContainer .subtitle p {
 
 html[dir="rtl"] .aboutUsContainer .subtitle p {
 	text-align: right !important;
-	font-family: var(--cairoRegular)
+	font-family: var(--cairoBold)
 }
 
 .aboutUsContainer .aboutus .fusion-column-wrapper {
