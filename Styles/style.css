@@ -687,6 +687,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 	padding-top: 2rem !important;
 	padding-bottom: 2rem !important;
 	background-color: #FAF8F8;
+	z-index: 0;
 }
 
 .aboutUsContainer .fusion-layout-column {
