@@ -1860,7 +1860,7 @@ footer {
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
-.contactSection.container.fusion-flex-container.bg-transparent > .fusion-builder-row{
+.contactSection.fusion-flex-container.bg-transparent > .fusion-builder-row{
 	background: transparent!important;
 	padding-top: 1rem!important;
 	padding-bottom: 3rem!important;
