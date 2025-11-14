@@ -1716,7 +1716,9 @@ html[dir="rtl"] .ourServicesContainer .fusion-button{
 .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox input:focus+label:before {
 	border: 1px solid var(--light-blue) !important;
 }
-
+    #menu-footer-menu li >span:first-child{
+		border: none!important;
+	}
 /* TESTIMONIALS */
 html body .width-100 .nonhundred-percent-fullwidth:not(.container).testimonialsContainer{
 	padding-top:3rem!important;
