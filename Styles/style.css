@@ -1849,12 +1849,16 @@ footer {
 .copyrightSection p {
 	margin-bottom: 0.3rem;
 }
-
-.contactSection.container.fusion-flex-container {
+.contactSection.fusion-flex-container.grey_background_color{
+	background-color:#f7f7f7;
+}
+.contactSection.fusion-flex-container > .fusion-builder-row {
 	clip-path: ellipse(202% 100% at 50% 100%);
 	padding-top: 5rem !important;
 	padding-bottom: 5rem !important;
 	background-color: var(--dark-blue);
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 .contactSection.container.fusion-flex-container.bg-transparent{
 	background: transparent!important;
@@ -2767,12 +2771,15 @@ padding-bottom:2rem;
 	align-items:unset;
 	width: fit-content;
 }
-	.contactSection.container.fusion-flex-container {
+	.contactSection.fusion-flex-container > .fusion-builder-row{
 	clip-path: ellipse(158% 100% at 50% 100%);
 	padding-top: 6rem !important;
 	padding-bottom: 6rem !important;
 	background-color: var(--dark-blue);
 }
+	.contactSection.fusion-flex-container{
+		background-image:none!important;
+	}
 	.pageTitleBarContainer svg {
     height: 1.5rem;
     width: 1.5rem;
@@ -2867,6 +2874,10 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	}
 }
 @media(min-width:1200px) {
+	.contactSection.fusion-flex-container > .fusion-builder-row{
+		padding-left:6rem!important;
+		padding-right:6rem!important;
+	}
 	.avada-has-titlebar-content_only.fusion-body .fusion-page-title-bar,
 	.fusion-page-title-bar.fusion-tb-page-title-bar{
 	padding-left:8rem;
