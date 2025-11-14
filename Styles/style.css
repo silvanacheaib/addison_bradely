@@ -83,7 +83,7 @@ html[dir="rtl"] .contactPage h1.fusion-title-heading{
 	font-family:var(--cairoBold);
 }
 .object_position_top img{
-	object-position: top!important;
+	object-position: center 30%!important;
 }
  .shortcode-map{
 	height:70vh;
@@ -2653,7 +2653,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 .fusion-footer .fusion-fullwidth{
 	padding: 0!important;
 }
-#menu-footer-menu li > span:first-child{
+#menu-footer-menu li:not(:first-child) > span:first-child{
 	border: none;
 	border-left: 1px solid var(--dark-blue)!important;
 }
