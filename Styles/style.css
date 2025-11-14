@@ -2057,7 +2057,7 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 	justify-content: center;
 }
 
-.heroImage .awb-imageframe-caption .awb-imageframe-caption-title {
+.heroImage .awb-imageframe-caption .awb-imageframe-caption-title * {
 	color: white !important;
 	text-transform: uppercase;
 	font-size: 2.3rem!important;
