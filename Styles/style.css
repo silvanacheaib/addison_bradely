@@ -1037,6 +1037,7 @@ header #getInTouchBtn {
 footer .fusion-column-wrapper nav .menu-text {
 	text-transform: uppercase;
 	font-size: 0.8rem;
+	color: var(--dark-blue);
 }
 
 html[dir="rtl"] #header.header .fusion-column-wrapper nav .menu-text,
@@ -2616,6 +2617,9 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 	}
 }
 @media(min-width:992px) {
+	#header.header .fusion-column-wrapper nav .menu-text, footer .fusion-column-wrapper nav .menu-text{
+		color:white;
+	}
 	.contactSection [for="contact_us_consent_field"]{
 		padding:0 2rem;
 	}
