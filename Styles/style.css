@@ -1700,6 +1700,9 @@ html body .contactSection .fusion-title.appTitle h1.fusion-title-heading {
 	right: 3rem;
 	transition: var(--transition);
 }
+.ourServicesContainer .fusion-button:hover{
+	transform:rotate(-45deg);
+}
 html[dir="rtl"] .ourServicesContainer .fusion-button{
 	left:3rem;
 	right:auto;
@@ -2820,7 +2823,7 @@ padding-bottom:2rem;
 }
 	.testimonialCard {
 	padding: 3.5rem 3rem 2rem!important;
-	height: 20rem!important;
+	height: 18rem!important;
 }
 	html body .width-100 .fusion-fullwidth.servicesContainer {
 		background-color: var(--dark-blue);
