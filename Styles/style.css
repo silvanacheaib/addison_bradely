@@ -82,6 +82,9 @@ html[dir="rtl"] .contactPage h1.fusion-title-heading{
 	float:right;
 	font-family:var(--cairoBold);
 }
+.object_position_top img{
+	object-position: top!important;
+}
  .shortcode-map{
 	height:70vh;
 }
