@@ -306,7 +306,9 @@ div#searchBoxContainer .fusion-builder-row {
 	align-content: center;
 	padding: 0;
 }
-
+div#searchBoxContainer .fusion-builder-row .fusion-layout-column{
+	display:flex!important;
+}
 div#searchBoxContainer .fusion-builder-row .fusion-layout-column,
 div#searchBoxContainer .fusion-builder-row .fusion-layout-column .fusion-search-element,
 .searchform,
