@@ -800,6 +800,7 @@ html[dir="rtl"]  .text-editor-subtitle h4{
 	color: var(--medium-blue) !important;
 	font-size: 1rem !important;
 	font-family: var(--helvetica) !important;
+	margin-top: .5rem;
 }
 .grey_background_color .text-editor-description ul{
 	padding: 0 1rem;
