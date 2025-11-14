@@ -2632,6 +2632,13 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 .fusion-footer .fusion-fullwidth{
 	padding: 0!important;
 }
+#menu-footer-menu li > span:first-child{
+	border-right: 1px solid var(--dark-blue)!important;
+}
+html[dir="rtl"] #menu-footer-menu li > span:first-child{
+	border-left: 1px solid var(--dark-blue)!important;
+	border-right:none!important;
+}
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
 		width:fit-content!important;
