@@ -710,7 +710,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 
 .aboutUsContainer .fusion-imageframe {
 	max-width: 100%;
-	height: 100%;
+	height: 26rem;
 	width: 100%;
 }
 
@@ -718,7 +718,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	object-position: top;
+	object-position: center;
 	display: none;
 }
 .text-editor-container .fusion-column-wrapper{
