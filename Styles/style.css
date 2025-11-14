@@ -2092,11 +2092,14 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 .kpisContainer .fusion-text p {
 	margin: 0 !important;
 }
-.kpisSection .kpi_subtitle{
+.kpisSection .kpi_subtitle p{
 	text-transform:uppercase;
 	width: 90%;
 	text-align: center;
 	font-family: var(--helvetica-bold);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .kpisContainer .fusion-layout-column:first-child {
 	width: fit-content !important;
