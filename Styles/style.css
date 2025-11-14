@@ -1445,7 +1445,10 @@ html[dir="rtl"] .providersContainer .fusion-text-3 p{
 	line-height: 2rem !important;
 	margin-bottom: 0.6rem!important;
 }
-
+.customContentViewer .cvTitle p{
+	color:var(--dark-blue)!important;
+	font-size:1.7rem!important;
+}
 html[dir="rtl"] .cvTitle p {
 	font-family: var(--cairoBold) !important;
 }
@@ -1457,6 +1460,12 @@ html[dir="rtl"] .cvTitle p {
 	color: #121E38 !important;
 	font-weight: 600;
 	font-family: var(--helvetica-bold);
+}
+.customContentViewer .aboutUsContainer .subtitle p{
+	text-transform: initial!important;
+	font-size:1rem!important;
+	color:var(--medium-blue)!important;
+	font-family: var(--helvetica);
 }
 
 html[dir="ltr"] .aboutUsContainer .subtitle p {
