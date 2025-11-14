@@ -1187,8 +1187,9 @@ html[dir="rtl"] .fusion-page-title-bar .fusion-page-title-row h1::before{
 }
 html[dir="rtl"] .pageIntroTitle,
 html[dir="rtl"] .fusion-page-title-bar .fusion-page-title-row h1{
-	font-family: var(--cairoRegular);
+	font-family: var(--cairoBold);
 	margin-left:0!important;
+	text-align: right;
 }
 
 .formTitle {
@@ -2067,7 +2068,7 @@ li.fusion-layout-column.fusion_builder_column.fusion-builder-column.fusion-flex-
 	text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
-html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title {
+html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title *{
 	font-family: var(--cairoBold)
 }
 
