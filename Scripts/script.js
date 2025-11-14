@@ -36,3 +36,13 @@ document.addEventListener("DOMContentLoaded", function() {
     heading.innerHTML = wrapped;
   }
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const heading = document.querySelector(".fusion-title-heading");
+
+    if (heading) {
+        heading.innerHTML = heading.innerHTML.replace(
+            /Our Team/i,
+            '<span id="blue_text">Our Team</span>'
+        );
+    }
+});
