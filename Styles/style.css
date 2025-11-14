@@ -468,7 +468,9 @@ html .aboutUsContainer .fusion-button span {
 	font-size: .85rem;
 	letter-spacing: 0.23rem;
 }
-
+.aboutUsContainer .fusion-builder-row{
+	align-items:center!important
+}
 html[dir="rtl"] .hero-section-container .fusion-button span,
 html[dir="rtl"] .aboutUsContainer .fusion-button span {
 	font-family: var(--cairoRegular);
