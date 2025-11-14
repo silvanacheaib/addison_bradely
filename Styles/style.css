@@ -76,6 +76,9 @@ body {
 .contactPage h1.fusion-title-heading{
 	font-size:2rem!important;
 }
+ .shortcode-map{
+	height:70vh;
+}
 .container > .fusion-column-wrapper{
 	margin:0!important;
 }
