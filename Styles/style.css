@@ -306,6 +306,13 @@ div#searchBoxContainer .fusion-builder-row {
 	align-content: center;
 	padding: 0;
 }
+.searchBoxContainer .fusion-search-element.fusion-search-form-clean .searchform .fusion-search-form-content .fusion-search-field input{
+	border:none;
+	border-bottom:1px solid rgb(255 255 255);
+	border-radius:0;
+	width:60%;
+	background-color:transparent;
+}
 div#searchBoxContainer .fusion-builder-row .fusion-layout-column{
 	display:flex!important;
 }
