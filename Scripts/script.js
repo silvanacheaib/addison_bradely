@@ -1,14 +1,40 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const searchIcon = document.getElementById('searchIcon');
+  // Diagnostic helper
+  function diag(msg, obj) {
+    if (window.console) console.log('[SearchIconDiag]', msg, obj ?? '');
+  }
+
+  // Use event delegation so it still works if #searchIcon is replaced later
+  document.addEventListener('click', function handler(e) {
+    const clicked = e.target.closest && e.target.closest('#searchIcon');
+    if (!clicked) return;
+    // Prevent multiple handlers from running if something else also listens:
+    // (you can remove this if you want other handlers to run)
+    // e.stopPropagation();
+
+    diag('searchIcon clicked', clicked);
+
     const searchBoxContainer = document.getElementById('searchBoxContainer');
-    if (searchIcon) {
-        searchIcon.addEventListener('click', function() {
-            if(searchBoxContainer){
-                searchBoxContainer.classList.add('visible');
-            }
-        });
+    if (!searchBoxContainer) {
+      diag('searchBoxContainer not found');
+      return;
     }
+
+    // Toggle instead of only add — gives better UX
+    searchBoxContainer.classList.toggle('visible');
+
+    // If you need to ensure it receives pointer events and appears above overlays:
+    // (uncomment if needed)
+    // searchBoxContainer.style.pointerEvents = 'auto';
+    // searchBoxContainer.style.zIndex = 9999;
+  });
+
+  // Extra runtime checks (optional)
+  const el = document.getElementById('searchIcon');
+  if (!el) diag('Initial #searchIcon NOT found at DOMContentLoaded — maybe created later');
+  else diag('#searchIcon present at DOMContentLoaded', el);
 });
+
 document.addEventListener("DOMContentLoaded", function() {
   const heading = document.querySelector(".aboutUsIntro .fusion-title-heading");
   if (heading) {
