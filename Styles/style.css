@@ -2701,6 +2701,20 @@ html[dir="rtl"] #menu-footer-menu li > span:first-child{
 	text-align: center;
 	padding:0;
 }
+	.customContentViewer ul ul{
+		padding:0!important;
+	}
+	.customContentViewer .fusion-builder-row .fusion-layout-column:last-child{
+		padding-left:6rem!important;
+	}
+	.customContentViewer ul ul li{
+		background-color:white;
+		box-shadow:0 0 2px 0 rgba(0, 0, 0, .5) !important;
+		padding:.5rem 1rem;
+		margin:.5rem 0;
+		color:var(--medium-blue)!important;
+		list-style-type:none;
+	}
 #menu-footer-menu li:not(:first-child) a{
 	width:auto;
 	color:var(--dark-blue)!important;
