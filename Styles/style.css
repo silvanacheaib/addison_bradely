@@ -745,6 +745,11 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 	font-family: var(--helvetica);
 	line-height: 1.5!important;
 }
+.CenteredContent .fusion-title-heading{
+	text-align:center!important;
+	font-size: 1.5rem!important;
+	white-space: nowrap;
+}
 #blue_text{
 	color:var(--light-blue);
 }
@@ -2712,8 +2717,11 @@ html[dir="rtl"] #menu-footer-menu li > span:first-child{
 	width:33%!important;
 }
 .twoCol  .fusion-post-cards>.fusion-grid>.fusion-grid-column.verticalIconText{
-	width:50%!important;
+	width:45%!important;
 }
+	.twoCol  .fusion-post-cards>.fusion-grid{
+		justify-content:space-between;
+	}
 	.text-editor-container.horizontalView{
 		padding-top:3rem!important;
 		padding-bottom:3rem!important;
