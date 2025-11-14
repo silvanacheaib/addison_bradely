@@ -729,7 +729,8 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 	color: var(--dark-blue) !important;
 	text-transform: uppercase;
 	width: 90%;
-	font-family: var(--helvetica-bold);
+	font-family: var(--helvetica);
+	line-height: 1.5!important;
 }
 #blue_text{
 	color:var(--light-blue);
@@ -1954,7 +1955,7 @@ html[dir="rtl"] .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkb
 html body .fusion-layout-column.heroImage {
 	width: 100vw !important;
 	min-width: 100vw;
-	height: 73vh;
+	height: 65vh;
 	position: relative;
 	padding: 0 !important;
 	margin: 0 !important;
