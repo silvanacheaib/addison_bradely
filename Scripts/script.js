@@ -1,39 +1,37 @@
-document.addEventListener('DOMContentLoaded', function() {
-  // Diagnostic helper
-  function diag(msg, obj) {
-    if (window.console) console.log('[SearchIconDiag]', msg, obj ?? '');
-  }
 
-  // Use event delegation so it still works if #searchIcon is replaced later
-  document.addEventListener('click', function handler(e) {
-    const clicked = e.target.closest && e.target.closest('#searchIcon');
-    if (!clicked) return;
-    // Prevent multiple handlers from running if something else also listens:
-    // (you can remove this if you want other handlers to run)
-    // e.stopPropagation();
+// Simple check until elements exist
+function setupSearch() {
+    console.log("⏳ Checking for elements...");
 
-    diag('searchIcon clicked', clicked);
+    const searchIcon = document.getElementById("searchIcon");
+    const searchBox = document.getElementById("searchBoxContainer");
 
-    const searchBoxContainer = document.getElementById('searchBoxContainer');
-    if (!searchBoxContainer) {
-      diag('searchBoxContainer not found');
-      return;
+    if (!searchIcon || !searchBox) {
+        console.log("❌ Elements not found yet… retrying");
+        setTimeout(setupSearch, 500);
+        return;
     }
 
-    // Toggle instead of only add — gives better UX
-    searchBoxContainer.classList.toggle('visible');
+    console.log("✅ Elements found. Setting up click event.");
 
-    // If you need to ensure it receives pointer events and appears above overlays:
-    // (uncomment if needed)
-    // searchBoxContainer.style.pointerEvents = 'auto';
-    // searchBoxContainer.style.zIndex = 9999;
-  });
+    searchIcon.addEventListener("click", function () {
+        console.log("➡️ searchIcon clicked!");
 
-  // Extra runtime checks (optional)
-  const el = document.getElementById('searchIcon');
-  if (!el) diag('Initial #searchIcon NOT found at DOMContentLoaded — maybe created later');
-  else diag('#searchIcon present at DOMContentLoaded', el);
+        // Toggle class (show/hide)
+        searchBox.classList.toggle("visible");
+
+        console.log("📦 searchBoxContainer is now:",
+            searchBox.classList.contains("visible") ? "VISIBLE" : "HIDDEN"
+        );
+    });
+}
+
+// Run when page loads
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("🌐 DOM loaded. Starting setup...");
+    setupSearch();
 });
+
 
 document.addEventListener("DOMContentLoaded", function() {
   const heading = document.querySelector(".aboutUsIntro .fusion-title-heading");
