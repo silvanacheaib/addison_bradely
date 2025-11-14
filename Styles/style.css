@@ -85,6 +85,9 @@ html[dir="rtl"] .contactPage h1.fusion-title-heading{
 .object_position_top img{
 	object-position: center 30%!important;
 }
+.object_position_bottom img{
+object-position:bottom;
+}
  .shortcode-map{
 	height:70vh;
 }
