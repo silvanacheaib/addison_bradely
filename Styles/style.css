@@ -76,6 +76,12 @@ body {
 .contactPage h1.fusion-title-heading{
 	font-size:2rem!important;
 }
+html[dir="rtl"] .contactPage h1.fusion-title-heading{
+	font-size:2rem!important;
+	text-align:right;
+	float:right;
+	font-family:var(--cairoBold);
+}
  .shortcode-map{
 	height:70vh;
 }
@@ -2466,7 +2472,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 }
 .CenteredContent .fusion-column-wrapper{
     display:flex!important;
-    flex-direction:column;
+    flex-direction: column!important;
     align-items:center;
     justify-content:center;
 }
@@ -2497,7 +2503,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 }
 .CenteredContent .text-editor-description{
     text-align:center;
-    width: 82%;
+    /* width: 82%; */
 }
 .meet_out_team .fusion-content-layout-column{
 	background-image:none!important;
