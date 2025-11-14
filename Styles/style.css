@@ -312,6 +312,10 @@ div#searchBoxContainer .fusion-builder-row {
 	border-radius:0;
 	width:60%;
 	background-color:transparent;
+	font-size: 1.3rem;
+	color: white;
+	padding: 0;
+	text-align: center;
 }
 div#searchBoxContainer .fusion-builder-row .fusion-layout-column{
 	display:flex!important;
