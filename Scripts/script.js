@@ -1,38 +1,14 @@
-
-// Simple check until elements exist
-function setupSearch() {
-    console.log("⏳ Checking for elements...");
-
-    const searchIcon = document.getElementById("searchIcon");
-    const searchBox = document.getElementById("searchBoxContainer");
-
-    if (!searchIcon || !searchBox) {
-        console.log("❌ Elements not found yet… retrying");
-        setTimeout(setupSearch, 500);
-        return;
+document.addEventListener('DOMContentLoaded', function() {
+    const searchIcon = document.getElementById('searchIcon');
+    const searchBoxContainer = document.getElementById('searchBoxContainer');
+    if (searchIcon) {
+        searchIcon.addEventListener('click', function() {
+            if(searchBoxContainer){
+                searchBoxContainer.classList.add('visible');
+            }
+        });
     }
-
-    console.log("✅ Elements found. Setting up click event.");
-
-    searchIcon.addEventListener("click", function () {
-        console.log("➡️ searchIcon clicked!");
-
-        // Toggle class (show/hide)
-        searchBox.classList.toggle("visible");
-
-        console.log("📦 searchBoxContainer is now:",
-            searchBox.classList.contains("visible") ? "VISIBLE" : "HIDDEN"
-        );
-    });
-}
-
-// Run when page loads
-document.addEventListener("DOMContentLoaded", function () {
-    console.log("🌐 DOM loaded. Starting setup...");
-    setupSearch();
 });
-
-
 document.addEventListener("DOMContentLoaded", function() {
   const heading = document.querySelector(".aboutUsIntro .fusion-title-heading");
   if (heading) {
