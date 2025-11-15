@@ -1016,7 +1016,7 @@ html[dir="rtl"] body .subTitle .fusion-title-heading {
 }
 
 .providersIntro .fusion-title.title {
-	margin: 0!important;
+	margin: 0 0 0.5rem!important;
 }
 
 .providersIntro .fusion-text {
