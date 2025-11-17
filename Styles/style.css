@@ -1986,13 +1986,13 @@ html[dir="rtl"] .consent::after {
 html[dir="rtl"] .contactSection .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox label::after {
 	right: 0.3%;
 	left:auto;
-	top: 50%!important;
+	top: 17%!important;
 	transform: translateY(-50%)!important;
 }
 html[dir="rtl"] .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox label:before{
 	right:0!important;
 	left: auto;
-	top: 50%!important;
+	top: 27%!important;
 }
 .copyrightContainer {
 	font-size: .9rem;
