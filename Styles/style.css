@@ -554,10 +554,6 @@ header {
 .awb-menu__main-li:last-child span {
 	border-right: none !important;
 }
-html[dir="rtl"] .awb-menu__main-li {
-	border-right: none !important;
-	border-left: 1px solid var(--dark-blue)!important;
-}
 html[dir="rtl"] .awb-menu__main-li:last-child{
 border:none!important;}
 header>div {
@@ -2733,6 +2729,10 @@ html[dir="rtl"] #menu-footer-menu li > span:first-child{
 	width:auto;
 	color:var(--dark-blue)!important;
 	border-left: 1px solid var(--dark-blue)!important;
+}
+html[dir="rtl"] #menu-footer-menu li:not(:first-child) a{
+		border-right: 1px solid var(--dark-blue)!important;
+		border-left:none!important;
 }
 	.awb-menu .awb-menu__main-ul {
 	align-content: center;
