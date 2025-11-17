@@ -1972,15 +1972,16 @@ html[dir="rtl"] .consent::after {
 .contactSection .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox label:before {
 	border-radius: 0 !important;
 	top: 0.5rem;
+	border: 1px solid rgb(255 255 255)!important;
 }
 
-.contactSection .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox label::after {
-	content: "✔";
-	position: absolute;
-	color: white;
-	font-size: .7rem;
-	top: 8%;
-	left: 0.3%;
+.contactSection .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox input:checked + label::after {
+    content: "✔";
+    position: absolute;
+    color: white;
+    font-size: .7rem;
+    top: 8%;
+    left: 0.3%;
 }
 html[dir="rtl"] .contactSection .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox label::after {
 	right: 0.3%;
