@@ -487,6 +487,10 @@ html[dir="rtl"] .trp-language-switcher-container.current-language-menu-item a[ti
 	padding: 0.5rem 1rem;
 	margin-bottom: 1rem;
 }
+html[dir="rtl"] .hero-section-container .fusion-button span,
+html[dir="rtl"] .aboutUsContainer .fusion-button span{
+	letter-spacing:0!important;
+}
 
 .hero-section-container .fusion-button span,
 html .aboutUsContainer .fusion-button span {
@@ -1509,7 +1513,7 @@ html[dir="rtl"] .cvTitle h1 {
 }
 
 .cv_description p {
-	font-size: 16px;
+	font-size: 1rem;
 	white-space-collapse: preserve;
 	color: #2D4B79;
 	text-align: left;
@@ -2946,4 +2950,125 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 		padding-left: 8rem !important;
 		padding-right: 8rem !important;
 	}
+}
+@media(min-width:1600px){
+	.hero-section-container .fusion-button .awb-button__icon, html .aboutUsContainer .fusion-button i {
+    height: 1.5vw;
+    width: 1.5vw;
+}
+	    .contactSection.fusion-flex-container > .fusion-builder-row {
+        padding-left: 8vw !important;
+        padding-right: 8vw !important;
+    }
+	    .contactSection.fusion-flex-container > .fusion-builder-row {
+        padding-top: 6vw !important;
+        padding-bottom: 6vw !important;
+    }
+	.pageIntroTitle, .fusion-page-title-bar .fusion-page-title-row h1 {
+    font-size: 1vw;
+    margin-left: 0.9vw !important;
+    padding: 0 2.4vw!important;
+}
+	body{
+		font-size:1vw;
+	}
+	.fusion-page-title-bar .fusion-page-title-row h1::before {
+    height: 2vw;
+    width: 2vw;
+}
+	.websiteLogo {
+    width: 10vw !important;
+}
+	.tileIcon {
+    height: 3vw !important;
+    width: 3vw !important;
+}
+	.contactTile .fusion-image-element {
+    width: 2vw !important;
+}
+	.contactSection .tileDescription p {
+    font-size: .85vw;
+}
+.navbar .awb-menu__main-a {
+    padding: 0 1vw !important;
+}
+	.tileTitle p {
+    font-size: 1.2vw !important;
+}
+	header #getInTouchBtn {
+    border-radius: 2vw;
+    padding: 0.5vw 1vw;
+    font-size: .85vw;
+    letter-spacing: .04vw;
+}
+	.trp-language-switcher-container a span{
+		font-size:1vw;
+	}
+	.fusion-page-title-bar .fusion-page-title-wrapper {
+    padding: 1.5vw 0;
+}
+	#header.header .fusion-column-wrapper nav .menu-text, footer .fusion-column-wrapper nav .menu-text {
+    font-size: 0.8vw;
+}
+	html .aboutUsContainer .fusion-button {
+    border-radius: 2vw;
+    padding: 0.5vw 1vw;
+}
+	.hero-section-container .fusion-button .awb-button__icon::before, 
+	html .aboutUsContainer .fusion-button i::before{
+		font-size:1vw;
+	}
+	.aboutUsContainer .subtitle p {
+    font-size: 2vw !important;
+    margin: 0 0 0.1vw !important;
+}
+	html body .container{
+		padding-left:8vw!important;
+		padding-right:8vw!important;
+	}
+	.cv_description p {
+    font-size: 1vw;
+    margin-bottom: 0.9vw !important;
+}
+	.aboutUsContainer .fusion-imageframe{
+		height: 30vw;
+	}
+	.hero-section-container .fusion-button span, html .aboutUsContainer .fusion-button span {
+    font-size: .85vw;
+    letter-spacing: 0.23vw;
+}
+	.text-editor-description p {
+    font-size: 1vw;
+}
+	    html body .appTitle h1.fusion-title-heading {
+        font-size: 2vw !important;
+    }
+	html body .subTitle, html body .subTitle .fusion-title-heading {
+    font-size: 1.5vw !important;
+}
+	.text-editor-title .fusion-title-heading {
+    font-size: 1.6vw !important;
+    width: 90%;
+}
+	.ourValuesContainer .fusion-grid .fusion-imageframe {
+    height: 6vw;
+    width: 6vw;
+}
+.ourValuesContainer .fusion-grid .fusion-layout-column:first-child .fusion-imageframe {
+    padding: 1vw;
+}
+	    .ourValuesContainer .fusion-post-cards:nth-child(2) ul {
+        margin-left: 2vw !important;
+    }
+	.ourValuesContainer .fusion-post-cards:nth-child(2) ul li {
+        width: 13vw !important;
+    }
+	.valueContainer .fusion-text {
+    font-size: .9vw !important;
+    margin-top: 0.7vw;
+}
+	.text-editor-container.horizontalView {
+        padding-top: 3vw !important;
+        padding-bottom: 3vw !important;
+    }
 }
