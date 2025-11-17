@@ -1212,6 +1212,7 @@ height:unset!important;
 	top:50%;
 	transform:translateY(-50%);
 	left: 0;
+	background-size: contain;
 }
 html[dir="rtl"] .fusion-page-title-bar .fusion-page-title-row h1::before{
 	right:0;
@@ -2952,6 +2953,14 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	}
 }
 @media(min-width:1600px){
+	.heroImage .awb-imageframe-caption .awb-imageframe-caption-title * {
+    font-size: 2.3vw !important;
+}
+	.actionMenu .fusion-image-element {
+    height: 1.5vw !important;
+    width: 1.5vw !important;
+    max-width: 2vw;
+}
 	.hero-section-container .fusion-button .awb-button__icon, html .aboutUsContainer .fusion-button i {
     height: 1.5vw;
     width: 1.5vw;
