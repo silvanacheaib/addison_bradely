@@ -2931,8 +2931,8 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 }
 @media(min-width:1200px) {
 	.contactSection.fusion-flex-container > .fusion-builder-row{
-		padding-left:6rem!important;
-		padding-right:6rem!important;
+		padding-left: 8rem!important;
+		padding-right: 8rem!important;
 	}
 	.avada-has-titlebar-content_only.fusion-body .fusion-page-title-bar,
 	.fusion-page-title-bar.fusion-tb-page-title-bar{
