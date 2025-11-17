@@ -2332,7 +2332,7 @@ html[dir="rtl"] .stepContainer .stepNumber {
 }
 html[dir="rtl"] .stepContainer .stepTitle p,
 html[dir="rtl"] .stepContainer .stepDescription p{
-	margin-right:1rem;
+	margin-right:2rem;
 	margin-left:0;
 }
 .stepContainer {
