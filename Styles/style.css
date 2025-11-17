@@ -2721,6 +2721,10 @@ html[dir="rtl"] #menu-footer-menu li > span:first-child{
 	.customContentViewer .fusion-builder-row .fusion-layout-column:last-child{
 		padding-left:6rem!important;
 	}
+	html[dir="rtl"] .customContentViewer .fusion-builder-row .fusion-layout-column:last-child{
+		padding-right:6rem!important;
+		padding-left:0!Important;
+	}
 	.customContentViewer ul ul li{
 		background-color:white;
 		box-shadow:0 0 2px 0 rgba(0, 0, 0, .5) !important;
