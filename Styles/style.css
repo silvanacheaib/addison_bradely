@@ -2552,8 +2552,8 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
     width:100%;
     object-fit:cover;
 }
-.CenteredContent .text-editor-description{
-    text-align:center;
+.CenteredContent .text-editor-description p{
+    text-align:center!important;
     /* width: 82%; */
 }
 .meet_out_team .fusion-content-layout-column{
