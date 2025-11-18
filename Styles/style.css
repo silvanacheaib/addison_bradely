@@ -2701,6 +2701,24 @@ html[dir="rtl"] #menu-footer-menu li > span:first-child{
 	border-left: 1px solid var(--dark-blue)!important;
 	border-right:none!important;
 }
+.search-results .fusion-posts-container{
+    display:flex;
+    align-items:flex-start;
+    flex-wrap:wrap;
+}
+.search-results .search-page-search-form .posts-container{
+    display:flex!important;
+    flex-wrap:wrap;
+}
+.search-results .fusion-post-medium {
+    width: 33%!important;
+    height: 29rem;
+    margin: 0!important;
+}
+.search-results .fusion-post-medium .entry-title {
+    font-size:1.25rem!important;
+    color:var(--dark-blue)!important;
+}
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
 		width:fit-content!important;
