@@ -2715,7 +2715,7 @@ html[dir="rtl"] #menu-footer-menu li > span:first-child{
     height: 29rem;
     margin: 0!important;
 }
-.search-results .fusion-post-medium .entry-title {
+.search-results .entry-title {
     font-size:1.25rem!important;
     color:var(--dark-blue)!important;
 }
