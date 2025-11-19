@@ -812,9 +812,10 @@ padding:0 1rem!important;}
 	color: var(--medium-blue);
 	
 }
-.text-editor-subtitle{
+.text-editor-subtitle,.text-editor-subtitle h4{
 	font-size: 1.35rem;
 	font-family: var(--helvetica-bold) !important;
+	text-transform: uppercase;
 }
 .verticalView .text-editor-subtitle{
 	margin-top: -0.7rem!important;
