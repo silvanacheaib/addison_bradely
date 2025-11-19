@@ -572,6 +572,12 @@ header nav.awb-menu {
 	width: 9rem!important;
 	height:auto;
 }
+.providersContainerSection .fusion-builder-row .fusion-image-carousel{
+	margin:0!important;
+}
+.providersContainerSection .fusion-builder-row {
+	align-items:center!important;
+}
 .providersCarousel .fusion-image-wrapper img{
 	width: 100%!important;
 	height:100%;
