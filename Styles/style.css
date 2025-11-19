@@ -569,13 +569,13 @@ header nav.awb-menu {
 }
 
 .providersCarousel .fusion-image-wrapper{
-	/* width: 9rem!important; */
-	/* height:auto; */
+	width: 9rem!important;
+	height:auto;
 }
 .providersCarousel .fusion-image-wrapper img{
 	width: 100%!important;
-	/* height:100%; */
-	/* object-fit:contain; */
+	height:100%;
+	object-fit:contain;
 }
 .providersImages .fusion-column-wrapper {
 	background-color: transparent !important;
