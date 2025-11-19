@@ -959,7 +959,8 @@ html body .subTitle .fusion-title-heading {
 .ourServicesContainer .subTitle .fusion-title-heading{
 	text-transform:uppercase!important;
 }
-html body .appTitle h1.fusion-title-heading {
+html body .appTitle h1.fusion-title-heading,
+html body .appTitle p{
 	text-align: left !important;
 	font-size: 1.6rem !important;
 	text-transform: uppercase;
