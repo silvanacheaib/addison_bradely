@@ -2677,6 +2677,7 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
 }
 .dark_background_color .text-editor-description h4{
 	color:white!important;
+	text-transform: uppercase;
 }
 .horizontalView .text-editor-description{
 	gap:1rem 0;
