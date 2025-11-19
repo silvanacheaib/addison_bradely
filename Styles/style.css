@@ -1600,7 +1600,7 @@ html[dir="rtl"] .ourServicesContainer .awb-swiper-button-prev i{
 	font-size: 1.3rem;
 }
 
-.servicesContainer h1.fusion-title-heading.title-heading-left.fusion-responsive-typography-calculated {
+html body .servicesContainer h1.fusion-title-heading{
 	font-size: 1.5rem !important;
 	color: white !important;
 	text-transform: uppercase;
