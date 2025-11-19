@@ -2567,6 +2567,9 @@ html[dir="rtl"] .menu-item:last-child .awb-menu__main-background-default{
     text-align:center!important;
     /* width: 82%; */
 }
+li.CenteredContent:nth-child(2) .text-editor-description p{
+	direction:ltr;
+}
 .meet_out_team .fusion-content-layout-column{
 	background-image:none!important;
 }
