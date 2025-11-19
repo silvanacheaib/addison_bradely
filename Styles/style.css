@@ -2721,6 +2721,17 @@ html[dir="rtl"] #menu-footer-menu li > span:first-child{
     align-items:flex-start;
     flex-wrap:wrap;
 }
+.search-results .fusion-posts-container .fusion-post-wrapper{
+	border:none;
+}
+.search-results .fusion-posts-container .fusion-image-wrapper{
+	width:100%;
+	height: 17rem!important;
+	border-radius: 1.5rem;
+}
+.search-results .fusion-posts-container .fusion-post-content-wrapper{
+	padding:0rem!important
+}
 .search-results .search-page-search-form .posts-container{
     display:flex!important;
     flex-wrap:wrap;
@@ -2730,9 +2741,9 @@ html[dir="rtl"] #menu-footer-menu li > span:first-child{
     height: 29rem;
     margin: 0!important;
 }
-.search-results .entry-title {
+.search-results .entry-title a {
     font-size:1.25rem!important;
-    color:var(--dark-blue)!important;
+    color: var(--medium-blue)!important;
 }
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
