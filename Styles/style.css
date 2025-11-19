@@ -832,6 +832,9 @@ html[dir="rtl"]  .text-editor-subtitle h4{
 .horizontalView .text-editor-subtitle{
 	margin-bottom: 0.6rem;
 }
+.horizontalView .text-editor-subtitle h4{
+	margin:0!important;
+}
 .fusion-text.fusion-text-3.text-editor-subtitle:empty {
     display: none;
 }
