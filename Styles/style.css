@@ -959,8 +959,7 @@ html body .subTitle .fusion-title-heading {
 .ourServicesContainer .subTitle .fusion-title-heading{
 	text-transform:uppercase!important;
 }
-html body .appTitle h1.fusion-title-heading,
-html body .appTitle p{
+html body .appTitle h1.fusion-title-heading {
 	text-align: left !important;
 	font-size: 1.6rem !important;
 	text-transform: uppercase;
@@ -976,7 +975,8 @@ html body .appTitle p{
 .faqContainer .appTitle{
 display:none!important;
 }
-.faqAppIntro .appTitle h1.fusion-title-heading {
+.faqAppIntro .appTitle h1.fusion-title-heading,
+.faqAppIntro .appTitle p{
 	color: var(--medium-blue) !important;
 	font-family: var(--helvetica-bold) !important;
 	margin: 0 !important;
