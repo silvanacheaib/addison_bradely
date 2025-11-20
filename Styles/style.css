@@ -2758,6 +2758,9 @@ html[dir="rtl"] #menu-footer-menu li > span:first-child{
     font-size:1.25rem!important;
     color: var(--medium-blue)!important;
 }
+.smallerimage .cv_image{
+	height: 12rem!important;
+}
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
 		width:fit-content!important;
