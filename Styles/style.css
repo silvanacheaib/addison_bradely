@@ -557,7 +557,7 @@ html[dir="rtl"] .aboutUsContainer .fusion-button:hover i::before {
 header {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
-	width: 100% !important;
+	width: 100vw !important;
 }
 .awb-menu__main-li:last-child span {
 	border-right: none !important;
@@ -1094,7 +1094,7 @@ header #getInTouchBtn {
 	flex-direction: row;
 	justify-content: space-between !important;
 	margin: 0;
-	width: 100vw;
+	width: 100%!important;
 	background: var(--dark-blue);
 }
 
