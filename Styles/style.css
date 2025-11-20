@@ -1033,7 +1033,10 @@ html[dir="rtl"] body .subTitle .fusion-title-heading {
 	text-align: right !important;
 	font-family: var(--cairoBold) !important;
 }
-
+html[dir="rtl"] .faqAppIntro .subTitle, 
+html[dir="rtl"] body .subTitle .fusion-title-heading{
+	font-family: var(--cairoRegular) !important;
+}
 .providersIntro .fusion-title.title {
 	margin: 0 0 0.5rem!important;
 }
