@@ -3127,6 +3127,9 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	html body .subTitle, html body .subTitle .fusion-title-heading {
     font-size: 1.5vw !important;
 }
+	.faqAppIntro .subTitle, html body .subTitle .fusion-title-heading{
+		font-size:1vw!important;
+	}
 	.text-editor-title .fusion-title-heading {
     font-size: 1.6vw !important;
     width: 90%;
