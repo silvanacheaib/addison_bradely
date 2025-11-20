@@ -733,7 +733,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 }
 
 .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column {
-	width: 100% !important;
+	/* width: 100% !important; */
 }
 
 .aboutUsContainer>.fusion-column-wrapper {
@@ -2995,7 +2995,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	}
 
 	.aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column {
-		width: 50% !important;
+		/* width: 50% !important; */
 	}
 
 	html[dir="rtl"] .aboutUsContainer .fusion-column-wrapper .fusion-column-wrapper .fusion-layout-column:last-child {
