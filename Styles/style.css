@@ -215,6 +215,11 @@ html[dir="rtl"] .testimonials .testimonialCard .fusion-text.testimonialDesc p{
 	text-align: right;
 	font-size:1rem;
 }
+html[dir="rtl"] .faqAppIntro .appTitle h1.fusion-title-heading, 
+html[dir="rtl"] .faqAppIntro .appTitle p {
+    font-family: var(--cairoBold) !important;
+    font-size: 1.6rem !important;
+}
 html[dir="rtl"] .kpisSection .kpi_subtitle p{
 	font-family:var(--cairoBold)!important;
 }
@@ -3025,6 +3030,11 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	}
 }
 @media(min-width:1600px){
+	html[dir="rtl"] .faqAppIntro .appTitle h1.fusion-title-heading, 
+html[dir="rtl"] .faqAppIntro .appTitle p {
+    font-family: var(--cairoBold) !important;
+    font-size: 1.6vw !important;
+}
 	.heroImage .awb-imageframe-caption .awb-imageframe-caption-title * {
     font-size: 2.3vw !important;
 }
