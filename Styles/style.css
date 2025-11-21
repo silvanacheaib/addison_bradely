@@ -1854,6 +1854,9 @@ html[dir="rtl"] .testimonials .testimonialCard::before {
 	right:auto;
 	transform:scaleX(1);
 }
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox.option-inline{
+	margin: 0!important;
+}
 html[lang="en-US"] .contactTile .fusion-grid fusion-grid-1 .fusion-layout-column {
 	margin-right: 1rem !important;
 }
