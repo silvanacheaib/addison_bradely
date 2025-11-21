@@ -2793,6 +2793,17 @@ html[dir="rtl"] #menu-footer-menu li > span:first-child{
 .smallerimage .cv_image{
 	height: 12rem!important;
 }
+.textEditorButton .fusion-button-text:empty {
+    display: none;
+}
+
+.textEditorButton .fusion-button-text:empty {
+    display: none;
+}
+
+.textEditorButton:has(.fusion-button-text:empty) {
+    display: none;
+}
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
 		width:fit-content!important;
