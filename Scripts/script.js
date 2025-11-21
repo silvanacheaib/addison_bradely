@@ -54,3 +54,10 @@ document.addEventListener("DOMContentLoaded", function () {
         );
     }
 });
+document.querySelectorAll('.textEditorButton').forEach(btn => {
+    const textEl = btn.querySelector('.fusion-button-text');
+    const text = textEl ? textEl.textContent.trim() : "";
+    if (!text) {
+        btn.style.display = "none";
+    }
+});
