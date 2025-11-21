@@ -10,19 +10,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 document.addEventListener("DOMContentLoaded", function() {
+  // Run ONLY if the page language is English
+  const htmlLang = document.documentElement.lang.toLowerCase();
+  if (htmlLang !== "en" && htmlLang !== "en-us" && htmlLang !== "en-gb") return;
+
   const heading = document.querySelector(".aboutUsIntro .fusion-title-heading");
   if (heading) {
-    // Get plain text (not HTML)
     const text = heading.textContent.trim();
-
-    // Split into words (preserve punctuation as separate “words” if needed)
     const words = text.split(/\s+/);
 
-    // Word positions to wrap (1-based index)
-    const start = 5; // from word #5
-    const end = 8;   // to word #8
+    const start = 5;
+    const end = 8;
 
-    // Build the new HTML
     const wrapped = words
       .map((word, i) => {
         const index = i + 1;
@@ -36,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
     heading.innerHTML = wrapped;
   }
 });
+
 document.addEventListener("DOMContentLoaded", function () {
     const heading = document.querySelector(".fusion-title-heading");
 
