@@ -1745,6 +1745,8 @@ html[dir="rtl"] .ourServicesContainer .fusion-button{
 	left:3rem;
 	right:auto;
 	scale:-1;
+}
+html[dir="rtl"] .ourServicesContainer .fusion-button:hover{
 	transform:rotate(45deg);
 }
 .ourServicesContainer .fusion-button i::before {
