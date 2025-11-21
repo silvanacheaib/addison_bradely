@@ -954,6 +954,9 @@ html body .subTitle .fusion-title-heading {
 	text-transform: uppercase;
 	font-family: var(--helvetica-bold) !important;
 }
+.testimonialsContainer .fusion-column-wrapper{
+	margin:0!important;
+}
 .testimonialsContainer .appTitle{
 	margin-bottom:.3rem!important
 }
