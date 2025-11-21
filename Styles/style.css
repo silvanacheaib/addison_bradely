@@ -1849,7 +1849,7 @@ html[lang="en-US"] .testimonials .testimonialCard .fusion-text {
 	right: 3rem;
 	transform:scaleX(-1);
 }
-html[dir="ltr"] .testimonials .testimonialCard::before {
+html[dir="rtl"] .testimonials .testimonialCard::before {
 	left: 3rem;
 	right:auto;
 	transform:scaleX(1);
