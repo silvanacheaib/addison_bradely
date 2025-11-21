@@ -9,39 +9,39 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
-document.addEventListener("DOMContentLoaded", function() {
-  // Optional: Run only if page language is English
-  const htmlLang = document.documentElement.lang.toLowerCase();
-  if (htmlLang !== "en" && htmlLang !== "en-us" && htmlLang !== "en-gb") return;
+// document.addEventListener("DOMContentLoaded", function() {
+//   // Optional: Run only if page language is English
+//   const htmlLang = document.documentElement.lang.toLowerCase();
+//   if (htmlLang !== "en" && htmlLang !== "en-us" && htmlLang !== "en-gb") return;
 
-  const heading = document.querySelector(".aboutUsIntro .fusion-title-heading");
-  if (!heading) return;
+//   const heading = document.querySelector(".aboutUsIntro .fusion-title-heading");
+//   if (!heading) return;
 
-  const text = heading.textContent;
+//   const text = heading.textContent;
 
-  // Split text into words + spaces (preserves all spacing!)
-  const parts = text.split(/(\s+)/);
+//   // Split text into words + spaces (preserves all spacing!)
+//   const parts = text.split(/(\s+)/);
 
-  const start = 5; 
-  const end = 8;
-  let wordIndex = 0;
+//   const start = 5; 
+//   const end = 8;
+//   let wordIndex = 0;
 
-  const wrapped = parts
-    .map(part => {
-      if (!part.trim()) return part; // keep spaces untouched
+//   const wrapped = parts
+//     .map(part => {
+//       if (!part.trim()) return part; // keep spaces untouched
 
-      wordIndex++;
+//       wordIndex++;
 
-      if (wordIndex === start) return '<span id="blue_text">' + part;
-      if (wordIndex > start && wordIndex < end) return part;
-      if (wordIndex === end) return part + '</span>';
+//       if (wordIndex === start) return '<span id="blue_text">' + part;
+//       if (wordIndex > start && wordIndex < end) return part;
+//       if (wordIndex === end) return part + '</span>';
 
-      return part;
-    })
-    .join('');
+//       return part;
+//     })
+//     .join('');
 
-  heading.innerHTML = wrapped;
-});
+//   heading.innerHTML = wrapped;
+// });
 
 
 
