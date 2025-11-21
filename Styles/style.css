@@ -199,6 +199,9 @@ html[dir="rtl"] body {
 	padding-top:0rem!important;
 	padding-bottom: 2rem!important;
 }
+.topHeader > .fusion-builder-row > .fusion-layout-column{
+	width: calc(100% - 2%)!important;
+}
 .topHeader,
 header.header{
     opacity: 0;
@@ -2870,6 +2873,7 @@ html[dir="rtl"] #menu-footer-menu li:not(:first-child) a{
 	.topHeader .fusion-builder-row{
 		width:100%;
 		max-width: 100%!important;
+		min-width: calc(100% - 4%)!important;
 	}
 	.topBar{
 		min-width: unset;
