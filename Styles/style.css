@@ -782,6 +782,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 }
 #blue_text{
 	color:var(--light-blue);
+	margin: 0 .5rem;
 }
 html[dir="rtl"] .text-editor-title .fusion-title-heading {
 	text-align: right !important;

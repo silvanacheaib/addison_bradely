@@ -10,31 +10,39 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 document.addEventListener("DOMContentLoaded", function() {
-  // Run ONLY if the page language is English
+  // Optional: Run only if page language is English
   const htmlLang = document.documentElement.lang.toLowerCase();
   if (htmlLang !== "en" && htmlLang !== "en-us" && htmlLang !== "en-gb") return;
 
   const heading = document.querySelector(".aboutUsIntro .fusion-title-heading");
-  if (heading) {
-    const text = heading.textContent.trim();
-    const words = text.split(/\s+/);
+  if (!heading) return;
 
-    const start = 5;
-    const end = 8;
+  const text = heading.textContent;
 
-    const wrapped = words
-      .map((word, i) => {
-        const index = i + 1;
-        if (index === start) return '<span id="blue_text">' + word;
-        if (index > start && index < end) return word;
-        if (index === end) return word + '</span>';
-        return word;
-      })
-      .join(' ');
+  // 🔥 Split text into words + spaces (preserves all spacing!)
+  const parts = text.split(/(\s+)/);
 
-    heading.innerHTML = wrapped;
-  }
+  const start = 5; 
+  const end = 8;
+  let wordIndex = 0;
+
+  const wrapped = parts
+    .map(part => {
+      if (!part.trim()) return part; // keep spaces untouched
+
+      wordIndex++;
+
+      if (wordIndex === start) return '<span id="blue_text">' + part;
+      if (wordIndex > start && wordIndex < end) return part;
+      if (wordIndex === end) return part + '</span>';
+
+      return part;
+    })
+    .join('');
+
+  heading.innerHTML = wrapped;
 });
+
 
 document.addEventListener("DOMContentLoaded", function () {
     const heading = document.querySelector(".fusion-title-heading");
