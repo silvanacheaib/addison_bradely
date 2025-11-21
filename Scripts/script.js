@@ -9,6 +9,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+  // Select all elements with dir="rtl"
+  document.querySelectorAll('[dir="rtl"]').forEach(el => {
+    // Replace "كسب ثقتك" with a span-wrapped version
+    el.innerHTML = el.innerHTML.replace('كسب ثقتك', '<span id="blue_text">كسب ثقتك</span>');
+  });
 // document.addEventListener("DOMContentLoaded", function() {
 //   // Optional: Run only if page language is English
 //   const htmlLang = document.documentElement.lang.toLowerCase();
