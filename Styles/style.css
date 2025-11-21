@@ -3058,6 +3058,12 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	}
 }
 @media(min-width:1600px){
+	.ourServicesContainer .awb-swiper-button-prev {
+    left: -6.2vw;
+}
+.awb-swiper-button-next, .awb-swiper-button-prev{
+	width:5vw;
+}
 	html[dir="rtl"] .faqAppIntro .appTitle h1.fusion-title-heading, 
 html[dir="rtl"] .faqAppIntro .appTitle p {
     font-family: var(--cairoBold) !important;
