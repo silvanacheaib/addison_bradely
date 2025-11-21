@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   const text = heading.textContent;
 
-  // 🔥 Split text into words + spaces (preserves all spacing!)
+  // Split text into words + spaces (preserves all spacing!)
   const parts = text.split(/(\s+)/);
 
   const start = 5; 
@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   heading.innerHTML = wrapped;
 });
+
 
 
 document.addEventListener("DOMContentLoaded", function () {
