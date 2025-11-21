@@ -1846,9 +1846,14 @@ html[lang="en-US"] .testimonials .testimonialCard .fusion-text {
 	width: 9rem;
 	position: absolute;
 	top: -2rem;
-	left: 3rem;
+	right: 3rem;
+	transform:scaleX(-1);
 }
-
+html[dir="ltr"] .testimonials .testimonialCard::before {
+	left: 3rem;
+	right:auto;
+	transform:scaleX(1);
+}
 html[lang="en-US"] .contactTile .fusion-grid fusion-grid-1 .fusion-layout-column {
 	margin-right: 1rem !important;
 }
