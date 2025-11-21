@@ -1969,6 +1969,7 @@ html[dir="rtl"] .contactSection p {
 	position: relative !important;
 	color: white !important;
 	padding: 0 2rem !important;
+	line-height: 1.4!important;
 }
 
 .consent {
