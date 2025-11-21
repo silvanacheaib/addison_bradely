@@ -2805,9 +2805,13 @@ html[dir="rtl"] #menu-footer-menu li > span:first-child{
     display: none;
 }
 .allFaqsContainer h3{
-	color:var(--navy-blue)!important;
+	color:var(--dark-blue)!important;
 	text-transform: uppercase;
 	font-size: 2rem!important;
+}
+html[dir="rtl"] .allFaqsContainer h3{
+	color:var(--dark-blue)!important;
+	font-family:var(--cairoBold)!important;
 }
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
