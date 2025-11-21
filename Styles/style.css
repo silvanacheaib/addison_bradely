@@ -2867,6 +2867,9 @@ html[dir="rtl"] #menu-footer-menu li:not(:first-child) a{
 	html body .appTitle h1.fusion-title-heading{
 		font-size: 2rem!important;
 	}
+	.faqSectionContainer .appTitle h1.fusion-title-heading{
+		font-size: 1.2rem!important;
+	}
 	.smallContactIcons{
 		display:flex;
 		align-items:flex-start;
