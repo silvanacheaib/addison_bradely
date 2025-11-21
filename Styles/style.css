@@ -2003,7 +2003,7 @@ html[dir="rtl"] .contactSection p {
 	display: block !important;
 }
 html[dir="rtl"] .consent::after {
-	right: 2.9rem;
+	right: 1.4rem;
 	left:auto;
 }
 .contactSection .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkbox label:before {
