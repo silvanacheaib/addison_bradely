@@ -2804,6 +2804,11 @@ html[dir="rtl"] #menu-footer-menu li > span:first-child{
 .textEditorButton:has(.fusion-button-text:empty) {
     display: none;
 }
+.allFaqsContainer h3{
+	color:var(--navy-blue)!important;
+	text-transform: uppercase;
+	font-size: 2rem!important;
+}
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
 		width:fit-content!important;
