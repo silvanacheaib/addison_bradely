@@ -1548,10 +1548,12 @@ html[dir="rtl"] .cvTitle h1 {
 	line-height: 1.7em;
 	margin-bottom: 0.9rem!important;
 }
+
 .cv_description ul {
 	padding:0 1rem!important
 }
-html[dir="rtl"] .cv_description p {
+html[dir="rtl"] .cv_description p,
+html[dir="rtl"] .cv_description ul li * {
 	text-align: right;
 	font-family: var(--cairoRegular);
 }
