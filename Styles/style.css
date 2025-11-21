@@ -2874,6 +2874,7 @@ html[dir="rtl"] #menu-footer-menu li:not(:first-child) a{
 	}
 	.faqSectionContainer .appTitle h1.fusion-title-heading{
 		font-size: 1.2rem!important;
+		margin-top: 1.3rem!important;
 	}
 	.smallContactIcons{
 		display:flex;
