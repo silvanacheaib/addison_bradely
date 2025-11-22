@@ -2814,6 +2814,10 @@ html[dir="rtl"] .allFaqsContainer h3{
 	color:var(--dark-blue)!important;
 	font-family:var(--cairoBold)!important;
 }
+.fusion-alert.alert-success.success {
+    --awb-background-color: var(--light-blue);
+    --awb-accent-color: white;
+}
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
 		width:fit-content!important;
