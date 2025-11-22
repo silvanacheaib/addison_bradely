@@ -2534,6 +2534,9 @@ html[dir="rtl"] .textEditorButton i {
     text-transform:capitalize;
     margin: 0!important;
 }
+html[dir="rtl"] .user-name-rating p{
+    font-family:var(--cairoBold)!important;
+}
 .fa-star.awb-stars-rating-empty-icon::before{
     content:"";
     height:1.3rem;
