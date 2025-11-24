@@ -2809,9 +2809,10 @@ html[dir="rtl"] #menu-footer-menu li > span:first-child{
     display: none;
 }
 .allFaqsContainer h3{
-	color:var(--navy-blue)!important;
+	color: var(--light-blue);
 	text-transform: uppercase;
 	font-size: 2rem!important;
+	margin-bottom: 0;
 }
 html[dir="rtl"] .allFaqsContainer h3{
 	color:var(--dark-blue)!important;
