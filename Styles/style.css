@@ -1518,8 +1518,12 @@ html .aboutUsContainer .fusion-button {
 	text-transform: uppercase;
 	transition: var(--transition);
 	padding: 0.5rem 1rem;
+	color: white!important;
 }
-
+html .aboutUsContainer .fusion-button:hover span{
+	color:white!important;
+	opacity:1!important;
+}
 html[dir="ltr"] .aboutUsContainer .fusion-text,
 html[lang*="en-US"] .aboutUsContainer .fusion-text {
 	text-align: left !important;
