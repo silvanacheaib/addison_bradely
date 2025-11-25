@@ -75,7 +75,8 @@ body {
 }
 html[dir="rtl"] .fusion-title-heading.title-heading-left{
  text-align: right!important;
- font-family: var(--cairoBold)!important;;
+ font-family: var(--cairoBold)!important;
+ margin: 0!important;
 }
 .contactPage h1.fusion-title-heading{
 	font-size:2rem!important;
