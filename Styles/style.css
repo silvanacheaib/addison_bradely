@@ -3082,7 +3082,9 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	}
 }
 @media(min-width:1200px) {
-	.search-results .fusion-posts-container{
+
+	.search-results .fusion-posts-container,
+	.search-page-search-form.search-page-search-form-top{
 		padding-left:6rem!important;
 		padding-right:6rem!important;
 	}
