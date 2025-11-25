@@ -2818,9 +2818,22 @@ html[dir="rtl"] .allFaqsContainer h3{
 	color:var(--dark-blue)!important;
 	font-family:var(--cairoBold)!important;
 }
+.search .fusion-content-sep.sep-double.sep-solid{
+	display:none!important;
+}
 .fusion-alert.alert-success.success {
     --awb-background-color: var(--light-blue);
     --awb-accent-color: white;
+}
+.search-page-search-form.search-page-search-form-top{
+	padding:0 1rem;
+}
+.search-results .fusion-post-content-container{
+	display:none!important;
+}
+.search-page-search-form.search-page-search-form-top .entry-title {
+	font-size:1.5rem!important;
+	color:var(--medium-blue);
 }
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
