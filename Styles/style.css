@@ -2907,6 +2907,9 @@ html[dir="rtl"] #menu-footer-menu li:not(:first-child) a{
 	html body .appTitle h1.fusion-title-heading{
 		font-size: 2rem!important;
 	}
+	html[dir="rtl"] body .providersContainerSection .appTitle h1{
+		font-size:1.6rem!important;
+	}
 	.faqSectionContainer .appTitle h1.fusion-title-heading{
 		font-size: 1.2rem!important;
 		margin-top: 1.3rem!important;
