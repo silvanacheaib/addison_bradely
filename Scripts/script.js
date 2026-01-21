@@ -71,50 +71,26 @@ document.querySelectorAll('.textEditorButton').forEach(button => {
 });
 
 
+
 document.addEventListener('DOMContentLoaded', function () {
 
-  const form = document.querySelector('form.fusion-form');
-  if (!form) return;
+  document.addEventListener('fusion-form-submit-success', function (event) {
 
-  let isSubmitting = false;
+    const form = event.target;
+    if (!form || !form.classList.contains('fusion-form')) return;
 
-  form.addEventListener('submit', function (e) {
-
-    // Let Avada do validation first
-    if (!form.checkValidity()) {
-      return;
-    }
-
-    e.preventDefault();
-
-    if (isSubmitting) return;
-    isSubmitting = true;
+    // Prevent double sending
+    if (form.dataset.emailjsSent === 'true') return;
+    form.dataset.emailjsSent = 'true';
 
     emailjs.sendForm(
-      'service_x09tvpj',
+       'service_x09tvpj',
       'template_lt36b18',
       form
     ).then(function () {
-
-      // Avada-style success message
-      const success = document.createElement('div');
-      success.className = 'fusion-form-response fusion-form-response-success';
-      success.innerText = 'Thank you! Your message has been sent.';
-      form.appendChild(success);
-
-      form.reset();
-      isSubmitting = false;
-
+      console.log('EmailJS sent successfully');
     }).catch(function (error) {
-
-      console.error(error);
-
-      const errorBox = document.createElement('div');
-      errorBox.className = 'fusion-form-response fusion-form-response-error';
-      errorBox.innerText = 'Something went wrong. Please try again.';
-      form.appendChild(errorBox);
-
-      isSubmitting = false;
+      console.error('EmailJS failed:', error);
     });
 
   });
