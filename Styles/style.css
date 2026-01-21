@@ -2857,6 +2857,10 @@ html[dir="rtl"] .allFaqsContainer h3{
 	font-size:1.5rem!important;
 	color:var(--medium-blue);
 }
+.awb-menu.collapse-enabled.awb-menu_indent-left ul ul a span {
+    color: #111e38;
+    font-size: 0.9rem;
+}
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
 		width:fit-content!important;
