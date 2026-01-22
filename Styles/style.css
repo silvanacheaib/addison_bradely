@@ -1802,6 +1802,7 @@ html body .width-100 .nonhundred-percent-fullwidth:not(.container).testimonialsC
 	width: 6rem;
 	position: absolute;
 	right: 0rem;
+	display: none;
 }
 html[dir="rtl"] .testimonialsContainer .awb-swiper-button-next {
 	right:auto;
@@ -2873,6 +2874,9 @@ html[dir="rtl"] .allFaqsContainer h3{
 	}
 }
 @media(min-width:992px) {
+	.testimonialsContainer .awb-swiper-button-prev, .testimonialsContainer .awb-swiper-button-next{
+		display:block;
+	}
 	.aboutUsContainer .fusion-imageframe {
 
     height: 29rem;
