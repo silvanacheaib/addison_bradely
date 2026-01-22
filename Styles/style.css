@@ -2145,7 +2145,9 @@ html body .width-100 .nonhundred-percent-fullwidth.kpisSection .fusion-grid li {
 .kpisContainer .fusion-builder-row{
 	display:flex;
 	flex-direction:row;
-	flex-wrap: nowrap!important;
+	flex-wrap: wrap!important;
+	align-items: center;
+	justify-content: center;
 }
 .fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
 	margin:0!important;
@@ -2870,6 +2872,12 @@ html[dir="rtl"] .allFaqsContainer h3{
 	}
 }
 @media(min-width:992px) {
+	.kpisContainer .fusion-builder-row{
+	display:flex;
+	flex-direction:row;
+	flex-wrap: nowrap!important;
+	justify-content: flex-start;
+}
 	html body .fusion-layout-column.heroImage{
 height:65vh;
 	}
