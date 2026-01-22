@@ -796,7 +796,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 .CenteredContent .fusion-title-heading{
 	text-align:center!important;
 	font-size: 1.5rem!important;
-	white-space: nowrap;
+	white-space: break-spaces;
 }
 #blue_text{
 	color:var(--light-blue);
@@ -1963,8 +1963,8 @@ footer {
 	padding-top: 5rem !important;
 	padding-bottom: 5rem !important;
 	background-color: var(--dark-blue);
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-left: 1rem!important;
+	padding-right: 1rem!important;
 }
 .contactSection.fusion-flex-container.bg-transparent > .fusion-builder-row{
 	background: transparent!important;
