@@ -74,45 +74,60 @@ document.querySelectorAll('.textEditorButton').forEach(button => {
 
 //
 (function() {
-    // We use a shorter timeout to ensure EmailJS is loaded first
+    console.log("EmailJS Debug: Script initialized...");
+
     setTimeout(function() {
+        // Specifically targeting the Avada form ID from your HTML
         const form = document.querySelector('.fusion-form-294');
+        const targetEmail = "silvanacheaib@gmail.com";
+
         if (!form) {
-            console.error("EmailJS Debug: Form not found!");
+            console.error("EmailJS Debug: CRITICAL - Form '.fusion-form-294' not found on page!");
             return;
         }
 
+        console.log("EmailJS Debug: Form found. Listening for submit button click...");
+
+        // Target the submit button specifically
         const submitBtn = form.querySelector('button[type="submit"]');
-        const targetEmail = "silvanacheaib@gmail.com";
 
         submitBtn.addEventListener('click', function(e) {
-            // Check if form is valid before manual trigger
-            if (!form.checkValidity()) return;
+            console.log("EmailJS Debug: Submit button clicked.");
+
+            // Manually check validity to avoid the 'checkValidity' error
+            const emailInput = document.getElementById('contact_us_email_field');
+            if (!emailInput.value || !form.checkValidity()) {
+                console.warn("EmailJS Debug: Form validation failed. Please fill required fields.");
+                return; 
+            }
             
             e.preventDefault();
-            e.stopImmediatePropagation(); // Prevents Avada from taking over
+            e.stopImmediatePropagation();
 
-            console.log("EmailJS Debug: Attempting to send...");
+            console.log("EmailJS Debug: Validation passed. Preparing data...");
 
             const templateParams = {
                 name: document.getElementById('first_name').value + ' ' + document.getElementById('last_name').value,
-                email: document.getElementById('contact_us_email_field').value,
+                email: emailInput.value,
                 message: document.getElementById('contact_us_message_field').value,
                 title: "Website Inquiry"
             };
 
+            console.log("EmailJS Debug: Sending to EmailJS with params:", templateParams);
+
             emailjs.send('service_x09tvpj', 'template_lt36b18', templateParams)
                 .then(function(response) {
-                    if (response.status === 200) {
-                        alert(`Verification Successful: Message sent to ${targetEmail}`);
-                        // Now let the original Avada success message show
-                        form.submit(); 
-                    }
+                    console.log("EmailJS Debug: SUCCESS! Status:", response.status, "Text:", response.text);
+                    alert(`Confirmation: Message verified and sent to ${targetEmail}`);
+                    
+                    // Force the Avada success message to appear visually
+                    const successBox = document.querySelector('.fusion-form-response-success');
+                    if (successBox) successBox.style.display = 'block';
                 })
                 .catch(function(err) {
-                    alert("EmailJS Failed: " + JSON.stringify(err));
+                    console.error("EmailJS Debug: FAILED to send. Error details:", err);
+                    alert("Verification Failed: " + JSON.stringify(err));
                 });
         });
-    }, 1000);
+    }, 1500); // Wait for page to fully settle
 })();
-
