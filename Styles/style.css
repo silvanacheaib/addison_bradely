@@ -590,6 +590,7 @@ header nav.awb-menu {
 }
 .providersContainerSection .fusion-builder-row {
 	align-items:center!important;
+	flex-direction: column;
 }
 .providersCarousel .fusion-image-wrapper img{
 	width: 100%!important;
@@ -2888,6 +2889,9 @@ html[dir="rtl"] .allFaqsContainer h3{
 	}
 }
 @media(min-width:992px) {
+	.providersContainerSection .fusion-builder-row{
+		flex-direction:row;
+	}
 	.contactSection > .fusion-builder-row > .fusion-layout-column form .fusion-layout-column{
 	width:50%!important;
 }
