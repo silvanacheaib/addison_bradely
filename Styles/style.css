@@ -2874,8 +2874,9 @@ html[dir="rtl"] .allFaqsContainer h3{
 	}
 }
 @media(min-width:992px) {
-	.testimonialsContainer .awb-swiper-button-prev, .testimonialsContainer .awb-swiper-button-next{
-		display:block;
+	.testimonialsContainer .awb-swiper-button-prev, 
+	.testimonialsContainer .awb-swiper-button-next{
+		display:flex;
 	}
 	.aboutUsContainer .fusion-imageframe {
 
