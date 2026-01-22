@@ -3173,6 +3173,12 @@ html[dir="rtl"] .ourValuesContainer .fusion-grid .fusion-layout-column:not(:last
 	}
 }
 @media(min-width:1600px){
+.grey_background_color .text-editor-description p, 
+	.grey_background_color .text-editor-description ul li, 
+	.grey_background_color .text-editor-description ol li {
+    font-size: 1vw !important;
+    margin-top: .5vw;
+}
 	.ourServicesContainer .awb-swiper-button-prev {
     left: -6.2vw;
 }
@@ -3210,7 +3216,7 @@ html[dir="rtl"] .faqAppIntro .appTitle p {
     padding: 0 1.8vw!important;
 }
 	body{
-		font-size:1vw;
+		/* font-size:1vw; */
 	}
 	.fusion-page-title-bar .fusion-page-title-row h1::before {
     height: 1.5vw;
