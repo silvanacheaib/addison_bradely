@@ -2401,7 +2401,7 @@ html[dir="rtl"] .stepContainer .stepNumber {
 }
 html[dir="rtl"] .stepContainer .stepTitle p,
 html[dir="rtl"] .stepContainer .stepDescription p{
-	margin-right:2rem;
+	margin-right: 2rem;
 	margin-left:0;
 }
 .stepContainer {
@@ -2989,7 +2989,7 @@ html[dir="rtl"] #menu-footer-menu li:not(:first-child) a{
 		width: 32%!important;
 	}
 	    .fusion-post-cards>.fusion-grid>.fusion-grid-column.stepContainer {
-        width: 50%!important;
+        width: 33%!important;
     }
 	.fusion-tb-header .fusion-layout-column{
 		width: var(--awb-col-width);
