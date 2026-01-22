@@ -73,27 +73,27 @@ document.querySelectorAll('.textEditorButton').forEach(button => {
 
 
 document.addEventListener('DOMContentLoaded', function () {
+  const form = document.querySelector('.fusion-form-294');
 
-  document.addEventListener('fusion-form-submit-success', function (event) {
+  form.addEventListener('submit', function (event) {
+    event.preventDefault(); // Stop default WordPress/Fusion submission temporarily
 
-    const form = event.target;
-    if (!form || !form.classList.contains('fusion-form')) return;
+    // Prepare parameters to match your EmailJS template EXACTLY
+    const templateParams = {
+      name: document.getElementById('first_name').value + ' ' + document.getElementById('last_name').value,
+      email: document.getElementById('contact_us_email_field').value,
+      message: document.getElementById('contact_us_message_field').value,
+      // Add 'title' if you use it in your subject line
+      title: "Website Inquiry" 
+    };
 
-    // Prevent double sending
-    if (form.dataset.emailjsSent === 'true') return;
-    form.dataset.emailjsSent = 'true';
-
-    emailjs.sendForm(
-       'service_x09tvpj',
-      'template_lt36b18',
-      form
-    ).then(function () {
-      console.log('EmailJS sent successfully');
-    }).catch(function (error) {
-      console.error('EmailJS failed:', error);
-    });
-
+    emailjs.send('service_x09tvpj', 'template_lt36b18', templateParams)
+      .then(function() {
+        console.log('SUCCESS!');
+        // Now trigger the original form success UI if needed
+      }, function(error) {
+        console.log('FAILED...', error);
+      });
   });
-
 });
 
