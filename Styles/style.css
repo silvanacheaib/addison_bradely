@@ -2065,6 +2065,7 @@ html[dir="rtl"] .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkb
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: flex-end;
+	width: 100%;
 }
 
 .copyrightContainer a {
