@@ -84,7 +84,7 @@ document.querySelectorAll('.textEditorButton').forEach(button => {
     function setupForm() {
         const formElement = document.querySelector('.fusion-form-294');
         //const targetEmail = "info@abradley.ae";
-        const targetEmail = "scheaib@hotmail.com";
+        //const targetEmail = "scheaib@hotmail.com";
 
         if (!formElement) return;
 
