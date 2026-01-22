@@ -1924,12 +1924,17 @@ html[dir="rtl"] .contactTile .fusion-grid fusion-grid-1 .fusion-layout-column {
 .contactSection .contactTile  .fusion-layout-column{
 	margin-bottom:1rem!important;
 }
+.contactSection > .fusion-builder-row > .fusion-layout-column{
+	width:100%!important;
+}
 .contactTile .tileDescription {
 	color: white;
 	width: 100% !important;
 	margin-left: 4rem;
 }
-
+.contactSection > .fusion-builder-row > .fusion-layout-column form .fusion-layout-column{
+	width:100%!important;
+}
 .contactTile ul li .fusion-builder-row.fusion-builder-row-inner.fusion-row.fusion-flex-align-items-flex-start.fusion-flex-content-wrap {
 	display: flex;
 	flex-direction: row;
@@ -2881,6 +2886,12 @@ html[dir="rtl"] .allFaqsContainer h3{
 	}
 }
 @media(min-width:992px) {
+	.contactSection > .fusion-builder-row > .fusion-layout-column form .fusion-layout-column{
+	width:50%!important;
+}
+	.contactSection > .fusion-builder-row >.fusion-layout-column{
+	width:50%!important;
+}
 	.contactSection .fusion-form .fusion-layout-column{
 		width:50%;
 	}
