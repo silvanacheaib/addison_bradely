@@ -758,7 +758,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 
 .aboutUsContainer .fusion-imageframe {
 	max-width: 100%;
-	height: 29rem;
+	height: 23rem;
 	width: 100%;
 }
 .customContentViewer .fusion-builder-row{
@@ -2873,6 +2873,11 @@ html[dir="rtl"] .allFaqsContainer h3{
 	}
 }
 @media(min-width:992px) {
+	.aboutUsContainer .fusion-imageframe {
+
+    height: 29rem;
+
+}
 	#blue_text{
 	color:var(--light-blue);
 	margin: 0 .3rem;
