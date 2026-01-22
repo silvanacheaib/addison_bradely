@@ -995,7 +995,7 @@ html body .appTitle h1.fusion-title-heading {
 	text-transform: uppercase;
 	color: var(--dark-blue) !important;
 	width: 100%;
-	white-space: nowrap;
+	white-space: break-spaces;
 	font-family: var(--helvetica-bold);
 }
 
