@@ -74,60 +74,57 @@ document.querySelectorAll('.textEditorButton').forEach(button => {
 
 //
 (function() {
-    console.log("EmailJS Debug: Script initialized...");
+    console.log("EmailJS Debug: Script v3 Initialized...");
 
     setTimeout(function() {
-        // Specifically targeting the Avada form ID from your HTML
-        const form = document.querySelector('.fusion-form-294');
+        // Target the Avada form class explicitly
+        const formElement = document.querySelector('.fusion-form-294');
         const targetEmail = "silvanacheaib@gmail.com";
 
-        if (!form) {
-            console.error("EmailJS Debug: CRITICAL - Form '.fusion-form-294' not found on page!");
+        if (!formElement) {
+            console.error("EmailJS Debug: ERROR - Form '.fusion-form-294' not found!");
             return;
         }
+        console.log("EmailJS Debug: Form found successfully.");
 
-        console.log("EmailJS Debug: Form found. Listening for submit button click...");
-
-        // Target the submit button specifically
-        const submitBtn = form.querySelector('button[type="submit"]');
+        const submitBtn = formElement.querySelector('button[type="submit"]');
 
         submitBtn.addEventListener('click', function(e) {
             console.log("EmailJS Debug: Submit button clicked.");
 
-            // Manually check validity to avoid the 'checkValidity' error
-            const emailInput = document.getElementById('contact_us_email_field');
-            if (!emailInput.value || !form.checkValidity()) {
-                console.warn("EmailJS Debug: Form validation failed. Please fill required fields.");
-                return; 
+            // Manual validation check to avoid .checkValidity() crash
+            const emailVal = document.getElementById('contact_us_email_field').value;
+            if (!emailVal) {
+                console.warn("EmailJS Debug: Email field is empty. Stopping.");
+                return;
             }
-            
+
             e.preventDefault();
             e.stopImmediatePropagation();
 
-            console.log("EmailJS Debug: Validation passed. Preparing data...");
-
+            // Prepare the data matching your EmailJS Template (Image 2)
             const templateParams = {
                 name: document.getElementById('first_name').value + ' ' + document.getElementById('last_name').value,
-                email: emailInput.value,
+                email: emailVal,
                 message: document.getElementById('contact_us_message_field').value,
-                title: "Website Inquiry"
+                title: "Website Contact"
             };
 
-            console.log("EmailJS Debug: Sending to EmailJS with params:", templateParams);
+            console.log("EmailJS Debug: Attempting to send data...", templateParams);
 
             emailjs.send('service_x09tvpj', 'template_lt36b18', templateParams)
                 .then(function(response) {
-                    console.log("EmailJS Debug: SUCCESS! Status:", response.status, "Text:", response.text);
-                    alert(`Confirmation: Message verified and sent to ${targetEmail}`);
+                    console.log("EmailJS Debug: SUCCESS SERVER RESPONSE:", response.status, response.text);
+                    alert(`SENT SUCCESSFULLY! Verification confirmed for ${targetEmail}`);
                     
-                    // Force the Avada success message to appear visually
+                    // Show the Avada success box visually (Image 4)
                     const successBox = document.querySelector('.fusion-form-response-success');
                     if (successBox) successBox.style.display = 'block';
                 })
                 .catch(function(err) {
-                    console.error("EmailJS Debug: FAILED to send. Error details:", err);
-                    alert("Verification Failed: " + JSON.stringify(err));
+                    console.error("EmailJS Debug: SEND FAILED. Error details:", err);
+                    alert("Verification Failed. Error: " + JSON.stringify(err));
                 });
         });
-    }, 1500); // Wait for page to fully settle
+    }, 1500);
 })();
