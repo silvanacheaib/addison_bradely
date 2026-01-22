@@ -76,23 +76,33 @@ document.addEventListener('DOMContentLoaded', function () {
   const form = document.querySelector('.fusion-form-294');
 
   form.addEventListener('submit', function (event) {
-    event.preventDefault(); // Stop default WordPress/Fusion submission temporarily
+    event.preventDefault(); // Stop default behavior to handle validation
 
-    // Prepare parameters to match your EmailJS template EXACTLY
+    const targetEmail = "silvanacheaib@gmail.com";
+    
+    // 1. Prepare data (Matching your Template Variables)
     const templateParams = {
       name: document.getElementById('first_name').value + ' ' + document.getElementById('last_name').value,
       email: document.getElementById('contact_us_email_field').value,
       message: document.getElementById('contact_us_message_field').value,
-      // Add 'title' if you use it in your subject line
-      title: "Website Inquiry" 
+      title: "New Website Lead"
     };
 
+    // 2. Send with Validation Logic
     emailjs.send('service_x09tvpj', 'template_lt36b18', templateParams)
-      .then(function() {
-        console.log('SUCCESS!');
-        // Now trigger the original form success UI if needed
-      }, function(error) {
-        console.log('FAILED...', error);
+      .then(function(response) {
+        // VALIDATION: Check if status is 200 (OK)
+        if (response.status === 200) {
+          console.log('SUCCESS!', response.status, response.text);
+          alert(`Success! The server confirmed your message was sent to ${targetEmail}.`);
+          form.reset();
+        } else {
+          throw new Error("Server responded but not with success.");
+        }
+      })
+      .catch(function(error) {
+        console.error('FAILED...', error);
+        alert("Verification failed. The email was NOT sent. Error: " + JSON.stringify(error));
       });
   });
 });
