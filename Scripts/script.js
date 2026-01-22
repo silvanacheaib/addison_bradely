@@ -73,58 +73,108 @@ document.querySelectorAll('.textEditorButton').forEach(button => {
 
 
 //
-(function() {
-    console.log("EmailJS Debug: Script v3 Initialized...");
+// (function() {
+//     console.log("EmailJS Debug: Script v3 Initialized...");
 
-    setTimeout(function() {
-        // Target the Avada form class explicitly
+//     setTimeout(function() {
+//         // Target the Avada form class explicitly
+//         const formElement = document.querySelector('.fusion-form-294');
+//         const targetEmail = "silvanacheaib@gmail.com";
+
+//         if (!formElement) {
+//             console.error("EmailJS Debug: ERROR - Form '.fusion-form-294' not found!");
+//             return;
+//         }
+//         console.log("EmailJS Debug: Form found successfully.");
+
+//         const submitBtn = formElement.querySelector('button[type="submit"]');
+
+//         submitBtn.addEventListener('click', function(e) {
+//             console.log("EmailJS Debug: Submit button clicked.");
+
+//             // Manual validation check to avoid .checkValidity() crash
+//             const emailVal = document.getElementById('contact_us_email_field').value;
+//             if (!emailVal) {
+//                 console.warn("EmailJS Debug: Email field is empty. Stopping.");
+//                 return;
+//             }
+
+//             e.preventDefault();
+//             e.stopImmediatePropagation();
+
+//             // Prepare the data matching your EmailJS Template (Image 2)
+//             const templateParams = {
+//                 name: document.getElementById('first_name').value + ' ' + document.getElementById('last_name').value,
+//                 email: emailVal,
+//                 message: document.getElementById('contact_us_message_field').value,
+//                 title: "Website Contact"
+//             };
+
+//             console.log("EmailJS Debug: Attempting to send data...", templateParams);
+
+//             emailjs.send('service_x09tvpj', 'template_lt36b18', templateParams)
+//                 .then(function(response) {
+//                     console.log("EmailJS Debug: SUCCESS SERVER RESPONSE:", response.status, response.text);
+//                     alert(`SENT SUCCESSFULLY! Verification confirmed for ${targetEmail}`);
+                    
+//                     // Show the Avada success box visually (Image 4)
+//                     const successBox = document.querySelector('.fusion-form-response-success');
+//                     if (successBox) successBox.style.display = 'block';
+//                 })
+//                 .catch(function(err) {
+//                     console.error("EmailJS Debug: SEND FAILED. Error details:", err);
+//                     alert("Verification Failed. Error: " + JSON.stringify(err));
+//                 });
+//         });
+//     }, 1500);
+// })();
+
+
+(function() {
+    console.log("EmailJS Debug: Checking for SDK...");
+
+    const initEmailJS = setInterval(function() {
+        if (typeof emailjs !== 'undefined') {
+            console.log("EmailJS Debug: SDK found! Initializing form listeners...");
+            clearInterval(initEmailJS);
+            setupForm();
+        }
+    }, 500);
+
+    function setupForm() {
         const formElement = document.querySelector('.fusion-form-294');
         const targetEmail = "silvanacheaib@gmail.com";
 
-        if (!formElement) {
-            console.error("EmailJS Debug: ERROR - Form '.fusion-form-294' not found!");
-            return;
-        }
-        console.log("EmailJS Debug: Form found successfully.");
+        if (!formElement) return;
 
         const submitBtn = formElement.querySelector('button[type="submit"]');
 
         submitBtn.addEventListener('click', function(e) {
-            console.log("EmailJS Debug: Submit button clicked.");
-
-            // Manual validation check to avoid .checkValidity() crash
-            const emailVal = document.getElementById('contact_us_email_field').value;
-            if (!emailVal) {
-                console.warn("EmailJS Debug: Email field is empty. Stopping.");
-                return;
-            }
-
             e.preventDefault();
             e.stopImmediatePropagation();
 
-            // Prepare the data matching your EmailJS Template (Image 2)
             const templateParams = {
                 name: document.getElementById('first_name').value + ' ' + document.getElementById('last_name').value,
-                email: emailVal,
+                email: document.getElementById('contact_us_email_field').value,
                 message: document.getElementById('contact_us_message_field').value,
-                title: "Website Contact"
+                title: "Website Inquiry"
             };
 
-            console.log("EmailJS Debug: Attempting to send data...", templateParams);
+            console.log("EmailJS Debug: Sending...", templateParams);
 
             emailjs.send('service_x09tvpj', 'template_lt36b18', templateParams)
                 .then(function(response) {
-                    console.log("EmailJS Debug: SUCCESS SERVER RESPONSE:", response.status, response.text);
-                    alert(`SENT SUCCESSFULLY! Verification confirmed for ${targetEmail}`);
+                    console.log("EmailJS Debug: SUCCESS!", response.status);
+                    alert(`Message verified and sent to ${targetEmail}`);
                     
-                    // Show the Avada success box visually (Image 4)
+                    // Show Avada success box (Image 4)
                     const successBox = document.querySelector('.fusion-form-response-success');
                     if (successBox) successBox.style.display = 'block';
                 })
                 .catch(function(err) {
-                    console.error("EmailJS Debug: SEND FAILED. Error details:", err);
-                    alert("Verification Failed. Error: " + JSON.stringify(err));
+                    console.error("EmailJS Debug: FAILED", err);
+                    alert("Error: " + JSON.stringify(err));
                 });
         });
-    }, 1500);
+    }
 })();
