@@ -2203,6 +2203,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 
 .kpisContainer .fusion-text p {
 	color: #2D4B79!important;
+	text-align: center;
 }
 
 .kpisContainer .fusion-text p {
@@ -2210,7 +2211,7 @@ html[dir="rtl"] .heroImage .awb-imageframe-caption .awb-imageframe-caption-title
 }
 .kpisSection .kpi_subtitle p{
 	text-transform:uppercase;
-	width: 90%;
+	/* width: 90%; */
 	text-align: center;
 	font-family: var(--helvetica-bold);
 	display: flex;
@@ -2872,6 +2873,12 @@ html[dir="rtl"] .allFaqsContainer h3{
 	}
 }
 @media(min-width:992px) {
+	.kpisContainer .fusion-text p{
+width:unset;
+	}
+	.kpisSection .kpi_subtitle p {
+    width: 90%;
+}
 	.kpisContainer .fusion-builder-row{
 	display:flex;
 	flex-direction:row;
