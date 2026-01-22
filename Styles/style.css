@@ -2861,6 +2861,9 @@ html[dir="rtl"] .allFaqsContainer h3{
     color: #111e38;
     font-size: 0.9rem;
 }
+.awb-menu.collapse-enabled .awb-menu__open-nav-submenu_mobile:before{
+	color:#666!important;
+}
 @media(min-width:768px){
 	.fusion-post-cards>.fusion-grid>.fusion-grid-column{
 		width:fit-content!important;
