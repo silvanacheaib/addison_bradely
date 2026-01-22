@@ -1873,8 +1873,8 @@ html[lang="en-US"] .testimonials .testimonialCard .fusion-text {
 	background-image: url("https://silvanacheaib.github.io/addison_bradely/Images/quote.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	height: 9rem;
-	width: 9rem;
+	height: 6rem;
+	width: 6rem;
 	position: absolute;
 	top: -2rem;
 	right: 3rem;
@@ -2878,6 +2878,10 @@ html[dir="rtl"] .allFaqsContainer h3{
 	}
 }
 @media(min-width:992px) {
+	.testimonials .testimonialCard::before {
+		height: 9rem;
+		width: 9rem;
+}
 	.testimonialsContainer .awb-swiper-button-prev, 
 	.testimonialsContainer .awb-swiper-button-next{
 		display:flex;
