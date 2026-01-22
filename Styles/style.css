@@ -780,7 +780,7 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 	width: 100%;
 	object-fit: cover;
 	object-position: center;
-	display: none;
+	display: block;
 }
 .text-editor-container .fusion-column-wrapper{
     margin:0!important;
@@ -800,7 +800,6 @@ html[dir="rtl"] .ourValuesContainer .fusion-text {
 }
 #blue_text{
 	color:var(--light-blue);
-	margin: 0 .3rem;
 }
 html[dir="rtl"] .text-editor-title .fusion-title-heading {
 	text-align: right !important;
@@ -2874,6 +2873,10 @@ html[dir="rtl"] .allFaqsContainer h3{
 	}
 }
 @media(min-width:992px) {
+	#blue_text{
+	color:var(--light-blue);
+	margin: 0 .3rem;
+}
 	.stepContainer .stepNumber {
 	border-right: 1px solid var(--dark-blue);
 }
