@@ -156,6 +156,7 @@ document.querySelectorAll('.textEditorButton').forEach(button => {
             const templateParams = {
                 name: document.getElementById('first_name').value + ' ' + document.getElementById('last_name').value,
                 email: document.getElementById('contact_us_email_field').value,
+                phone: document.getElementById('contact_us_phone_number_field').value,
                 message: document.getElementById('contact_us_message_field').value,
                 title: "Website Inquiry"
             };
