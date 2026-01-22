@@ -165,7 +165,7 @@ document.querySelectorAll('.textEditorButton').forEach(button => {
             emailjs.send('service_x09tvpj', 'template_lt36b18', templateParams)
                 .then(function(response) {
                     console.log("EmailJS Debug: SUCCESS!", response.status);
-                    alert(`Message verified and sent to ${targetEmail}`);
+                    // alert(`Message verified and sent to ${targetEmail}`);
                     
                     // Show Avada success box (Image 4)
                     const successBox = document.querySelector('.fusion-form-response-success');
@@ -173,7 +173,7 @@ document.querySelectorAll('.textEditorButton').forEach(button => {
                 })
                 .catch(function(err) {
                     console.error("EmailJS Debug: FAILED", err);
-                    alert("Error: " + JSON.stringify(err));
+                    // alert("Error: " + JSON.stringify(err));
                 });
         });
     }
