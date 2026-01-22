@@ -2075,7 +2075,7 @@ html[dir="rtl"] .fusion-form-form-wrapper .fusion-form-field .fusion-form-checkb
 html body .fusion-layout-column.heroImage {
 	width: 100vw !important;
 	min-width: 100vw;
-	height: 65vh;
+	height: 20rem;
 	position: relative;
 	padding: 0 !important;
 	margin: 0 !important;
@@ -2870,6 +2870,9 @@ html[dir="rtl"] .allFaqsContainer h3{
 	}
 }
 @media(min-width:992px) {
+	html body .fusion-layout-column.heroImage{
+height:65vh;
+	}
 	#menu-footer-menu li{
 	width:100%;
 	align-items: center;
