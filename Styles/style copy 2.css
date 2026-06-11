@@ -109,9 +109,6 @@ b,strong{
 	padding-top: 2rem!important;
 	padding-bottom: 2rem!important;
 }
-.socialIcon{
-	border:none!important;
-}
 .fusion-layout-column{
 	margin-bottom:0!important;
 }
@@ -564,9 +561,7 @@ html[dir="rtl"] .aboutUsContainer .fusion-button:hover i::before {
 	transform: translateX(.1rem);
 	color: var(--dark-blue);
 }
-.awb-menu{
-	border:none!important;
-}
+
 header {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
